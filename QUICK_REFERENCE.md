@@ -3,29 +3,32 @@
 ## 一鍵命令
 
 ```bash
+# 🔍 檢查環境 (第一次運行)
+bash check-environment.sh
+
 # 🚀 啟動服務器
-./deploy-client-dev.sh
+bash deploy-client-dev.sh
 
 # 🔧 檢查端口衝突
-./configure-ports.sh check
+bash configure-ports.sh check
 
 # 🔧 自動解決端口衝突
-./configure-ports.sh auto
+bash configure-ports.sh auto
 
 # 🧪 測試連接
-./test-client-connection.sh
+bash test-client-connection.sh
 
 # 📊 查看狀態
-./deploy-client-dev.sh status
+bash deploy-client-dev.sh status
 
 # 📋 查看日誌
-./deploy-client-dev.sh logs
+bash deploy-client-dev.sh logs
 
 # 🔄 重啟服務
-./deploy-client-dev.sh restart
+bash deploy-client-dev.sh restart
 
 # ⛔ 停止服務
-./deploy-client-dev.sh stop
+bash deploy-client-dev.sh stop
 ```
 
 ## 連接信息

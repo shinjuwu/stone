@@ -46,7 +46,7 @@ services:
   gamehub:
     build:
       context: .
-      dockerfile: GameHub/Dockerfile
+      dockerfile: GameHub/Dockerfile.fixed
     container_name: gamehub-server-client-dev
     restart: unless-stopped
     depends_on:
