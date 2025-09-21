@@ -1,0 +1,54 @@
+2023/10/12 18:06:06 [INFO] 連線中斷
+2023/10/12 18:06:14 [INFO] Connect Success
+2023/10/12 18:06:22 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1001000000,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:06:24 [INFO] Receive Message:{"Code":200018,"Ret":"IntoGame","Message":"Bring money over limit."}
+2023/10/12 18:07:05 [ERROR] read tcp 127.0.0.1:62049->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:07:05 [INFO] 連線中斷
+2023/10/12 18:07:05 [INFO] Connect Success
+2023/10/12 18:07:08 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon1","UserId":89784698,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:07:11 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Bet","BaseBet":1,"EnterGold":1,"Gold":1000000}}
+2023/10/12 18:07:17 [INFO] 連線中斷
+2023/10/12 18:07:17 [ERROR] read tcp 127.0.0.1:62063->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:08:26 [INFO] Connect Success
+2023/10/12 18:08:29 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon1","UserId":89784698,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:08:31 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Bet","BaseBet":1,"EnterGold":1,"Gold":1000000}}
+2023/10/12 18:08:33 [INFO] 連線中斷
+2023/10/12 18:08:33 [ERROR] read tcp 127.0.0.1:56639->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:08:59 [INFO] Connect Success
+2023/10/12 18:09:02 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon1","UserId":89784698,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:09:06 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Bet","BaseBet":1,"EnterGold":1,"Gold":1000000}}
+2023/10/12 18:09:09 [INFO] 連線中斷
+2023/10/12 18:09:09 [ERROR] read tcp 127.0.0.1:56655->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:09:57 [INFO] Connect Success
+2023/10/12 18:09:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon1","UserId":89784698,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:10:02 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Bet","BaseBet":1,"EnterGold":1,"Gold":1000000}}
+2023/10/12 18:10:04 [ERROR] read tcp 127.0.0.1:56677->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:10:04 [INFO] 連線中斷
+2023/10/12 18:11:22 [INFO] Connect Success
+2023/10/12 18:11:22 [INFO] 連線中斷
+2023/10/12 18:11:22 [ERROR] read tcp 127.0.0.1:56725->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:11:24 [INFO] simon1 SendMessage={Login:{Token: Name:simon1}}
+2023/10/12 18:11:24 [ERROR] simon1 write tcp 127.0.0.1:56725->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:11:29 [INFO] Connect Success
+2023/10/12 18:11:31 [INFO] 連線中斷
+2023/10/12 18:11:31 [ERROR] read tcp 127.0.0.1:56729->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:11:32 [INFO] Connect Success
+2023/10/12 18:11:34 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon1","UserId":89784698,"MatchGameCode":"fruitslot","MatchGameTableId":30010,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:11:37 [INFO] Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"Game is finished."}
+2023/10/12 18:11:42 [INFO] 連線中斷
+2023/10/12 18:11:42 [ERROR] read tcp 127.0.0.1:56730->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:11:42 [INFO] Connect Success
+2023/10/12 18:11:45 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon1","UserId":89784698,"MatchGameCode":"fruitslot","MatchGameTableId":30010,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:11:47 [INFO] Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"Game is finished."}
+2023/10/12 18:11:57 [ERROR] read tcp 127.0.0.1:56736->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:11:57 [INFO] 連線中斷
+2023/10/12 18:11:59 [INFO] Connect Success
+2023/10/12 18:12:02 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon1","UserId":89784698,"MatchGameCode":"fruitslot","MatchGameTableId":30010,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:12:04 [INFO] Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"Game is finished."}
+2023/10/12 18:12:15 [ERROR] read tcp 127.0.0.1:56741->127.0.0.1:10001: use of closed network connection
+2023/10/12 18:12:15 [INFO] 連線中斷
+2023/10/12 18:12:16 [INFO] Connect Success
+2023/10/12 18:12:18 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon2","UserId":80125414,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/12 18:12:21 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Bet","BaseBet":1,"EnterGold":1,"Gold":1000000}}
+2023/10/12 18:12:23 [INFO] 連線中斷
+2023/10/12 18:12:23 [ERROR] read tcp 127.0.0.1:56752->127.0.0.1:10001: use of closed network connection

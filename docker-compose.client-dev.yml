@@ -1,0 +1,99 @@
+# 客戶端開發專用 Docker Compose 配置
+# 簡化配置，無需 TLS，直接 IP 連線
+
+services:
+  # PostgreSQL 數據庫 - 客戶端開發配置
+  postgres:
+    image: postgres:15-alpine
+    container_name: gamehub-postgres-client-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: gamehub_client_dev
+      POSTGRES_USER: gamehub_dev
+      POSTGRES_PASSWORD: dev123
+    volumes:
+      - postgres_client_dev_data:/var/lib/postgresql/data
+      - ./docker/init-scripts:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"  # 直接映射標準端口
+    networks:
+      - gamehub-client-dev-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gamehub_dev"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis 緩存 - 客戶端開發配置
+  redis:
+    image: redis:7-alpine
+    container_name: gamehub-redis-client-dev
+    restart: unless-stopped
+    command: redis-server --appendonly yes --protected-mode no
+    volumes:
+      - redis_client_dev_data:/data
+    ports:
+      - "6379:6379"  # 直接映射標準端口
+    networks:
+      - gamehub-client-dev-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # GameHub 主服務 - 客戶端開發模式
+  gamehub:
+    build:
+      context: .
+      dockerfile: GameHub/Dockerfile
+    container_name: gamehub-server-client-dev
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      # 客戶端開發環境配置
+      ENV: client_development
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: gamehub_client_dev
+      DB_USER: gamehub_dev
+      DB_PASSWORD: dev123
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      SERVER_ID: 1
+      PLATFORM: DEV
+      LOG_LEVEL: 4  # Debug 級別
+    ports:
+      - "3563:3563"  # WebSocket (客戶端連接)
+      - "3564:3564"  # TCP (客戶端連接)
+      - "8080:8080"  # HTTP API
+      - "3565:3565"  # Console 端口
+    volumes:
+      - ./docker/config/GameHub.client-dev.conf:/app/bin/conf/GameHub.conf:ro
+      - gamehub_client_dev_logs:/app/bin/log
+    networks:
+      - gamehub-client-dev-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_client_dev_data:
+    driver: local
+  redis_client_dev_data:
+    driver: local
+  gamehub_client_dev_logs:
+    driver: local
+
+networks:
+  gamehub-client-dev-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.0.0/16

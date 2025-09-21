@@ -1,0 +1,54 @@
+2023/06/27 10:11:43 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:11:43 [ERROR] dayon0001啟動失敗GameId=2006,TableId=20060
+2023/06/27 10:14:51 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:14:51 [ERROR] 未設置任何遊戲
+2023/06/27 10:15:00 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:15:02 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 10:20:16 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:20:16 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 10:20:18 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/06/27 10:21:21 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:21:21 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 10:24:55 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:24:55 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 10:36:53 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:36:53 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 10:38:49 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:38:49 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 10:39:05 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:39:09 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:39:19 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:39:29 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:39:34 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:39:39 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:39:43 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:39:50 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:39:55 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:40:01 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:40:06 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:41:16 [ERROR] dayon0001 read tcp [::1]:62938->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/06/27 10:41:16 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/06/27 10:41:24 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/06/27 10:41:24 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/06/27 10:41:30 [INFO] dayon0001 重新連線成功
+2023/06/27 10:53:03 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:53:03 [INFO] dayon0001加入「21點」的「新手房」(20010)進行測試
+2023/06/27 10:56:27 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 10:56:28 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 10:56:41 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:56:46 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:56:51 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:56:57 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:57:04 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error","Data":"not your turn"}
+2023/06/27 10:57:14 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error"}
+2023/06/27 10:57:24 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error"}
+2023/06/27 10:57:31 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error"}
+2023/06/27 10:57:38 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error"}
+2023/06/27 13:32:54 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 13:32:54 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 13:35:54 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 13:35:54 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/27 13:47:53 [INFO] 開始執行壓力測試:
+2023/06/27 13:47:53 [ERROR] 未設置測試環境
+2023/06/27 13:48:05 [INFO] 開始執行壓力測試:LOCAL
+2023/06/27 13:48:05 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試

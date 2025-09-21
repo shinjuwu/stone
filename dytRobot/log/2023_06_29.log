@@ -1,0 +1,4 @@
+2023/06/29 10:32:07 [INFO] 開始執行壓力測試:LOCAL
+2023/06/29 10:32:07 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/06/29 15:24:40 [INFO] Connect Success
+2023/06/29 15:24:48 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2999993.85,"IconID":0,"Name":"Test_simon","UserId":80399928,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}

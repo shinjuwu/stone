@@ -1,0 +1,4 @@
+github.com/bofry/random v0.0.0-20220624021242-b6e8dd5f2211 h1:FJESSmCLxaBjEFiACZfFmU86K0TfZY8wAQGlmYaYKYg=
+github.com/bofry/random v0.0.0-20220624021242-b6e8dd5f2211/go.mod h1:Lct1LClM96pl4T7TXNcpGk3F/hWWOca5LMKYbaES3qo=
+github.com/shopspring/decimal v1.4.0 h1:bxl37RwXBklmTi0C79JfXCEBD1cqqHt0bbgBAGFp81k=
+github.com/shopspring/decimal v1.4.0/go.mod h1:gawqmDU56v4yIKSwfBSFip1HdCCXN8/+DMd9qYNcwME=

@@ -1,0 +1,274 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start-dependencies",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": [
+                "-f", "docker-compose.dev.yml",
+                "up", "-d",
+                "postgres", "redis", "pgadmin", "redis-commander"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "reset-and-start-dependencies",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "stop-dependencies",
+                "remove-postgres-volume",
+                "start-postgres-only",
+                "wait-for-db-init",
+                "start-other-services"
+            ]
+        },
+        {
+            "label": "remove-postgres-volume",
+            "type": "shell",
+            "command": "docker",
+            "args": [
+                "volume", "rm", "stone_postgres_dev_data"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "start-postgres-only",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": [
+                "-f", "docker-compose.dev.yml",
+                "up", "-d", "postgres"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "wait-for-db-init",
+            "type": "shell",
+            "command": "timeout",
+            "args": ["/t", "60", "/nobreak"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "start-other-services",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": [
+                "-f", "docker-compose.dev.yml",
+                "up", "-d", "redis", "pgadmin", "redis-commander"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "stop-dependencies",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": [
+                "-f", "docker-compose.dev.yml",
+                "down"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "build-gamehub",
+            "type": "shell",
+            "command": "go",
+            "args": ["build", "-o", "gamehub", "."],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/GameHub"
+            },
+            "problemMatcher": ["$go"]
+        },
+        {
+            "label": "test-all",
+            "type": "shell",
+            "command": "go",
+            "args": ["test", "./..."],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/GameHub"
+            },
+            "problemMatcher": ["$go"]
+        },
+        {
+            "label": "test-coverage",
+            "type": "shell",
+            "command": "go",
+            "args": ["test", "-cover", "./..."],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/GameHub"
+            },
+            "problemMatcher": ["$go"]
+        },
+        {
+            "label": "lint",
+            "type": "shell",
+            "command": "golangci-lint",
+            "args": ["run"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/GameHub"
+            },
+            "problemMatcher": ["$go"]
+        },
+        {
+            "label": "docker-build-dev",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": [
+                "-f", "docker-compose.dev.yml",
+                "build", "gamehub-dev"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "docker-logs",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": [
+                "-f", "docker-compose.dev.yml",
+                "logs", "-f"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "isBackground": true
+        },
+        {
+            "label": "setup-dev-env",
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/windows-setup.bat",
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

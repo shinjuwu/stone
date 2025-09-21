@@ -1,0 +1,54 @@
+2023/08/15 14:31:37 [INFO] 連線中斷
+2023/08/15 14:34:29 [INFO] Connect Success
+2023/08/15 14:34:32 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 14:39:36 [ERROR] read tcp 127.0.0.1:64331->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 15:02:20 [INFO] 連線中斷
+2023/08/15 15:02:24 [INFO] Connect Success
+2023/08/15 15:02:32 [INFO]  SendMessage={"Login":{"Token":""}}
+2023/08/15 15:03:02 [ERROR] read tcp 127.0.0.1:60962->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 15:53:13 [INFO] 連線中斷
+2023/08/15 15:54:30 [INFO] Connect Success
+2023/08/15 15:54:33 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 15:55:22 [ERROR] read tcp 127.0.0.1:54900->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 15:56:17 [INFO] 連線中斷
+2023/08/15 15:56:19 [INFO] Connect Success
+2023/08/15 15:56:22 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 15:57:33 [ERROR] read tcp 127.0.0.1:54925->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 15:59:41 [INFO] 連線中斷
+2023/08/15 15:59:43 [INFO] Connect Success
+2023/08/15 15:59:45 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 16:22:51 [ERROR] read tcp 127.0.0.1:54968->127.0.0.1:10001: use of closed network connection
+2023/08/15 16:22:51 [INFO] 連線中斷
+2023/08/15 16:23:05 [ERROR] read tcp 127.0.0.1:55969->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 16:23:05 [ERROR] Connect failed:read tcp 127.0.0.1:55969->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 16:23:05 [ERROR] dial tcp 127.0.0.1:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/08/15 16:23:05 [ERROR] Connect failed:dial tcp 127.0.0.1:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/08/15 16:23:05 [ERROR] dial tcp 127.0.0.1:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/08/15 16:23:05 [ERROR] Connect failed:dial tcp 127.0.0.1:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/08/15 16:23:19 [INFO] Connect Success
+2023/08/15 16:23:23 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 16:24:24 [ERROR] read tcp 127.0.0.1:55986->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 16:25:48 [INFO] 連線中斷
+2023/08/15 16:25:48 [INFO] Connect Success
+2023/08/15 16:25:51 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 16:29:03 [ERROR] read tcp 127.0.0.1:63372->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 16:29:49 [INFO] 連線中斷
+2023/08/15 16:29:51 [INFO] Connect Success
+2023/08/15 16:29:53 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 16:31:52 [ERROR] read tcp 127.0.0.1:58602->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 16:32:28 [INFO] 連線中斷
+2023/08/15 16:32:30 [INFO] Connect Success
+2023/08/15 16:32:33 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 16:35:01 [ERROR] read tcp 127.0.0.1:49169->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 16:37:51 [INFO] 連線中斷
+2023/08/15 16:37:53 [INFO] Connect Success
+2023/08/15 16:37:55 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 16:47:30 [ERROR] read tcp 127.0.0.1:49257->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 16:49:38 [INFO] 連線中斷
+2023/08/15 16:49:42 [INFO] Connect Success
+2023/08/15 16:49:45 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 16:49:51 [ERROR] read tcp 127.0.0.1:49421->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/15 16:50:36 [INFO] 連線中斷
+2023/08/15 16:50:39 [INFO] Connect Success
+2023/08/15 16:50:41 [INFO]  SendMessage={"Login":{"Token":"647bb4569z6g29dg070d4z53944"}}
+2023/08/15 16:51:51 [ERROR] read tcp 127.0.0.1:49439->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.

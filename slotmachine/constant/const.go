@@ -1,0 +1,7 @@
+package constant
+
+const (
+	DEFAULT_GOLD = 1000000
+	MULTI_TIMES  = 1000000
+	EXCEL_TIMES  = 100000
+)

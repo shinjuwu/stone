@@ -1,0 +1,16 @@
+2023/11/03 11:23:01 [INFO] 連線中斷
+2023/11/03 11:23:09 [INFO] Connect Success
+2023/11/03 11:23:13 [ERROR] read tcp [::1]:53451->[::1]:10001: use of closed network connection
+2023/11/03 11:23:13 [INFO] 連線中斷
+2023/11/03 11:23:14 [INFO] Connect Success
+2023/11/03 11:23:17 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":99950.75,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":true,"coinId":"1716376487562579968","coinexpiretime":0,"pool":100},"JackpotEnable":true}}
+2023/11/03 11:27:22 [INFO] 連線中斷
+2023/11/03 11:27:22 [ERROR] read tcp [::1]:53460->[::1]:10001: use of closed network connection
+2023/11/03 11:27:23 [INFO] Connect Success
+2023/11/03 11:27:26 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":99950.75,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":true,"coinId":"1716376487562579968","coinexpiretime":0,"pool":100},"JackpotEnable":true}}
+2023/11/03 11:29:10 [INFO] 連線中斷
+2023/11/03 11:29:10 [ERROR] read tcp [::1]:53582->[::1]:10001: use of closed network connection
+2023/11/03 11:29:10 [INFO] Connect Success
+2023/11/03 11:29:13 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":99950.75,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":true,"coinId":"1716376487562579968","coinexpiretime":0,"pool":100},"JackpotEnable":true}}
+2023/11/03 11:31:08 [INFO] Receive Message:{"Ret":"ActBulletin","Data":{"MsgId":100765,"JpType":4,"UserId":"****ker","GameId":9001,"RoomType":0,"Gold":720}}
+2023/11/03 11:31:12 [ERROR] read tcp [::1]:53619->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

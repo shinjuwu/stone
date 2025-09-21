@@ -1,0 +1,666 @@
+2023/07/27 08:39:07 [INFO] 連線中斷
+2023/07/27 08:39:17 [INFO] Connect Success
+2023/07/27 08:39:21 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 08:39:30 [INFO] 連線中斷
+2023/07/27 08:39:30 [ERROR] read tcp [::1]:59248->[::1]:10001: use of closed network connection
+2023/07/27 08:39:32 [ERROR] 未選擇環境
+2023/07/27 08:39:34 [INFO] Connect Success
+2023/07/27 08:40:48 [ERROR] read tcp [::1]:59255->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 08:41:15 [INFO] 連線中斷
+2023/07/27 08:41:24 [INFO] Connect Success
+2023/07/27 08:42:39 [ERROR] read tcp [::1]:59306->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 08:43:26 [INFO] 連線中斷
+2023/07/27 08:43:27 [INFO] Connect Success
+2023/07/27 08:44:18 [ERROR] read tcp [::1]:59372->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 08:46:20 [INFO] 連線中斷
+2023/07/27 08:46:22 [INFO] Connect Success
+2023/07/27 08:49:29 [ERROR] read tcp [::1]:59483->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 08:49:52 [INFO] 連線中斷
+2023/07/27 08:49:54 [INFO] Connect Success
+2023/07/27 08:51:20 [ERROR] read tcp [::1]:59561->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 08:51:49 [INFO] 連線中斷
+2023/07/27 08:51:51 [INFO] Connect Success
+2023/07/27 08:52:12 [ERROR] read tcp [::1]:59617->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 08:52:45 [INFO] 連線中斷
+2023/07/27 08:52:46 [INFO] Connect Success
+2023/07/27 09:01:35 [ERROR] read tcp [::1]:59655->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:12:10 [INFO] 連線中斷
+2023/07/27 09:12:11 [INFO] Connect Success
+2023/07/27 09:12:23 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:12:35 [ERROR] read tcp [::1]:60109->[::1]:10001: use of closed network connection
+2023/07/27 09:12:35 [INFO] 連線中斷
+2023/07/27 09:12:36 [INFO] Connect Success
+2023/07/27 09:12:45 [ERROR] read tcp [::1]:60131->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:13:22 [INFO] 連線中斷
+2023/07/27 09:13:22 [INFO] Connect Success
+2023/07/27 09:14:03 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/07/27 09:14:16 [INFO] 連線中斷
+2023/07/27 09:14:19 [INFO] simon SendMessage={Login:{Token: Name:simon}}
+2023/07/27 09:14:19 [ERROR] simon write tcp [::1]:60164->[::1]:10001: use of closed network connection
+2023/07/27 09:14:20 [INFO] Connect Success
+2023/07/27 09:14:29 [ERROR] read tcp [::1]:60221->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:14:39 [INFO] 連線中斷
+2023/07/27 09:14:40 [INFO] Connect Success
+2023/07/27 09:19:28 [ERROR] read tcp [::1]:60238->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:19:35 [INFO] 連線中斷
+2023/07/27 09:19:36 [INFO] Connect Success
+2023/07/27 09:19:48 [ERROR] read tcp [::1]:60331->[::1]:10001: use of closed network connection
+2023/07/27 09:19:48 [INFO] 連線中斷
+2023/07/27 09:19:49 [INFO] Connect Success
+2023/07/27 09:19:57 [ERROR] read tcp [::1]:60334->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:20:14 [INFO] 連線中斷
+2023/07/27 09:20:16 [INFO] Connect Success
+2023/07/27 09:25:59 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/07/27 09:28:09 [INFO] 連線中斷
+2023/07/27 09:28:14 [INFO] Connect Success
+2023/07/27 09:28:19 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:28:30 [ERROR] read tcp [::1]:60645->[::1]:10001: use of closed network connection
+2023/07/27 09:28:30 [INFO] 連線中斷
+2023/07/27 09:28:31 [INFO] Connect Success
+2023/07/27 09:28:33 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:28:45 [ERROR] read tcp [::1]:60665->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:29:20 [INFO] 連線中斷
+2023/07/27 09:29:21 [INFO] Connect Success
+2023/07/27 09:29:24 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:30:23 [ERROR] read tcp [::1]:60695->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:30:42 [INFO] 連線中斷
+2023/07/27 09:30:43 [INFO] Connect Success
+2023/07/27 09:30:47 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:30:51 [INFO] Receive Message:{"Code":200016,"Ret":"EnterGame","Message":"game is close"}
+2023/07/27 09:30:54 [INFO] Receive Message:{"Code":0,"Ret":"EnterRoom","Message":"success","Data":[{"GameCode":"colordisc","RoomType":0,"TableId":10030,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":1,"TableId":10031,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":2,"TableId":10032,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":3,"TableId":10033,"Num":1,"Status":1}]}
+2023/07/27 09:30:55 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":null,"Fsm":"Bet","PlayerNum":43,"BetLimit":[2,100],"RemainSec":1,"TableId":100301}],[{"RoadList":null,"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":1,"TableId":100311}],[{"RoadList":null,"Fsm":"Bet","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":1,"TableId":100321}],[{"RoadList":null,"Fsm":"Bet","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":1,"TableId":100331}]]}}
+2023/07/27 09:30:56 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":null,"Fsm":"Open","PlayerNum":43,"BetLimit":[2,100],"RemainSec":3,"TableId":100301}],[{"RoadList":null,"Fsm":"Open","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":3,"TableId":100311}],[{"RoadList":null,"Fsm":"Open","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":3,"TableId":100321}],[{"RoadList":null,"Fsm":"Open","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":3,"TableId":100331}]]}}
+2023/07/27 09:30:57 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"","CardNum":0,"History":null,"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":2,"BetArea":[793,415,488,1002,707,749],"GameResult":{"Gid":"","Round":0,"Result":[0,1,0,0],"string":"odd"},"PlayerBetInfo":[],"Round":0,"CurrentPlayer":44,"WinloseRank":null,"Fsm":"Open"}}
+2023/07/27 09:30:57 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":44}}
+2023/07/27 09:30:57 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":null,"Fsm":"Open","PlayerNum":44,"BetLimit":[2,100],"RemainSec":2,"TableId":100301}],[{"RoadList":null,"Fsm":"Open","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":2,"TableId":100311}],[{"RoadList":null,"Fsm":"Open","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":2,"TableId":100321}],[{"RoadList":null,"Fsm":"Open","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":2,"TableId":100331}]]}}
+2023/07/27 09:30:58 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":null,"Fsm":"Open","PlayerNum":44,"BetLimit":[2,100],"RemainSec":1,"TableId":100301}],[{"RoadList":null,"Fsm":"Open","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":1,"TableId":100311}],[{"RoadList":null,"Fsm":"Open","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":1,"TableId":100321}],[{"RoadList":null,"Fsm":"Open","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":1,"TableId":100331}]]}}
+2023/07/27 09:30:59 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"","RemainSec":5}}
+2023/07/27 09:30:59 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"103","Name":"****o16","UserID":"","Winlose":199382.5},{"IconID":"4","Name":"****a57","UserID":"","Winlose":129570},{"IconID":"2","Name":"****e27","UserID":"","Winlose":167142},{"IconID":"104","Name":"****h77","UserID":"","Winlose":184402},{"IconID":"0","Name":"****k29","UserID":"","Winlose":112215.5},{"IconID":"106","Name":"****e15","UserID":"","Winlose":151869.9},{"IconID":"0","Name":"****h09","UserID":"","Winlose":133675},{"IconID":"105","Name":"****d70","UserID":"","Winlose":124621},{"IconID":"0","Name":"****e69","UserID":"","Winlose":169797.9},{"IconID":"101","Name":"****e26","UserID":"","Winlose":148364},{"IconID":"101","Name":"****n50","UserID":"","Winlose":170038.75},{"IconID":"106","Name":"****e99","UserID":"","Winlose":176907.5},{"IconID":"101","Name":"****y82","UserID":"","Winlose":128117.5},{"IconID":"1","Name":"****y02","UserID":"","Winlose":123583.5},{"IconID":"102","Name":"****y55","UserID":"","Winlose":160335.5},{"IconID":"107","Name":"****e16","UserID":"","Winlose":186089},{"IconID":"106","Name":"****e79","UserID":"","Winlose":168809},{"IconID":"2","Name":"****y19","UserID":"","Winlose":111653.2},{"IconID":"2","Name":"****o47","UserID":"","Winlose":179681.25},{"IconID":"7","Name":"****y12","UserID":"","Winlose":111756.5}]}}
+2023/07/27 09:30:59 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Result","PlayerNum":44,"BetLimit":[2,100],"RemainSec":5,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Result","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":5,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Result","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":5,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Result","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":5,"TableId":100331}]]}}
+2023/07/27 09:31:00 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Result","PlayerNum":44,"BetLimit":[2,100],"RemainSec":4,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Result","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":4,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Result","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":4,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Result","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":4,"TableId":100331}]]}}
+2023/07/27 09:31:01 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Result","PlayerNum":44,"BetLimit":[2,100],"RemainSec":3,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Result","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":3,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Result","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":3,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Result","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":3,"TableId":100331}]]}}
+2023/07/27 09:31:02 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Result","PlayerNum":44,"BetLimit":[2,100],"RemainSec":2,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Result","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":2,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Result","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":2,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Result","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":2,"TableId":100331}]]}}
+2023/07/27 09:31:03 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Result","PlayerNum":44,"BetLimit":[2,100],"RemainSec":1,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Result","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":1,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Result","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":1,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Result","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":1,"TableId":100331}]]}}
+2023/07/27 09:31:04 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 09:31:04 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684375819348086784","RemainSec":2,"Round":1}}
+2023/07/27 09:31:04 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Init","PlayerNum":44,"BetLimit":[2,100],"RemainSec":2,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Init","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":2,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Init","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":2,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Init","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":2,"TableId":100331}]]}}
+2023/07/27 09:31:05 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Init","PlayerNum":44,"BetLimit":[2,100],"RemainSec":1,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Init","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":1,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Init","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":1,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Init","PlayerNum":6,"BetLimit":[500,25000],"RemainSec":1,"TableId":100331}]]}}
+2023/07/27 09:31:06 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684375819348086784","RemainSec":4,"Round":1}}
+2023/07/27 09:31:06 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Idle","PlayerNum":44,"BetLimit":[2,100],"RemainSec":4,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Idle","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":4,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Idle","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":4,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Idle","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":4,"TableId":100331}]]}}
+2023/07/27 09:31:07 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Idle","PlayerNum":44,"BetLimit":[2,100],"RemainSec":3,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Idle","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":3,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Idle","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":3,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Idle","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":3,"TableId":100331}]]}}
+2023/07/27 09:31:08 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Idle","PlayerNum":44,"BetLimit":[2,100],"RemainSec":2,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Idle","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":2,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Idle","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":2,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Idle","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":2,"TableId":100331}]]}}
+2023/07/27 09:31:09 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Idle","PlayerNum":44,"BetLimit":[2,100],"RemainSec":1,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Idle","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":1,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Idle","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":1,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Idle","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":1,"TableId":100331}]]}}
+2023/07/27 09:31:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684375819348086784","RemainSec":12,"Round":1}}
+2023/07/27 09:31:10 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Bet","PlayerNum":44,"BetLimit":[2,100],"RemainSec":12,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":12,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Bet","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":12,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Bet","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":12,"TableId":100331}]]}}
+2023/07/27 09:31:11 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684375819348086784","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:31:11 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Bet","PlayerNum":44,"BetLimit":[2,100],"RemainSec":11,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":11,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Bet","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":11,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Bet","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":11,"TableId":100331}]]}}
+2023/07/27 09:31:12 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684375819348086784","BetArea":[5,0,50,154,155,25]}}
+2023/07/27 09:31:12 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Bet","PlayerNum":44,"BetLimit":[2,100],"RemainSec":10,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":10,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Bet","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":10,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Bet","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":10,"TableId":100331}]]}}
+2023/07/27 09:31:13 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684375819348086784","BetArea":[125,20,125,194,215,95]}}
+2023/07/27 09:31:13 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Bet","PlayerNum":44,"BetLimit":[2,100],"RemainSec":9,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":9,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Bet","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":9,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Bet","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":9,"TableId":100331}]]}}
+2023/07/27 09:31:14 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684375819348086784","BetArea":[295,35,225,221,275,300]}}
+2023/07/27 09:31:14 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Bet","PlayerNum":44,"BetLimit":[2,100],"RemainSec":8,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":8,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Bet","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":8,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Bet","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":8,"TableId":100331}]]}}
+2023/07/27 09:31:15 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684375819348086784","BetArea":[315,45,480,226,380,360]}}
+2023/07/27 09:31:15 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,0]],"Fsm":"Bet","PlayerNum":44,"BetLimit":[2,100],"RemainSec":7,"TableId":100301}],[{"RoadList":[[1,0,1,1]],"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":7,"TableId":100311}],[{"RoadList":[[1,1,0,0]],"Fsm":"Bet","PlayerNum":18,"BetLimit":[200,10000],"RemainSec":7,"TableId":100321}],[{"RoadList":[[0,0,0,0]],"Fsm":"Bet","PlayerNum":8,"BetLimit":[500,25000],"RemainSec":7,"TableId":100331}]]}}
+2023/07/27 09:31:15 [INFO] 連線中斷
+2023/07/27 09:31:15 [ERROR] read tcp [::1]:60737->[::1]:10001: use of closed network connection
+2023/07/27 09:31:47 [INFO] Connect Success
+2023/07/27 09:31:55 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:32:16 [ERROR] read tcp [::1]:60753->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:34:11 [INFO] 連線中斷
+2023/07/27 09:34:21 [INFO] Connect Success
+2023/07/27 09:34:23 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:34:25 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"","CardNum":0,"History":null,"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":10,"BetArea":[5,107,55,102,20,100],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":47,"WinloseRank":null,"Fsm":"Bet"}}
+2023/07/27 09:34:25 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":47}}
+2023/07/27 09:34:26 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[5,107,55,102,20,100]}}
+2023/07/27 09:34:27 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[57,184,165,212,22,220]}}
+2023/07/27 09:34:28 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[167,376,267,352,196,290]}}
+2023/07/27 09:34:29 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[249,448,347,414,226,470]}}
+2023/07/27 09:34:30 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[299,448,347,414,226,470]}}
+2023/07/27 09:34:31 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[331,618,517,414,331,470]}}
+2023/07/27 09:34:32 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[431,618,517,519,431,620]}}
+2023/07/27 09:34:33 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[533,618,667,569,531,632]}}
+2023/07/27 09:34:34 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[647,808,867,579,531,832]}}
+2023/07/27 09:34:34 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:34:34 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999996.85}}
+2023/07/27 09:34:34 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999996.85}}
+2023/07/27 09:34:35 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[657,815,967,609,531,882]}}
+2023/07/27 09:34:36 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[717,865,1027,661,561,902]}}
+2023/07/27 09:34:36 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"","RemainSec":3}}
+2023/07/27 09:34:36 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"","Round":0,"Result":[0,0,1,0],"string":"odd"}}}
+2023/07/27 09:34:39 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"","RemainSec":5}}
+2023/07/27 09:34:39 [INFO] Receive Message:{"Ret":"ActGameResult","Data":{"Gid":"","Bet":2,"Win":0}}
+2023/07/27 09:34:39 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"1","Name":"****l98","UserID":"","Winlose":181057},{"IconID":"106","Name":"****e91","UserID":"","Winlose":194566},{"IconID":"100","Name":"****n17","UserID":"","Winlose":154200},{"IconID":"102","Name":"****a59","UserID":"","Winlose":186062.25},{"IconID":"6","Name":"****e87","UserID":"","Winlose":120626},{"IconID":"101","Name":"****a14","UserID":"","Winlose":101394.5},{"IconID":"6","Name":"****n59","UserID":"","Winlose":111731.25},{"IconID":"3","Name":"****n16","UserID":"","Winlose":171293},{"IconID":"107","Name":"****y56","UserID":"","Winlose":158432.5},{"IconID":"104","Name":"****s89","UserID":"","Winlose":160707.5},{"IconID":"1","Name":"****s78","UserID":"","Winlose":124163},{"IconID":"3","Name":"****e08","UserID":"","Winlose":160652.5},{"IconID":"5","Name":"****y54","UserID":"","Winlose":163890.5},{"IconID":"4","Name":"****s53","UserID":"","Winlose":156076.2},{"IconID":"107","Name":"****n00","UserID":"","Winlose":100223.9}]}}
+2023/07/27 09:34:44 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 09:34:44 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684376742099161088","RemainSec":2,"Round":1}}
+2023/07/27 09:34:46 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684376742099161088","RemainSec":4,"Round":1}}
+2023/07/27 09:34:50 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684376742099161088","RemainSec":12,"Round":1}}
+2023/07/27 09:34:51 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376742099161088","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:34:52 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376742099161088","BetArea":[5,2,22,110,100,2]}}
+2023/07/27 09:34:53 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376742099161088","BetArea":[55,62,92,115,290,302]}}
+2023/07/27 09:34:54 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:34:54 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999994.85}}
+2023/07/27 09:34:54 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999994.85}}
+2023/07/27 09:34:54 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376742099161088","BetArea":[110,174,192,142,412,372]}}
+2023/07/27 09:34:55 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376742099161088","BetArea":[110,194,192,152,512,392]}}
+2023/07/27 09:34:56 [ERROR] read tcp [::1]:60904->[::1]:10001: use of closed network connection
+2023/07/27 09:34:56 [INFO] 連線中斷
+2023/07/27 09:34:58 [INFO] simon SendMessage={Login:{Token: Name:simon}}
+2023/07/27 09:34:58 [ERROR] simon write tcp [::1]:60904->[::1]:10001: use of closed network connection
+2023/07/27 09:35:04 [INFO] Connect Success
+2023/07/27 09:35:07 [ERROR] read tcp [::1]:60914->[::1]:10001: use of closed network connection
+2023/07/27 09:35:07 [INFO] 連線中斷
+2023/07/27 09:35:08 [INFO] Connect Success
+2023/07/27 09:35:09 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.75,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:35:38 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684376960223940608","CardNum":0,"History":[[0,0,1,0],[1,0,0,1],[0,1,1,0]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":3,"BetArea":[0,0,0,0,0,0],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":46,"WinloseRank":[{"IconID":"4","Name":"****a57","UserID":"","Winlose":175568},{"IconID":"7","Name":"****d04","UserID":"","Winlose":130043}],"Fsm":"Idle"}}
+2023/07/27 09:35:38 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":46}}
+2023/07/27 09:35:42 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684376960223940608","RemainSec":12,"Round":3}}
+2023/07/27 09:35:43 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:35:44 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[40,125,75,20,110,0]}}
+2023/07/27 09:35:45 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[42,125,180,130,125,170]}}
+2023/07/27 09:35:46 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[54,125,180,135,127,295]}}
+2023/07/27 09:35:47 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[154,291,415,435,207,412]}}
+2023/07/27 09:35:48 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[161,491,442,450,317,419]}}
+2023/07/27 09:35:48 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 0, \"Bet\":2 }]"}}
+2023/07/27 09:35:48 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[2,0,0,0,0,0],"Gold":999996.75}}
+2023/07/27 09:35:48 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999996.75}}
+2023/07/27 09:35:49 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[175,651,592,560,329,419]}}
+2023/07/27 09:35:50 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[275,653,652,560,399,519]}}
+2023/07/27 09:35:51 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[275,653,957,910,411,589]}}
+2023/07/27 09:35:52 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[275,658,967,910,426,601]}}
+2023/07/27 09:35:52 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:35:52 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[2,2,0,0,0,0],"Gold":999994.75}}
+2023/07/27 09:35:52 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999994.75}}
+2023/07/27 09:35:53 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684376960223940608","BetArea":[282,670,987,930,596,681]}}
+2023/07/27 09:35:53 [ERROR] read tcp [::1]:60915->[::1]:10001: use of closed network connection
+2023/07/27 09:35:53 [INFO] 連線中斷
+2023/07/27 09:35:56 [INFO] Connect Success
+2023/07/27 09:35:58 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.65,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:37:30 [ERROR] read tcp [::1]:60924->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:37:57 [INFO] 連線中斷
+2023/07/27 09:38:03 [INFO] Connect Success
+2023/07/27 09:38:05 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.65,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:38:07 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"","CardNum":0,"History":null,"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":5,"BetArea":[300,424,502,413,237,364],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":49,"WinloseRank":null,"Fsm":"Bet"}}
+2023/07/27 09:38:07 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":49}}
+2023/07/27 09:38:07 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[300,424,522,430,237,368]}}
+2023/07/27 09:38:08 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[300,424,522,430,237,368]}}
+2023/07/27 09:38:09 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[300,524,622,432,237,378]}}
+2023/07/27 09:38:10 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[400,531,822,484,357,390]}}
+2023/07/27 09:38:11 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[470,593,824,536,372,400]}}
+2023/07/27 09:38:12 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:38:16 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999996.65}}
+2023/07/27 09:38:16 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999996.65}}
+2023/07/27 09:38:16 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[475,595,984,543,477,610]}}
+2023/07/27 09:38:16 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"","RemainSec":3}}
+2023/07/27 09:38:16 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"","Round":0,"Result":[1,0,1,0],"string":"even"}}}
+2023/07/27 09:38:23 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"","RemainSec":5}}
+2023/07/27 09:38:23 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":1000000.55}}
+2023/07/27 09:38:23 [INFO] Receive Message:{"Ret":"ActGameResult","Data":{"Gid":"","Bet":2,"Win":3.9}}
+2023/07/27 09:38:23 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"4","Name":"****d33","UserID":"","Winlose":176193},{"IconID":"105","Name":"****a62","UserID":"","Winlose":179854},{"IconID":"6","Name":"****f19","UserID":"","Winlose":155491},{"IconID":"107","Name":"****a76","UserID":"","Winlose":159932.5},{"IconID":"101","Name":"****n34","UserID":"","Winlose":156286.4},{"IconID":"106","Name":"****a99","UserID":"","Winlose":118654},{"IconID":"0","Name":"****l17","UserID":"","Winlose":109646},{"IconID":"0","Name":"****mon","UserID":"86114878","Winlose":1000000.55}]}}
+2023/07/27 09:38:28 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 09:38:28 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684377683623940096","RemainSec":2,"Round":1}}
+2023/07/27 09:38:30 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684377683623940096","RemainSec":4,"Round":1}}
+2023/07/27 09:38:34 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684377683623940096","RemainSec":12,"Round":1}}
+2023/07/27 09:38:35 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684377683623940096","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:38:36 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684377683623940096","BetArea":[0,50,5,0,10,0]}}
+2023/07/27 09:38:37 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684377683623940096","BetArea":[105,160,45,100,180,12]}}
+2023/07/27 09:38:37 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:38:39 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999998.55}}
+2023/07/27 09:38:39 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999998.55}}
+2023/07/27 09:38:39 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684377683623940096","BetArea":[227,166,65,184,270,70]}}
+2023/07/27 09:38:40 [ERROR] read tcp [::1]:60971->[::1]:10001: use of closed network connection
+2023/07/27 09:38:40 [INFO] 連線中斷
+2023/07/27 09:38:41 [INFO] Connect Success
+2023/07/27 09:38:43 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.55,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:41:02 [INFO] 連線中斷
+2023/07/27 09:41:02 [ERROR] read tcp [::1]:60991->[::1]:10001: use of closed network connection
+2023/07/27 09:41:03 [INFO] Connect Success
+2023/07/27 09:41:05 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.55,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:41:09 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684378342985306114","CardNum":0,"History":[[1,0,1,0],[0,0,1,0],[1,0,0,1],[0,1,0,0],[0,0,0,1],[0,0,1,1],[0,0,0,0]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":2,"BetArea":[0,0,0,0,0,0],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":36,"WinloseRank":[{"IconID":"6","Name":"****r39","UserID":"","Winlose":109968},{"IconID":"6","Name":"****f19","UserID":"","Winlose":156826.9},{"IconID":"5","Name":"****t50","UserID":"","Winlose":160187.75},{"IconID":"6","Name":"****e07","UserID":"","Winlose":150909.9},{"IconID":"0","Name":"****s53","UserID":"","Winlose":137141.9},{"IconID":"103","Name":"****t52","UserID":"","Winlose":122909.4},{"IconID":"104","Name":"****e77","UserID":"","Winlose":157607.3},{"IconID":"6","Name":"****n91","UserID":"","Winlose":167104.75},{"IconID":"101","Name":"****n66","UserID":"","Winlose":143567.7},{"IconID":"101","Name":"****a30","UserID":"","Winlose":113448},{"IconID":"1","Name":"****e38","UserID":"","Winlose":118049.75},{"IconID":"106","Name":"****e79","UserID":"","Winlose":183221.95},{"IconID":"1","Name":"****r54","UserID":"","Winlose":176078.55},{"IconID":"101","Name":"****n34","UserID":"","Winlose":156357.4},{"IconID":"100","Name":"****t33","UserID":"","Winlose":190457.75},{"IconID":"0","Name":"****l17","UserID":"","Winlose":109528},{"IconID":"0","Name":"****g21","UserID":"","Winlose":108004.2},{"IconID":"4","Name":"****d33","UserID":"","Winlose":176208.4}],"Fsm":"Idle"}}
+2023/07/27 09:41:09 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":36}}
+2023/07/27 09:41:11 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684378342985306114","RemainSec":12,"Round":7}}
+2023/07/27 09:41:12 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378342985306114","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:41:13 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378342985306114","BetArea":[120,102,19,0,10,20]}}
+2023/07/27 09:41:14 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378342985306114","BetArea":[120,302,19,70,30,20]}}
+2023/07/27 09:41:15 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:41:17 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999996.55}}
+2023/07/27 09:41:17 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999996.55}}
+2023/07/27 09:41:17 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378342985306114","BetArea":[172,358,249,189,44,230]}}
+2023/07/27 09:41:18 [INFO] 連線中斷
+2023/07/27 09:41:18 [ERROR] read tcp [::1]:61020->[::1]:10001: use of closed network connection
+2023/07/27 09:41:20 [INFO] Connect Success
+2023/07/27 09:41:22 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999996.55,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:41:49 [INFO] 連線中斷
+2023/07/27 09:41:49 [ERROR] read tcp [::1]:61025->[::1]:10001: use of closed network connection
+2023/07/27 09:41:52 [INFO] Connect Success
+2023/07/27 09:41:54 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999996.55,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:42:21 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684378606840582144","CardNum":0,"History":[[1,0,1,0],[0,0,1,0],[1,0,0,1],[0,1,0,0],[0,0,0,1],[0,0,1,1],[0,0,0,0],[0,0,0,1],[0,1,0,1]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":5,"BetArea":[451,106,381,484,355,132],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":41,"WinloseRank":[{"IconID":"105","Name":"****y94","UserID":"","Winlose":194885.25},{"IconID":"101","Name":"****n66","UserID":"","Winlose":143613.2},{"IconID":"1","Name":"****n14","UserID":"","Winlose":123772.45},{"IconID":"105","Name":"****g98","UserID":"","Winlose":175313.15}],"Fsm":"Bet"}}
+2023/07/27 09:42:21 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":41}}
+2023/07/27 09:42:21 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378606840582144","BetArea":[501,106,381,484,355,132]}}
+2023/07/27 09:42:22 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378606840582144","BetArea":[566,246,591,510,467,307]}}
+2023/07/27 09:42:23 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378606840582144","BetArea":[566,266,591,520,467,407]}}
+2023/07/27 09:42:24 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:42:24 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378606840582144","BetArea":[581,366,703,545,507,437]}}
+2023/07/27 09:42:27 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999994.55}}
+2023/07/27 09:42:27 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999994.55}}
+2023/07/27 09:42:28 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684378606840582144","BetArea":[751,625,803,552,717,587]}}
+2023/07/27 09:42:29 [ERROR] read tcp [::1]:61027->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:46:01 [INFO] 連線中斷
+2023/07/27 09:46:02 [INFO] Connect Success
+2023/07/27 09:46:04 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999994.55,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:46:07 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"","CardNum":0,"History":null,"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":9,"BetArea":[185,187,232,157,142,260],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":50,"WinloseRank":null,"Fsm":"Bet"}}
+2023/07/27 09:46:07 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":50}}
+2023/07/27 09:46:07 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[185,187,232,157,142,260]}}
+2023/07/27 09:46:08 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[255,287,282,157,144,260]}}
+2023/07/27 09:46:09 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[330,298,397,214,246,332]}}
+2023/07/27 09:46:10 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[430,298,399,221,246,332]}}
+2023/07/27 09:46:11 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:46:13 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999992.55}}
+2023/07/27 09:46:13 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999992.55}}
+2023/07/27 09:46:13 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[600,432,638,283,373,577]}}
+2023/07/27 09:46:14 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[640,452,738,388,488,702]}}
+2023/07/27 09:46:15 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[642,452,915,398,588,732]}}
+2023/07/27 09:46:16 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[692,562,920,568,688,732]}}
+2023/07/27 09:46:17 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[692,562,920,568,688,732]}}
+2023/07/27 09:46:18 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[692,562,920,568,688,732]}}
+2023/07/27 09:46:18 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"","RemainSec":3}}
+2023/07/27 09:46:18 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"","Round":0,"Result":[1,1,1,1],"string":"even"}}}
+2023/07/27 09:47:01 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"","RemainSec":5}}
+2023/07/27 09:47:01 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999996.45}}
+2023/07/27 09:47:01 [INFO] Receive Message:{"Ret":"ActGameResult","Data":{"Gid":"","Bet":2,"Win":3.9}}
+2023/07/27 09:47:01 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"107","Name":"****a24","UserID":"","Winlose":195025.9},{"IconID":"105","Name":"****n54","UserID":"","Winlose":183962},{"IconID":"103","Name":"****e44","UserID":"","Winlose":169386},{"IconID":"101","Name":"****e06","UserID":"","Winlose":178320},{"IconID":"0","Name":"****l01","UserID":"","Winlose":158075},{"IconID":"100","Name":"****y57","UserID":"","Winlose":146133.5},{"IconID":"103","Name":"****e32","UserID":"","Winlose":103169.15},{"IconID":"103","Name":"****g80","UserID":"","Winlose":160667.5},{"IconID":"0","Name":"****f37","UserID":"","Winlose":108645.5},{"IconID":"104","Name":"****a73","UserID":"","Winlose":135594},{"IconID":"5","Name":"****l58","UserID":"","Winlose":192728},{"IconID":"105","Name":"****e74","UserID":"","Winlose":139952},{"IconID":"104","Name":"****l61","UserID":"","Winlose":191390},{"IconID":"100","Name":"****y57","UserID":"","Winlose":183959.5},{"IconID":"102","Name":"****e71","UserID":"","Winlose":164301.25},{"IconID":"5","Name":"****e58","UserID":"","Winlose":103306},{"IconID":"107","Name":"****a72","UserID":"","Winlose":137870},{"IconID":"0","Name":"****y77","UserID":"","Winlose":197381.5},{"IconID":"4","Name":"****e93","UserID":"","Winlose":129838},{"IconID":"106","Name":"****a79","UserID":"","Winlose":109176.5}]}}
+2023/07/27 09:47:06 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 09:47:06 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684379856327938048","RemainSec":2,"Round":1}}
+2023/07/27 09:47:08 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684379856327938048","RemainSec":4,"Round":1}}
+2023/07/27 09:47:12 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684379856327938048","RemainSec":12,"Round":1}}
+2023/07/27 09:47:13 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:47:14 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[190,22,25,92,140,5]}}
+2023/07/27 09:47:15 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[190,22,25,92,140,5]}}
+2023/07/27 09:47:16 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:47:16 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999994.45}}
+2023/07/27 09:47:16 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999994.45}}
+2023/07/27 09:47:16 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[315,26,77,94,240,7]}}
+2023/07/27 09:47:17 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[335,26,77,94,240,9]}}
+2023/07/27 09:47:18 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[440,176,222,94,472,181]}}
+2023/07/27 09:47:19 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[527,241,227,104,574,186]}}
+2023/07/27 09:47:20 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[532,248,327,116,594,186]}}
+2023/07/27 09:47:21 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684379856327938048","BetArea":[632,250,362,116,661,208]}}
+2023/07/27 09:47:22 [INFO] 連線中斷
+2023/07/27 09:47:22 [ERROR] read tcp [::1]:61185->[::1]:10001: use of closed network connection
+2023/07/27 09:47:23 [INFO] Connect Success
+2023/07/27 09:47:25 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999994.45,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:48:38 [INFO] 連線中斷
+2023/07/27 09:48:38 [ERROR] read tcp [::1]:61220->[::1]:10001: use of closed network connection
+2023/07/27 09:48:39 [INFO] Connect Success
+2023/07/27 09:48:41 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999998.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:48:44 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:48:44 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success"}
+2023/07/27 09:49:17 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684380392817168384","CardNum":0,"History":[[1,1,1,1],[0,0,0,0],[0,1,1,1],[1,1,1,1]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":3,"BetArea":[0,0,0,0,0,0],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":50,"WinloseRank":[{"IconID":"105","Name":"****o62","UserID":"","Winlose":150128.8},{"IconID":"106","Name":"****y91","UserID":"","Winlose":124847.5},{"IconID":"105","Name":"****e74","UserID":"","Winlose":140063.8},{"IconID":"4","Name":"****r13","UserID":"","Winlose":191317.65},{"IconID":"0","Name":"****f37","UserID":"","Winlose":108823.7},{"IconID":"3","Name":"****t52","UserID":"","Winlose":146101.25},{"IconID":"6","Name":"****e15","UserID":"","Winlose":184200.5},{"IconID":"103","Name":"****e32","UserID":"","Winlose":103058.15},{"IconID":"2","Name":"****t95","UserID":"","Winlose":114879.5},{"IconID":"104","Name":"****l41","UserID":"","Winlose":184137.4},{"IconID":"5","Name":"****e58","UserID":"","Winlose":103220.5},{"IconID":"0","Name":"****a65","UserID":"","Winlose":156115.5},{"IconID":"4","Name":"****e93","UserID":"","Winlose":130123.5},{"IconID":"5","Name":"****a30","UserID":"","Winlose":118072.75},{"IconID":"0","Name":"****y77","UserID":"","Winlose":197513.5},{"IconID":"5","Name":"****w06","UserID":"","Winlose":187450.15},{"IconID":"104","Name":"****a73","UserID":"","Winlose":136045.9}],"Fsm":"Idle"}}
+2023/07/27 09:49:17 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":50}}
+2023/07/27 09:49:20 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684380392817168384","RemainSec":12,"Round":4}}
+2023/07/27 09:49:21 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380392817168384","BetArea":[5,100,15,20,0,50]}}
+2023/07/27 09:49:22 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380392817168384","BetArea":[5,200,15,20,90,200]}}
+2023/07/27 09:49:23 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380392817168384","BetArea":[60,225,85,35,230,210]}}
+2023/07/27 09:49:24 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380392817168384","BetArea":[140,330,105,155,330,310]}}
+2023/07/27 09:49:25 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380392817168384","BetArea":[140,330,212,269,334,312]}}
+2023/07/27 09:49:25 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:49:43 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999996.35}}
+2023/07/27 09:49:43 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999996.35}}
+2023/07/27 09:49:44 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380392817168384","BetArea":[529,1076,748,751,1050,717]}}
+2023/07/27 09:49:45 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380392817168384","BetArea":[529,1076,748,751,1050,717]}}
+2023/07/27 09:49:46 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380392817168384","BetArea":[529,1076,748,751,1050,717]}}
+2023/07/27 09:49:46 [ERROR] read tcp [::1]:61260->[::1]:10001: use of closed network connection
+2023/07/27 09:49:46 [INFO] 連線中斷
+2023/07/27 09:49:49 [INFO] simon SendMessage={Login:{Token: Name:simon}}
+2023/07/27 09:49:49 [ERROR] simon write tcp [::1]:61260->[::1]:10001: use of closed network connection
+2023/07/27 09:49:49 [INFO] Connect Success
+2023/07/27 09:49:49 [INFO] 連線中斷
+2023/07/27 09:49:49 [ERROR] read tcp [::1]:61273->[::1]:10001: use of closed network connection
+2023/07/27 09:49:50 [INFO] Connect Success
+2023/07/27 09:49:52 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999996.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:50:04 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:50:04 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success"}
+2023/07/27 09:50:08 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684380588259151872","CardNum":0,"History":[[1,1,1,1],[0,0,0,0],[0,1,1,1],[1,1,1,1],[0,1,1,1]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":10,"BetArea":[110,0,20,102,60,20],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":50,"WinloseRank":[{"IconID":"0","Name":"****e29","UserID":"","Winlose":110377.15},{"IconID":"101","Name":"****a46","UserID":"","Winlose":108549},{"IconID":"2","Name":"****t95","UserID":"","Winlose":115134.5},{"IconID":"0","Name":"****l01","UserID":"","Winlose":158085.9},{"IconID":"5","Name":"****n38","UserID":"","Winlose":184739.25},{"IconID":"0","Name":"****y77","UserID":"","Winlose":197678.5},{"IconID":"5","Name":"****w06","UserID":"","Winlose":187615.15},{"IconID":"104","Name":"****a73","UserID":"","Winlose":136184.1},{"IconID":"105","Name":"****l58","UserID":"","Winlose":110978.15},{"IconID":"104","Name":"****l61","UserID":"","Winlose":191369.25},{"IconID":"4","Name":"****e93","UserID":"","Winlose":130180.75},{"IconID":"3","Name":"****o88","UserID":"","Winlose":172492.5},{"IconID":"100","Name":"****y57","UserID":"","Winlose":146168.25},{"IconID":"104","Name":"****e57","UserID":"","Winlose":197886},{"IconID":"104","Name":"****y81","UserID":"","Winlose":100824.45},{"IconID":"103","Name":"****t48","UserID":"","Winlose":198343.05},{"IconID":"100","Name":"****y57","UserID":"","Winlose":184294.25},{"IconID":"101","Name":"****e26","UserID":"","Winlose":161031.7},{"IconID":"4","Name":"****k65","UserID":"","Winlose":127769},{"IconID":"106","Name":"****y91","UserID":"","Winlose":124849.4}],"Fsm":"Bet"}}
+2023/07/27 09:50:08 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":50}}
+2023/07/27 09:50:09 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[110,0,20,102,60,20]}}
+2023/07/27 09:50:10 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[115,30,40,132,65,25]}}
+2023/07/27 09:50:11 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[137,30,95,132,75,45]}}
+2023/07/27 09:50:12 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[199,40,217,187,195,55]}}
+2023/07/27 09:50:13 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[249,140,317,187,247,105]}}
+2023/07/27 09:50:14 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[259,142,327,287,347,175]}}
+2023/07/27 09:50:15 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[329,242,449,397,357,197]}}
+2023/07/27 09:50:16 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[401,277,689,597,397,397]}}
+2023/07/27 09:50:17 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[426,362,761,637,497,434]}}
+2023/07/27 09:50:18 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[476,432,906,704,527,484]}}
+2023/07/27 09:50:19 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684380588259151872","BetArea":[496,582,1056,714,534,539]}}
+2023/07/27 09:50:19 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"1003-1684380588259151872","RemainSec":3,"Round":5}}
+2023/07/27 09:50:19 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"1003-1684380588259151872","Round":5,"Result":[1,1,1,0],"string":"odd"}}}
+2023/07/27 09:50:20 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:50:20 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success"}
+2023/07/27 09:50:25 [ERROR] read tcp [::1]:61274->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:51:05 [INFO] 連線中斷
+2023/07/27 09:51:05 [INFO] Connect Success
+2023/07/27 09:51:07 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999996.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:51:10 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"","CardNum":0,"History":null,"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":11,"BetArea":[0,0,0,0,0,0],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":49,"WinloseRank":null,"Fsm":"Bet"}}
+2023/07/27 09:51:10 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":49}}
+2023/07/27 09:51:10 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:51:11 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[125,250,5,5,125,127]}}
+2023/07/27 09:51:12 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[235,250,37,35,295,137]}}
+2023/07/27 09:51:13 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[265,302,189,135,315,247]}}
+2023/07/27 09:51:14 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[287,304,214,245,417,317]}}
+2023/07/27 09:51:15 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[287,304,214,245,417,317]}}
+2023/07/27 09:51:16 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[501,374,354,365,533,317]}}
+2023/07/27 09:51:17 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[671,551,381,505,543,374]}}
+2023/07/27 09:51:18 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:51:20 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999994.35}}
+2023/07/27 09:51:20 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999994.35}}
+2023/07/27 09:51:21 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[768,733,691,755,755,426]}}
+2023/07/27 09:51:22 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[768,733,691,755,755,426]}}
+2023/07/27 09:51:23 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[768,733,691,755,755,426]}}
+2023/07/27 09:51:24 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[768,733,691,755,755,426]}}
+2023/07/27 09:51:24 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"","RemainSec":10}}
+2023/07/27 09:51:24 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"","Round":0,"Result":[1,0,0,0],"string":"odd"}}}
+2023/07/27 09:51:37 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"","RemainSec":5}}
+2023/07/27 09:51:37 [INFO] Receive Message:{"Ret":"ActGameResult","Data":{"Gid":"","Bet":2,"Win":0}}
+2023/07/27 09:51:37 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"100","Name":"****e13","UserID":"","Winlose":170862},{"IconID":"7","Name":"****e52","UserID":"","Winlose":108659},{"IconID":"106","Name":"****n55","UserID":"","Winlose":197774.9},{"IconID":"105","Name":"****y70","UserID":"","Winlose":149458},{"IconID":"103","Name":"****a88","UserID":"","Winlose":146857.5},{"IconID":"105","Name":"****n26","UserID":"","Winlose":161104.5},{"IconID":"7","Name":"****c92","UserID":"","Winlose":123279},{"IconID":"103","Name":"****d72","UserID":"","Winlose":122727.5},{"IconID":"5","Name":"****e06","UserID":"","Winlose":139389},{"IconID":"101","Name":"****y82","UserID":"","Winlose":174937},{"IconID":"2","Name":"****r71","UserID":"","Winlose":197096.5},{"IconID":"102","Name":"****r71","UserID":"","Winlose":146027.5},{"IconID":"103","Name":"****r36","UserID":"","Winlose":151436.5},{"IconID":"102","Name":"****n67","UserID":"","Winlose":128640.15},{"IconID":"4","Name":"****y81","UserID":"","Winlose":162997.75},{"IconID":"106","Name":"****w35","UserID":"","Winlose":158283},{"IconID":"1","Name":"****k42","UserID":"","Winlose":146409.5},{"IconID":"6","Name":"****n11","UserID":"","Winlose":173612.5},{"IconID":"106","Name":"****n87","UserID":"","Winlose":166767.25},{"IconID":"5","Name":"****a66","UserID":"","Winlose":145208.25}]}}
+2023/07/27 09:51:42 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 09:51:42 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684381014324940800","RemainSec":2,"Round":1}}
+2023/07/27 09:51:44 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684381014324940800","RemainSec":4,"Round":1}}
+2023/07/27 09:51:48 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684381014324940800","RemainSec":12,"Round":1}}
+2023/07/27 09:51:49 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:51:50 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[120,37,10,352,79,162]}}
+2023/07/27 09:51:51 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[234,87,187,492,166,199]}}
+2023/07/27 09:51:52 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[234,94,187,542,166,199]}}
+2023/07/27 09:51:53 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[234,144,209,696,218,279]}}
+2023/07/27 09:51:54 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:52:05 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999992.35}}
+2023/07/27 09:52:05 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999992.35}}
+2023/07/27 09:52:05 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[384,153,311,796,278,549]}}
+2023/07/27 09:52:05 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[460,295,463,1138,437,674]}}
+2023/07/27 09:52:06 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[460,295,463,1138,437,674]}}
+2023/07/27 09:52:07 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[460,295,463,1138,437,674]}}
+2023/07/27 09:52:08 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[460,295,463,1138,437,674]}}
+2023/07/27 09:52:09 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[460,295,463,1138,437,674]}}
+2023/07/27 09:52:10 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684381014324940800","BetArea":[460,295,463,1138,437,674]}}
+2023/07/27 09:52:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"1003-1684381014324940800","RemainSec":10,"Round":1}}
+2023/07/27 09:52:10 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"1003-1684381014324940800","Round":1,"Result":[1,0,0,0],"string":"odd"}}}
+2023/07/27 09:52:13 [INFO] 連線中斷
+2023/07/27 09:52:13 [ERROR] read tcp [::1]:61315->[::1]:10001: use of closed network connection
+2023/07/27 09:52:14 [INFO] Connect Success
+2023/07/27 09:52:16 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999992.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:52:54 [ERROR] read tcp [::1]:61332->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:53:05 [INFO] 連線中斷
+2023/07/27 09:53:06 [INFO] Connect Success
+2023/07/27 09:53:07 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999992.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:53:09 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"","CardNum":0,"History":null,"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":1,"BetArea":[0,0,0,0,0,0],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":44,"WinloseRank":null,"Fsm":"Idle"}}
+2023/07/27 09:53:09 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":44}}
+2023/07/27 09:53:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"","RemainSec":12}}
+2023/07/27 09:53:11 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:53:12 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[22,120,109,135,65,150]}}
+2023/07/27 09:53:13 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[147,150,313,190,285,292]}}
+2023/07/27 09:53:14 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[277,150,363,240,285,412]}}
+2023/07/27 09:53:14 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:53:30 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999990.35}}
+2023/07/27 09:53:30 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999990.35}}
+2023/07/27 09:53:30 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[827,598,640,765,630,901]}}
+2023/07/27 09:53:31 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[827,598,640,765,630,901]}}
+2023/07/27 09:53:32 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[827,598,640,765,630,901]}}
+2023/07/27 09:53:33 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[827,598,640,765,630,901]}}
+2023/07/27 09:53:33 [INFO] 連線中斷
+2023/07/27 09:53:33 [ERROR] read tcp [::1]:61363->[::1]:10001: use of closed network connection
+2023/07/27 09:53:36 [INFO] simon SendMessage={Login:{Token: Name:simon}}
+2023/07/27 09:53:36 [ERROR] simon write tcp [::1]:61363->[::1]:10001: use of closed network connection
+2023/07/27 09:53:38 [INFO] Connect Success
+2023/07/27 09:53:40 [INFO] 連線中斷
+2023/07/27 09:53:40 [ERROR] read tcp [::1]:61380->[::1]:10001: use of closed network connection
+2023/07/27 09:53:40 [INFO] Connect Success
+2023/07/27 09:53:42 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999990.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:54:17 [ERROR] read tcp [::1]:61381->[::1]:10001: use of closed network connection
+2023/07/27 09:54:17 [INFO] 連線中斷
+2023/07/27 09:54:19 [INFO] Connect Success
+2023/07/27 09:54:22 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999990.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:55:21 [ERROR] read tcp [::1]:61410->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 09:56:05 [INFO] 連線中斷
+2023/07/27 09:56:07 [INFO] Connect Success
+2023/07/27 09:56:09 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999990.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 09:56:18 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"","CardNum":0,"History":null,"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":1,"BetArea":[755,597,816,466,795,634],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":50,"WinloseRank":null,"Fsm":"Bet"}}
+2023/07/27 09:56:18 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":50}}
+2023/07/27 09:56:19 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[755,597,816,466,795,634]}}
+2023/07/27 09:56:20 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[777,607,931,466,805,664]}}
+2023/07/27 09:56:20 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"","RemainSec":10}}
+2023/07/27 09:56:20 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"","Round":0,"Result":[1,0,0,0],"string":"odd"}}}
+2023/07/27 09:56:31 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"","RemainSec":5}}
+2023/07/27 09:56:31 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"106","Name":"****r39","UserID":"","Winlose":171498},{"IconID":"2","Name":"****y59","UserID":"","Winlose":142107},{"IconID":"7","Name":"****e52","UserID":"","Winlose":157654},{"IconID":"103","Name":"****e08","UserID":"","Winlose":114113},{"IconID":"1","Name":"****n18","UserID":"","Winlose":180359.75},{"IconID":"4","Name":"****a01","UserID":"","Winlose":103471},{"IconID":"1","Name":"****s86","UserID":"","Winlose":161783.5},{"IconID":"103","Name":"****d72","UserID":"","Winlose":126279.5},{"IconID":"1","Name":"****a74","UserID":"","Winlose":178612.25},{"IconID":"107","Name":"****a96","UserID":"","Winlose":193594.5},{"IconID":"103","Name":"****h56","UserID":"","Winlose":150387},{"IconID":"7","Name":"****e20","UserID":"","Winlose":152768.45},{"IconID":"4","Name":"****d97","UserID":"","Winlose":117223.5},{"IconID":"1","Name":"****e58","UserID":"","Winlose":121241},{"IconID":"103","Name":"****a00","UserID":"","Winlose":167070},{"IconID":"104","Name":"****e29","UserID":"","Winlose":162554.7},{"IconID":"7","Name":"****l52","UserID":"","Winlose":119942.75}]}}
+2023/07/27 09:56:35 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 09:56:35 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684382244132622336","RemainSec":2,"Round":1}}
+2023/07/27 09:56:37 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684382244132622336","RemainSec":4,"Round":1}}
+2023/07/27 09:56:41 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684382244132622336","RemainSec":12,"Round":1}}
+2023/07/27 09:56:42 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 09:56:43 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[116,65,115,69,15,197]}}
+2023/07/27 09:56:44 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[116,65,115,69,15,197]}}
+2023/07/27 09:56:45 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[166,275,280,231,224,321]}}
+2023/07/27 09:56:46 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 09:56:58 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999988.35}}
+2023/07/27 09:56:58 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999988.35}}
+2023/07/27 09:56:59 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[938,626,464,762,556,1058]}}
+2023/07/27 09:57:00 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[938,626,464,762,556,1058]}}
+2023/07/27 09:57:01 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[938,626,464,762,556,1058]}}
+2023/07/27 09:57:02 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[938,626,464,762,556,1058]}}
+2023/07/27 09:57:03 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[938,626,464,762,556,1058]}}
+2023/07/27 09:57:04 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[938,626,464,762,556,1058]}}
+2023/07/27 09:57:05 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[938,626,464,762,556,1058]}}
+2023/07/27 09:57:06 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684382244132622336","BetArea":[938,626,464,762,556,1058]}}
+2023/07/27 09:57:06 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"1003-1684382244132622336","RemainSec":10,"Round":1}}
+2023/07/27 09:57:06 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"1003-1684382244132622336","Round":1,"Result":[0,0,0,1],"string":"odd"}}}
+2023/07/27 09:57:13 [INFO] 連線中斷
+2023/07/27 09:57:13 [ERROR] read tcp [::1]:61455->[::1]:10001: use of closed network connection
+2023/07/27 09:57:15 [INFO] Connect Success
+2023/07/27 09:57:26 [INFO] 連線中斷
+2023/07/27 09:57:26 [ERROR] read tcp [::1]:61474->[::1]:10001: use of closed network connection
+2023/07/27 09:57:32 [INFO] Connect Success
+2023/07/27 09:57:32 [ERROR] read tcp [::1]:61484->[::1]:10001: use of closed network connection
+2023/07/27 09:57:32 [INFO] 連線中斷
+2023/07/27 09:57:34 [INFO] Connect Success
+2023/07/27 09:58:14 [ERROR] read tcp [::1]:61485->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 10:04:44 [INFO] 連線中斷
+2023/07/27 10:05:19 [INFO] Connect Success
+2023/07/27 10:05:22 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999988.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:05:27 [INFO] 連線中斷
+2023/07/27 10:05:27 [ERROR] read tcp [::1]:61669->[::1]:10001: use of closed network connection
+2023/07/27 10:05:30 [INFO] Connect Success
+2023/07/27 10:05:32 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999988.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:05:47 [ERROR] read tcp [::1]:61679->[::1]:10001: use of closed network connection
+2023/07/27 10:05:47 [INFO] 連線中斷
+2023/07/27 10:05:48 [INFO] Connect Success
+2023/07/27 10:06:32 [INFO] 連線中斷
+2023/07/27 10:06:32 [ERROR] read tcp [::1]:61680->[::1]:10001: use of closed network connection
+2023/07/27 10:06:35 [ERROR] read tcp [::1]:61692->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 10:06:35 [ERROR] Connect failed:read tcp [::1]:61692->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 10:06:37 [ERROR] dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/07/27 10:06:37 [ERROR] Connect failed:dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/07/27 10:06:43 [INFO] Connect Success
+2023/07/27 10:07:41 [ERROR] read tcp [::1]:61709->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 10:08:31 [INFO] 連線中斷
+2023/07/27 10:08:31 [INFO] Connect Success
+2023/07/27 10:10:54 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999988.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:10:58 [ERROR] read tcp [::1]:61762->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 10:13:21 [INFO] 連線中斷
+2023/07/27 10:13:21 [INFO] Connect Success
+2023/07/27 10:13:23 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999988.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:14:00 [INFO] Receive Message:{"Code":200016,"Ret":"EnterGame","Message":"game is close"}
+2023/07/27 10:14:05 [INFO] Receive Message:{"Code":0,"Ret":"EnterRoom","Message":"success","Data":[{"GameCode":"colordisc","RoomType":0,"TableId":10030,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":1,"TableId":10031,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":2,"TableId":10032,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":3,"TableId":10033,"Num":1,"Status":1}]}
+2023/07/27 10:14:05 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,1]],"Fsm":"Open","PlayerNum":49,"BetLimit":[2,100],"RemainSec":7,"TableId":100301}],[{"RoadList":[[1,1,0,1]],"Fsm":"Open","PlayerNum":21,"BetLimit":[20,1000],"RemainSec":7,"TableId":100311}],[{"RoadList":[[0,0,0,0]],"Fsm":"Open","PlayerNum":12,"BetLimit":[200,10000],"RemainSec":7,"TableId":100321}],[{"RoadList":[[1,0,1,1]],"Fsm":"Open","PlayerNum":9,"BetLimit":[500,25000],"RemainSec":7,"TableId":100331}]]}}
+2023/07/27 10:14:06 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,1]],"Fsm":"Open","PlayerNum":49,"BetLimit":[2,100],"RemainSec":6,"TableId":100301}],[{"RoadList":[[1,1,0,1]],"Fsm":"Open","PlayerNum":21,"BetLimit":[20,1000],"RemainSec":6,"TableId":100311}],[{"RoadList":[[0,0,0,0]],"Fsm":"Open","PlayerNum":12,"BetLimit":[200,10000],"RemainSec":6,"TableId":100321}],[{"RoadList":[[1,0,1,1]],"Fsm":"Open","PlayerNum":9,"BetLimit":[500,25000],"RemainSec":6,"TableId":100331}]]}}
+2023/07/27 10:14:07 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684386560151130113","CardNum":0,"History":[[0,1,0,1]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":5,"BetArea":[1058,879,563,1058,493,722],"GameResult":{"Gid":"1003-1684386560151130113","Round":1,"Result":[0,0,1,0],"string":"odd"},"PlayerBetInfo":[],"Round":0,"CurrentPlayer":50,"WinloseRank":[{"IconID":"1","Name":"****h14","UserID":"","Winlose":141385},{"IconID":"102","Name":"****s67","UserID":"","Winlose":128043.4},{"IconID":"100","Name":"****e29","UserID":"","Winlose":126432.5},{"IconID":"105","Name":"****a82","UserID":"","Winlose":138587},{"IconID":"2","Name":"****e75","UserID":"","Winlose":109201.75},{"IconID":"2","Name":"****e03","UserID":"","Winlose":182623},{"IconID":"104","Name":"****e13","UserID":"","Winlose":122640},{"IconID":"4","Name":"****n37","UserID":"","Winlose":151779.75}],"Fsm":"Open"}}
+2023/07/27 10:14:07 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":50}}
+2023/07/27 10:14:07 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,1,0,1]],"Fsm":"Open","PlayerNum":50,"BetLimit":[2,100],"RemainSec":5,"TableId":100301}],[{"RoadList":[[1,1,0,1]],"Fsm":"Open","PlayerNum":21,"BetLimit":[20,1000],"RemainSec":5,"TableId":100311}],[{"RoadList":[[0,0,0,0]],"Fsm":"Open","PlayerNum":12,"BetLimit":[200,10000],"RemainSec":5,"TableId":100321}],[{"RoadList":[[1,0,1,1]],"Fsm":"Open","PlayerNum":9,"BetLimit":[500,25000],"RemainSec":5,"TableId":100331}]]}}
+2023/07/27 10:14:07 [INFO] 連線中斷
+2023/07/27 10:14:07 [ERROR] read tcp [::1]:61924->[::1]:10001: use of closed network connection
+2023/07/27 10:14:10 [INFO] simon SendMessage={Login:{Token: Name:simon}}
+2023/07/27 10:14:10 [ERROR] simon write tcp [::1]:61924->[::1]:10001: use of closed network connection
+2023/07/27 10:14:12 [INFO] simon SendMessage={EnterGame:{TableId:100301}}
+2023/07/27 10:14:12 [ERROR] simon write tcp [::1]:61924->[::1]:10001: use of closed network connection
+2023/07/27 10:14:22 [INFO] Connect Success
+2023/07/27 10:14:23 [INFO] 連線中斷
+2023/07/27 10:14:23 [ERROR] read tcp [::1]:61958->[::1]:10001: use of closed network connection
+2023/07/27 10:14:25 [INFO] Connect Success
+2023/07/27 10:14:27 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999988.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:14:31 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684386707790630913","CardNum":0,"History":[[0,1,0,1],[0,0,1,0]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":6,"BetArea":[399,210,284,324,367,411],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":50,"WinloseRank":[{"IconID":"102","Name":"****e07","UserID":"","Winlose":179217},{"IconID":"0","Name":"****e25","UserID":"","Winlose":102940},{"IconID":"5","Name":"****n10","UserID":"","Winlose":157644},{"IconID":"2","Name":"****y55","UserID":"","Winlose":160520.9},{"IconID":"103","Name":"****l32","UserID":"","Winlose":170990.9},{"IconID":"1","Name":"****e38","UserID":"","Winlose":136058},{"IconID":"1","Name":"****n06","UserID":"","Winlose":168074.9},{"IconID":"102","Name":"****b11","UserID":"","Winlose":197647},{"IconID":"2","Name":"****z91","UserID":"","Winlose":177178.75},{"IconID":"5","Name":"****n02","UserID":"","Winlose":140302.75},{"IconID":"102","Name":"****a15","UserID":"","Winlose":114492},{"IconID":"106","Name":"****n23","UserID":"","Winlose":191206.75},{"IconID":"107","Name":"****n36","UserID":"","Winlose":168101.25},{"IconID":"102","Name":"****l31","UserID":"","Winlose":140357},{"IconID":"102","Name":"****s67","UserID":"","Winlose":128105.9},{"IconID":"105","Name":"****a82","UserID":"","Winlose":138646.95},{"IconID":"7","Name":"****y40","UserID":"","Winlose":110334},{"IconID":"106","Name":"****e87","UserID":"","Winlose":101841.5},{"IconID":"100","Name":"****n73","UserID":"","Winlose":159969},{"IconID":"100","Name":"****n53","UserID":"","Winlose":112523.5}],"Fsm":"Bet"}}
+2023/07/27 10:14:31 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":50}}
+2023/07/27 10:14:32 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386707790630913","BetArea":[451,210,389,454,487,536]}}
+2023/07/27 10:14:33 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386707790630913","BetArea":[601,250,389,554,487,561]}}
+2023/07/27 10:14:34 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386707790630913","BetArea":[601,250,389,561,587,561]}}
+2023/07/27 10:14:35 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386707790630913","BetArea":[753,350,499,691,639,643]}}
+2023/07/27 10:14:36 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386707790630913","BetArea":[805,452,499,693,644,713]}}
+2023/07/27 10:14:37 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386707790630913","BetArea":[817,564,661,693,644,833]}}
+2023/07/27 10:14:38 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386707790630913","BetArea":[829,569,661,743,644,838]}}
+2023/07/27 10:14:38 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"1003-1684386707790630913","RemainSec":10,"Round":2}}
+2023/07/27 10:14:38 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"1003-1684386707790630913","Round":2,"Result":[1,0,1,1],"string":"odd"}}}
+2023/07/27 10:14:49 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"1003-1684386707790630913","RemainSec":5,"Round":2}}
+2023/07/27 10:14:49 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"103","Name":"****l32","UserID":"","Winlose":171268.9},{"IconID":"7","Name":"****u60","UserID":"","Winlose":195877},{"IconID":"102","Name":"****s67","UserID":"","Winlose":128315.9},{"IconID":"100","Name":"****a05","UserID":"","Winlose":108911.7},{"IconID":"4","Name":"****s73","UserID":"","Winlose":182908.9},{"IconID":"104","Name":"****a45","UserID":"","Winlose":155928.5},{"IconID":"100","Name":"****e29","UserID":"","Winlose":126492.75},{"IconID":"5","Name":"****n02","UserID":"","Winlose":140359.75},{"IconID":"105","Name":"****a82","UserID":"","Winlose":138701.95},{"IconID":"2","Name":"****e03","UserID":"","Winlose":182570.5},{"IconID":"106","Name":"****a63","UserID":"","Winlose":135279.5},{"IconID":"100","Name":"****k81","UserID":"","Winlose":106450.25},{"IconID":"5","Name":"****n10","UserID":"","Winlose":157674.8},{"IconID":"106","Name":"****a31","UserID":"","Winlose":179930},{"IconID":"107","Name":"****n36","UserID":"","Winlose":168124.75},{"IconID":"7","Name":"****y40","UserID":"","Winlose":110351},{"IconID":"100","Name":"****n73","UserID":"","Winlose":159978.5},{"IconID":"2","Name":"****z91","UserID":"","Winlose":177183.5},{"IconID":"5","Name":"****a66","UserID":"","Winlose":167684.4}]}}
+2023/07/27 10:14:54 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 10:14:54 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684386852536061952","RemainSec":2,"Round":3}}
+2023/07/27 10:14:56 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684386852536061952","RemainSec":4,"Round":3}}
+2023/07/27 10:15:00 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684386852536061952","RemainSec":12,"Round":3}}
+2023/07/27 10:15:01 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 10:15:02 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[2,0,2,50,10,102]}}
+2023/07/27 10:15:03 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[194,126,42,192,112,329]}}
+2023/07/27 10:15:04 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 10:15:06 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999986.35}}
+2023/07/27 10:15:06 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999986.35}}
+2023/07/27 10:15:07 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[488,402,452,304,231,475]}}
+2023/07/27 10:15:08 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[488,439,452,304,231,645]}}
+2023/07/27 10:15:09 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[703,439,474,304,298,805]}}
+2023/07/27 10:15:10 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[715,459,514,304,458,960]}}
+2023/07/27 10:15:11 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[715,464,514,304,458,960]}}
+2023/07/27 10:15:12 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[869,519,514,404,522,1067]}}
+2023/07/27 10:15:13 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[869,519,514,404,522,1067]}}
+2023/07/27 10:15:14 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[869,519,514,404,522,1067]}}
+2023/07/27 10:15:15 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684386852536061952","BetArea":[869,519,514,404,522,1067]}}
+2023/07/27 10:15:15 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"1003-1684386852536061952","RemainSec":10,"Round":3}}
+2023/07/27 10:15:15 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"1003-1684386852536061952","Round":3,"Result":[0,0,0,0],"string":"even"}}}
+2023/07/27 10:15:19 [INFO] 連線中斷
+2023/07/27 10:15:19 [ERROR] read tcp [::1]:61959->[::1]:10001: use of closed network connection
+2023/07/27 10:15:20 [INFO] Connect Success
+2023/07/27 10:15:22 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999986.35,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:16:27 [ERROR] read tcp [::1]:61979->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 10:17:14 [INFO] 連線中斷
+2023/07/27 10:17:15 [INFO] Connect Success
+2023/07/27 10:17:18 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999990.25,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:17:36 [INFO] 連線中斷
+2023/07/27 10:17:36 [ERROR] read tcp [::1]:62034->[::1]:10001: use of closed network connection
+2023/07/27 10:17:37 [INFO] Connect Success
+2023/07/27 10:18:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999990.25,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:19:37 [INFO] 連線中斷
+2023/07/27 10:19:37 [ERROR] read tcp [::1]:62049->[::1]:10001: use of closed network connection
+2023/07/27 10:19:38 [INFO] Connect Success
+2023/07/27 10:19:44 [ERROR] read tcp [::1]:62089->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 10:19:53 [INFO] 連線中斷
+2023/07/27 10:19:54 [INFO] Connect Success
+2023/07/27 10:19:58 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999990.25,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:20:07 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"","CardNum":0,"History":null,"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":3,"BetArea":[142,670,180,451,320,644],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":46,"WinloseRank":null,"Fsm":"Bet"}}
+2023/07/27 10:20:07 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":46}}
+2023/07/27 10:20:08 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[142,670,180,451,320,644]}}
+2023/07/27 10:20:09 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[142,770,222,451,322,739]}}
+2023/07/27 10:20:10 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[262,880,349,476,329,859]}}
+2023/07/27 10:20:11 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"","BetArea":[284,955,351,498,383,859]}}
+2023/07/27 10:20:11 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"","RemainSec":10}}
+2023/07/27 10:20:11 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"","Round":0,"Result":[1,1,1,1],"string":"even"}}}
+2023/07/27 10:20:11 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 10:20:12 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success"}
+2023/07/27 10:20:23 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"","RemainSec":5}}
+2023/07/27 10:20:23 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"107","Name":"****a48","UserID":"","Winlose":105494.5},{"IconID":"107","Name":"****e92","UserID":"","Winlose":105774},{"IconID":"101","Name":"****e78","UserID":"","Winlose":140566.9},{"IconID":"104","Name":"****e49","UserID":"","Winlose":159747},{"IconID":"3","Name":"****s00","UserID":"","Winlose":148906.9},{"IconID":"1","Name":"****a90","UserID":"","Winlose":152100.5},{"IconID":"100","Name":"****h97","UserID":"","Winlose":180038.4},{"IconID":"101","Name":"****a86","UserID":"","Winlose":133853},{"IconID":"107","Name":"****a28","UserID":"","Winlose":101297.5},{"IconID":"100","Name":"****n53","UserID":"","Winlose":126899.25},{"IconID":"105","Name":"****y30","UserID":"","Winlose":142264},{"IconID":"103","Name":"****r16","UserID":"","Winlose":132505},{"IconID":"102","Name":"****e75","UserID":"","Winlose":176478.5},{"IconID":"105","Name":"****e78","UserID":"","Winlose":102616.5},{"IconID":"105","Name":"****e10","UserID":"","Winlose":194816},{"IconID":"7","Name":"****e76","UserID":"","Winlose":174528},{"IconID":"0","Name":"****l73","UserID":"","Winlose":127348},{"IconID":"103","Name":"****t48","UserID":"","Winlose":192757.25},{"IconID":"3","Name":"****o36","UserID":"","Winlose":175184.4},{"IconID":"4","Name":"****m57","UserID":"","Winlose":184629.25}]}}
+2023/07/27 10:20:28 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 10:20:28 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684388253857222658","RemainSec":2,"Round":1}}
+2023/07/27 10:20:30 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684388253857222658","RemainSec":4,"Round":1}}
+2023/07/27 10:20:34 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684388253857222658","RemainSec":12,"Round":1}}
+2023/07/27 10:20:35 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 10:20:36 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[7,70,4,50,50,200]}}
+2023/07/27 10:20:37 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[11,170,6,50,60,205]}}
+2023/07/27 10:20:38 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[121,170,128,100,132,277]}}
+2023/07/27 10:20:39 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[126,375,283,125,132,384]}}
+2023/07/27 10:20:40 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[126,480,333,225,241,384]}}
+2023/07/27 10:20:41 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[136,530,333,230,241,434]}}
+2023/07/27 10:20:42 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[238,632,473,261,263,621]}}
+2023/07/27 10:20:43 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[308,632,475,263,315,641]}}
+2023/07/27 10:20:44 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 10:21:21 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999988.25}}
+2023/07/27 10:21:21 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999988.25}}
+2023/07/27 10:21:22 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[520,779,635,442,392,863]}}
+2023/07/27 10:21:23 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[520,779,635,442,392,863]}}
+2023/07/27 10:21:24 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388253857222658","BetArea":[520,779,635,442,392,863]}}
+2023/07/27 10:21:24 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"1003-1684388253857222658","RemainSec":10,"Round":1}}
+2023/07/27 10:21:24 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"1003-1684388253857222658","Round":1,"Result":[0,0,0,0],"string":"even"}}}
+2023/07/27 10:21:49 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"1003-1684388253857222658","RemainSec":5,"Round":1}}
+2023/07/27 10:21:49 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999992.15}}
+2023/07/27 10:21:50 [INFO] Receive Message:{"Ret":"ActGameResult","Data":{"Gid":"1003-1684388253857222658","Bet":2,"Round":1,"Win":3.9}}
+2023/07/27 10:21:50 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"4","Name":"****m57","UserID":"","Winlose":185998.25},{"IconID":"7","Name":"****e76","UserID":"","Winlose":175895.5},{"IconID":"107","Name":"****l60","UserID":"","Winlose":196569},{"IconID":"101","Name":"****e78","UserID":"","Winlose":141884.9},{"IconID":"103","Name":"****t48","UserID":"","Winlose":193474.25},{"IconID":"103","Name":"****a44","UserID":"","Winlose":157752},{"IconID":"3","Name":"****o36","UserID":"","Winlose":175799.65},{"IconID":"2","Name":"****a15","UserID":"","Winlose":158808},{"IconID":"103","Name":"****o84","UserID":"","Winlose":166418},{"IconID":"0","Name":"****l73","UserID":"","Winlose":127490.5},{"IconID":"2","Name":"****s87","UserID":"","Winlose":130046.4},{"IconID":"102","Name":"****a07","UserID":"","Winlose":109390},{"IconID":"105","Name":"****y30","UserID":"","Winlose":142347.25},{"IconID":"4","Name":"****y81","UserID":"","Winlose":196843},{"IconID":"1","Name":"****a90","UserID":"","Winlose":152175.5},{"IconID":"105","Name":"****e78","UserID":"","Winlose":102666},{"IconID":"101","Name":"****n14","UserID":"","Winlose":113809.5},{"IconID":"1","Name":"****o78","UserID":"","Winlose":127404},{"IconID":"100","Name":"****h97","UserID":"","Winlose":180062.15},{"IconID":"107","Name":"****y68","UserID":"","Winlose":103030.75}]}}
+2023/07/27 10:21:54 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 10:21:54 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684388614999379968","RemainSec":2,"Round":2}}
+2023/07/27 10:21:56 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684388614999379968","RemainSec":4,"Round":2}}
+2023/07/27 10:22:00 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684388614999379968","RemainSec":12,"Round":2}}
+2023/07/27 10:22:01 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388614999379968","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 10:22:02 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388614999379968","BetArea":[100,100,5,200,150,100]}}
+2023/07/27 10:22:03 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388614999379968","BetArea":[130,110,55,205,270,120]}}
+2023/07/27 10:22:04 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388614999379968","BetArea":[184,410,165,275,280,220]}}
+2023/07/27 10:22:05 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388614999379968","BetArea":[189,410,165,280,320,250]}}
+2023/07/27 10:22:06 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388614999379968","BetArea":[189,410,165,280,420,250]}}
+2023/07/27 10:22:07 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 10:22:08 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 10:22:09 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 10:22:11 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,2,0,0,0,0],"Gold":999990.15}}
+2023/07/27 10:22:11 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999990.15}}
+2023/07/27 10:22:12 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,4,0,0,0,0],"Gold":999988.15}}
+2023/07/27 10:22:12 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999988.15}}
+2023/07/27 10:22:12 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388614999379968","BetArea":[414,803,714,810,837,596]}}
+2023/07/27 10:22:15 [INFO] Receive Message:{"Code":0,"Ret":"Bet","Message":"success","Data":{"BetInfo":[0,6,0,0,0,0],"Gold":999986.15}}
+2023/07/27 10:22:15 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999986.15}}
+2023/07/27 10:22:16 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684388614999379968","BetArea":[514,805,814,820,887,621]}}
+2023/07/27 10:22:16 [ERROR] read tcp [::1]:62106->[::1]:10001: use of closed network connection
+2023/07/27 10:22:16 [INFO] 連線中斷
+2023/07/27 10:22:18 [INFO] Connect Success
+2023/07/27 10:22:37 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999986.15,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:23:13 [ERROR] read tcp [::1]:62163->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/27 10:30:45 [INFO] 連線中斷
+2023/07/27 10:30:45 [INFO] Connect Success
+2023/07/27 10:30:48 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999997.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:30:53 [INFO] simon SendMessage={"Bet":{"BetInfo":"[{ \"AreaID\": 1, \"Bet\":2 }]"}}
+2023/07/27 10:30:53 [INFO] Receive Message:{"Code":200001,"Ret":"Bet","Message":"data error"}
+2023/07/27 10:31:05 [ERROR] read tcp [::1]:62409->[::1]:10001: use of closed network connection
+2023/07/27 10:31:05 [INFO] 連線中斷
+2023/07/27 10:31:05 [INFO] Connect Success
+2023/07/27 10:31:10 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999997.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:31:13 [INFO] Receive Message:{"Code":200016,"Ret":"EnterGame","Message":"game is close"}
+2023/07/27 10:31:17 [INFO] Receive Message:{"Code":0,"Ret":"EnterRoom","Message":"success","Data":[{"GameCode":"colordisc","RoomType":0,"TableId":10030,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":1,"TableId":10031,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":2,"TableId":10032,"Num":1,"Status":1},{"GameCode":"colordisc","RoomType":3,"TableId":10033,"Num":1,"Status":1}]}
+2023/07/27 10:31:18 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,0,1,0]],"Fsm":"Bet","PlayerNum":44,"BetLimit":[2,100],"RemainSec":3,"TableId":100301}],[{"RoadList":[[0,0,1,0]],"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":3,"TableId":100311}],[{"RoadList":[[1,0,1,1]],"Fsm":"Bet","PlayerNum":15,"BetLimit":[200,10000],"RemainSec":3,"TableId":100321}],[{"RoadList":[[0,0,0,1]],"Fsm":"Bet","PlayerNum":7,"BetLimit":[500,25000],"RemainSec":3,"TableId":100331}]]}}
+2023/07/27 10:31:18 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684390906083414017","CardNum":0,"History":[[0,0,1,0]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":2,"BetArea":[597,648,343,827,515,526],"GameResult":null,"PlayerBetInfo":[],"Round":0,"CurrentPlayer":45,"WinloseRank":[{"IconID":"7","Name":"****s56","UserID":"","Winlose":103231},{"IconID":"104","Name":"****l89","UserID":"","Winlose":104780},{"IconID":"104","Name":"****e73","UserID":"","Winlose":199083.4},{"IconID":"1","Name":"****s66","UserID":"","Winlose":125483.5},{"IconID":"7","Name":"****n28","UserID":"","Winlose":154224},{"IconID":"103","Name":"****a64","UserID":"","Winlose":125461.5},{"IconID":"104","Name":"****r17","UserID":"","Winlose":145377.5},{"IconID":"106","Name":"****n71","UserID":"","Winlose":122052},{"IconID":"103","Name":"****o84","UserID":"","Winlose":157336.25},{"IconID":"104","Name":"****e37","UserID":"","Winlose":121015.45},{"IconID":"0","Name":"****k81","UserID":"","Winlose":135878.9}],"Fsm":"Bet"}}
+2023/07/27 10:31:18 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":45}}
+2023/07/27 10:31:19 [INFO] Receive Message:{"Ret":"ActRoomStatus","Data":{"RoomInfo":[[{"RoadList":[[0,0,1,0]],"Fsm":"Bet","PlayerNum":45,"BetLimit":[2,100],"RemainSec":2,"TableId":100301}],[{"RoadList":[[0,0,1,0]],"Fsm":"Bet","PlayerNum":22,"BetLimit":[20,1000],"RemainSec":2,"TableId":100311}],[{"RoadList":[[1,0,1,1]],"Fsm":"Bet","PlayerNum":15,"BetLimit":[200,10000],"RemainSec":2,"TableId":100321}],[{"RoadList":[[0,0,0,1]],"Fsm":"Bet","PlayerNum":7,"BetLimit":[500,25000],"RemainSec":2,"TableId":100331}]]}}
+2023/07/27 10:31:19 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684390906083414017","BetArea":[597,648,343,827,515,526]}}
+2023/07/27 10:31:19 [INFO] 連線中斷
+2023/07/27 10:31:19 [ERROR] read tcp [::1]:62422->[::1]:10001: use of closed network connection
+2023/07/27 10:31:23 [INFO] Connect Success
+2023/07/27 10:31:27 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999997.85,"IconID":0,"Name":"Test_simon","UserId":86114878,"MatchGameCode":"","MatchGameTableId":100301,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/07/27 10:31:35 [INFO] Receive Message:{"Code":0,"Ret":"EnterGame","Message":"success","Data":{"Gid":"1003-1684390906083414017","CardNum":0,"History":[[0,0,1,0],[1,0,0,1]],"BetLimit":[[2,100],[2,100],[2,100],[2,100],[2,100],[2,100]],"Chips":[2,5,10,20,50,100],"RemainSec":0,"BetArea":[597,648,343,827,515,526],"GameResult":{"Gid":"1003-1684390906083414017","Round":1,"Result":[1,0,0,1],"string":"even"},"PlayerBetInfo":[],"Round":0,"CurrentPlayer":45,"WinloseRank":[{"IconID":"7","Name":"****s56","UserID":"","Winlose":103231},{"IconID":"104","Name":"****l89","UserID":"","Winlose":104780},{"IconID":"104","Name":"****e73","UserID":"","Winlose":199083.4},{"IconID":"1","Name":"****s66","UserID":"","Winlose":125483.5},{"IconID":"7","Name":"****n28","UserID":"","Winlose":154224},{"IconID":"103","Name":"****a64","UserID":"","Winlose":125461.5},{"IconID":"104","Name":"****r17","UserID":"","Winlose":145377.5},{"IconID":"106","Name":"****n71","UserID":"","Winlose":122052},{"IconID":"103","Name":"****o84","UserID":"","Winlose":157336.25},{"IconID":"104","Name":"****e37","UserID":"","Winlose":121015.45},{"IconID":"0","Name":"****k81","UserID":"","Winlose":135878.9}],"Fsm":"Open"}}
+2023/07/27 10:31:35 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"1003-1684390906083414017","RemainSec":5,"Round":1}}
+2023/07/27 10:31:35 [INFO] Receive Message:{"Ret":"ActWinloseRank","Data":{"WinloseRank":[{"IconID":"7","Name":"****e92","UserID":"","Winlose":196332.75},{"IconID":"104","Name":"****e73","UserID":"","Winlose":199153.4},{"IconID":"4","Name":"****h77","UserID":"","Winlose":142908.25},{"IconID":"7","Name":"****n28","UserID":"","Winlose":154261.5},{"IconID":"0","Name":"****a05","UserID":"","Winlose":104133.75}]}}
+2023/07/27 10:31:35 [INFO] Receive Message:{"Ret":"ActCurrentPlayer","Data":{"CurrentPlayer":45}}
+2023/07/27 10:31:40 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/07/27 10:31:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Init","Gid":"1003-1684391070063923200","RemainSec":2,"Round":2}}
+2023/07/27 10:31:42 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Idle","Gid":"1003-1684391070063923200","RemainSec":4,"Round":2}}
+2023/07/27 10:31:46 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"1003-1684391070063923200","RemainSec":12,"Round":2}}
+2023/07/27 10:31:47 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[0,0,0,0,0,0]}}
+2023/07/27 10:31:48 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[80,17,102,115,97,50]}}
+2023/07/27 10:31:49 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[82,17,274,215,217,152]}}
+2023/07/27 10:31:50 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[82,17,274,225,227,152]}}
+2023/07/27 10:31:51 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[92,119,286,477,277,172]}}
+2023/07/27 10:31:52 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[127,319,416,627,497,272]}}
+2023/07/27 10:31:53 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[154,326,486,734,509,272]}}
+2023/07/27 10:31:54 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[201,331,568,744,619,282]}}
+2023/07/27 10:31:55 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[308,341,693,819,684,384]}}
+2023/07/27 10:31:56 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[315,346,738,819,689,439]}}
+2023/07/27 10:31:57 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[315,346,838,1019,729,484]}}
+2023/07/27 10:31:58 [INFO] Receive Message:{"Ret":"ActBetArea","Data":{"Gid":"1003-1684391070063923200","BetArea":[337,368,938,1081,829,489]}}
+2023/07/27 10:31:58 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"1003-1684391070063923200","RemainSec":10,"Round":2}}
+2023/07/27 10:31:58 [INFO] Receive Message:{"Ret":"ActGameOpenResult","Data":{"GameResult":{"Gid":"1003-1684391070063923200","Round":2,"Result":[1,0,0,1],"string":"even"}}}
+2023/07/27 10:34:59 [ERROR] read tcp [::1]:62427->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

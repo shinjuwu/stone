@@ -1,0 +1,29 @@
+# GameHub Database Manual Reset Commands
+# Copy and paste these commands one by one in Windows Command Prompt
+
+# Step 1: Stop all containers
+docker-compose -f docker-compose.dev.yml down
+
+# Step 2: Remove PostgreSQL data volume (forces re-initialization)
+docker volume rm stone_postgres_dev_data
+
+# Step 3: Start PostgreSQL (will run init scripts)
+docker-compose -f docker-compose.dev.yml up -d postgres
+
+# Step 4: Wait for initialization (about 2-3 minutes)
+# You can monitor progress with:
+docker-compose -f docker-compose.dev.yml logs -f postgres
+
+# Step 5: Check tables after initialization
+docker-compose -f docker-compose.dev.yml exec postgres psql -U gamehub_dev -d gamehub_dev -c "\dt"
+
+# Step 6: Check record counts
+docker-compose -f docker-compose.dev.yml exec postgres psql -U gamehub_dev -d gamehub_dev -c "SELECT 'gamelist' as table_name, COUNT(*) as count FROM gamelist UNION ALL SELECT 'gameinfo' as table_name, COUNT(*) as count FROM gameinfo UNION ALL SELECT 'lobbyinfo' as table_name, COUNT(*) as count FROM lobbyinfo;"
+
+# Step 7: Start other services
+docker-compose -f docker-compose.dev.yml up -d redis pgadmin redis-commander
+
+# Expected Results:
+# - gamelist: ~30 records
+# - gameinfo: ~1000 records  
+# - lobbyinfo: ~4000 records

@@ -1,0 +1,207 @@
+2023/01/03 09:54:58 [ERROR] simon 不是json的格式: Error message:unexpected end of JSON input
+2023/01/03 10:27:48 [INFO] 連線中斷
+2023/01/03 15:00:00 [INFO] Connect Success
+2023/01/03 15:00:10 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/01/03 15:00:57 [ERROR] read tcp [::1]:62100->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 15:01:19 [INFO] 連線中斷
+2023/01/03 15:01:19 [INFO] Connect Success
+2023/01/03 15:01:21 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/01/03 15:01:25 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 15:01:32 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610169459601838080","RemainSec":60}}
+2023/01/03 15:01:32 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":3,"cts":1672729289,"route":"p3"},{"index":15,"fishtype":25,"cts":1672729289,"route":"p3"},{"index":17,"fishtype":1,"cts":1672729289,"route":"p0"},{"index":32,"fishtype":26,"cts":1672729289,"route":"p1"},{"index":33,"fishtype":2,"cts":1672729289,"route":"p1"},{"index":48,"fishtype":27,"cts":1672729289,"route":"p2"}],"formation":null}}
+2023/01/03 15:01:32 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":18,"fishtype":1,"cts":1672729290,"route":"p0"}],"formation":null}}
+2023/01/03 15:01:32 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":19,"fishtype":1,"cts":1672729291,"route":"p0"},{"index":34,"fishtype":2,"cts":1672729291,"route":"p1"}],"formation":null}}
+2023/01/03 15:01:43 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":20,"fishtype":1,"cts":1672729292,"route":"p0"}],"formation":null}}
+2023/01/03 15:01:44 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":1,"fishtype":3,"cts":1672729293,"route":"p3"},{"index":21,"fishtype":1,"cts":1672729293,"route":"p0"},{"index":35,"fishtype":2,"cts":1672729293,"route":"p1"}],"formation":null}}
+2023/01/03 15:01:46 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":36,"fishtype":2,"cts":1672729295,"route":"p1"}],"formation":null}}
+2023/01/03 15:01:46 [ERROR] read tcp [::1]:62133->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 15:05:54 [INFO] 連線中斷
+2023/01/03 15:05:55 [INFO] Connect Success
+2023/01/03 15:05:58 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 15:06:00 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 15:06:04 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610170612741836800","RemainSec":60}}
+2023/01/03 15:06:05 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":3,"cts":1672729564,"route":"p3"},{"index":15,"fishtype":25,"cts":1672729564,"route":"p3"},{"index":17,"fishtype":27,"cts":1672729564,"route":"p2"},{"index":18,"fishtype":2,"cts":1672729564,"route":"p1"},{"index":33,"fishtype":26,"cts":1672729564,"route":"p1"},{"index":34,"fishtype":1,"cts":1672729564,"route":"p0"}],"formation":null}}
+2023/01/03 15:06:06 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":35,"fishtype":1,"cts":1672729565,"route":"p0"}],"formation":null}}
+2023/01/03 15:06:07 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":19,"fishtype":2,"cts":1672729566,"route":"p1"},{"index":36,"fishtype":1,"cts":1672729566,"route":"p0"}],"formation":null}}
+2023/01/03 15:06:07 [INFO] 連線中斷
+2023/01/03 15:06:07 [ERROR] read tcp [::1]:63083->[::1]:10001: use of closed network connection
+2023/01/03 15:07:28 [INFO] Connect Success
+2023/01/03 15:07:31 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 15:07:36 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 15:07:39 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/01/03 15:07:39 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"angle":0,"lockfish":0}}
+2023/01/03 15:07:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610171017974517760","RemainSec":60}}
+2023/01/03 15:07:41 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":1,"cts":1672729660,"route":"p0"},{"index":15,"fishtype":2,"cts":1672729660,"route":"p1"},{"index":30,"fishtype":27,"cts":1672729660,"route":"p2"},{"index":31,"fishtype":3,"cts":1672729660,"route":"p3"},{"index":46,"fishtype":26,"cts":1672729660,"route":"p1"},{"index":47,"fishtype":25,"cts":1672729660,"route":"p3"}],"formation":null}}
+2023/01/03 15:07:42 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":1,"fishtype":1,"cts":1672729661,"route":"p0"}],"formation":null}}
+2023/01/03 15:07:43 [INFO] 連線中斷
+2023/01/03 15:07:43 [ERROR] read tcp [::1]:63112->[::1]:10001: use of closed network connection
+2023/01/03 15:14:46 [ERROR] 未選擇環境
+2023/01/03 15:14:50 [INFO] Connect Success
+2023/01/03 15:14:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/01/03 15:15:02 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 15:15:06 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610172888864788480","RemainSec":60}}
+2023/01/03 15:15:07 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":3,"cts":1672730106,"route":"p3"},{"index":15,"fishtype":2,"cts":1672730106,"route":"p1"},{"index":30,"fishtype":26,"cts":1672730106,"route":"p1"},{"index":31,"fishtype":1,"cts":1672730106,"route":"p0"},{"index":46,"fishtype":25,"cts":1672730106,"route":"p3"},{"index":48,"fishtype":27,"cts":1672730106,"route":"p2"}],"formation":null}}
+2023/01/03 15:15:08 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":32,"fishtype":1,"cts":1672730107,"route":"p0"}],"formation":null}}
+2023/01/03 15:15:09 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":16,"fishtype":2,"cts":1672730108,"route":"p1"},{"index":33,"fishtype":1,"cts":1672730108,"route":"p0"}],"formation":null}}
+2023/01/03 15:15:10 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":34,"fishtype":1,"cts":1672730109,"route":"p0"}],"formation":null}}
+2023/01/03 15:15:11 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":1,"fishtype":3,"cts":1672730110,"route":"p3"},{"index":17,"fishtype":2,"cts":1672730110,"route":"p1"},{"index":35,"fishtype":1,"cts":1672730110,"route":"p0"}],"formation":null}}
+2023/01/03 15:15:22 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":18,"fishtype":2,"cts":1672730112,"route":"p1"}],"formation":null}}
+2023/01/03 15:15:24 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":2,"fishtype":3,"cts":1672730114,"route":"p3"},{"index":19,"fishtype":2,"cts":1672730114,"route":"p1"}],"formation":null}}
+2023/01/03 15:15:26 [ERROR] read tcp [::1]:50136->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 15:31:39 [INFO] 連線中斷
+2023/01/03 15:31:39 [INFO] Connect Success
+2023/01/03 15:31:42 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/01/03 15:31:43 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 15:32:03 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/01/03 15:32:03 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"cbulletId":0,"bulletId":1,"angle":0,"lockfish":0}}
+2023/01/03 15:32:05 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610177163007365120","RemainSec":60}}
+2023/01/03 15:32:06 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":3,"cts":1672731125,"route":"p3"},{"index":15,"fishtype":26,"cts":1672731125,"route":"p1"},{"index":16,"fishtype":2,"cts":1672731125,"route":"p1"},{"index":31,"fishtype":25,"cts":1672731125,"route":"p3"},{"index":33,"fishtype":1,"cts":1672731125,"route":"p0"},{"index":48,"fishtype":27,"cts":1672731125,"route":"p2"}],"formation":null}}
+2023/01/03 15:32:07 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":34,"fishtype":1,"cts":1672731126,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:08 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":17,"fishtype":2,"cts":1672731127,"route":"p1"},{"index":35,"fishtype":1,"cts":1672731127,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:09 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":36,"fishtype":1,"cts":1672731128,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:10 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":1,"fishtype":3,"cts":1672731129,"route":"p3"},{"index":18,"fishtype":2,"cts":1672731129,"route":"p1"},{"index":37,"fishtype":1,"cts":1672731129,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:12 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":19,"fishtype":2,"cts":1672731131,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:14 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":2,"fishtype":3,"cts":1672731133,"route":"p3"},{"index":20,"fishtype":2,"cts":1672731133,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:18 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":3,"fishtype":3,"cts":1672731137,"route":"p3"}],"formation":null}}
+2023/01/03 15:32:22 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":4,"fishtype":3,"cts":1672731141,"route":"p3"}],"formation":null}}
+2023/01/03 15:32:26 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":5,"fishtype":3,"cts":1672731145,"route":"p3"},{"index":21,"fishtype":2,"cts":1672731145,"route":"p1"},{"index":38,"fishtype":1,"cts":1672731145,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:27 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":39,"fishtype":1,"cts":1672731146,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:28 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":22,"fishtype":2,"cts":1672731147,"route":"p1"},{"index":40,"fishtype":1,"cts":1672731147,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:29 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":41,"fishtype":1,"cts":1672731148,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:30 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":6,"fishtype":3,"cts":1672731149,"route":"p3"},{"index":23,"fishtype":2,"cts":1672731149,"route":"p1"},{"index":42,"fishtype":1,"cts":1672731149,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:32 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":24,"fishtype":2,"cts":1672731151,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:33 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":15,"fishtype":26,"cts":1672731125,"route":"p1"},{"index":31,"fishtype":25,"cts":1672731125,"route":"p3"},{"index":48,"fishtype":27,"cts":1672731125,"route":"p2"}],"formation":null}}
+2023/01/03 15:32:34 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":7,"fishtype":3,"cts":1672731153,"route":"p3"},{"index":25,"fishtype":2,"cts":1672731153,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:36 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":32,"fishtype":25,"cts":1672731155,"route":"p3"}],"formation":null}}
+2023/01/03 15:32:36 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":33,"fishtype":1,"cts":1672731125,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:37 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":34,"fishtype":1,"cts":1672731126,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:38 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":8,"fishtype":3,"cts":1672731157,"route":"p3"}],"formation":null}}
+2023/01/03 15:32:38 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":35,"fishtype":1,"cts":1672731127,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:39 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":36,"fishtype":1,"cts":1672731128,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:40 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":37,"fishtype":1,"cts":1672731129,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:42 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":9,"fishtype":3,"cts":1672731161,"route":"p3"}],"formation":null}}
+2023/01/03 15:32:42 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":0,"fishtype":3,"cts":1672731125,"route":"p3"},{"index":16,"fishtype":2,"cts":1672731125,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:44 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":17,"fishtype":2,"cts":1672731127,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:46 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":10,"fishtype":3,"cts":1672731165,"route":"p3"},{"index":26,"fishtype":2,"cts":1672731165,"route":"p1"},{"index":43,"fishtype":1,"cts":1672731165,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:46 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":1,"fishtype":3,"cts":1672731129,"route":"p3"},{"index":18,"fishtype":2,"cts":1672731129,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:47 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":44,"fishtype":1,"cts":1672731166,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:48 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":27,"fishtype":2,"cts":1672731167,"route":"p1"},{"index":45,"fishtype":1,"cts":1672731167,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:48 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":19,"fishtype":2,"cts":1672731131,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:49 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":46,"fishtype":1,"cts":1672731168,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:50 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":11,"fishtype":3,"cts":1672731169,"route":"p3"},{"index":28,"fishtype":2,"cts":1672731169,"route":"p1"},{"index":47,"fishtype":1,"cts":1672731169,"route":"p0"}],"formation":null}}
+2023/01/03 15:32:50 [INFO] Receive Message:{"Ret":"DispFish","Data":{"fishinfo":[{"index":2,"fishtype":3,"cts":1672731133,"route":"p3"},{"index":20,"fishtype":2,"cts":1672731133,"route":"p1"}],"formation":null}}
+2023/01/03 15:32:51 [ERROR] read tcp [::1]:51035->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:02:01 [INFO] 連線中斷
+2023/01/03 16:02:02 [INFO] Connect Success
+2023/01/03 16:02:04 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:02:06 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 16:02:16 [INFO] Receive Message:{"Code":200001,"Ret":"MatchGameBet","Message":"data error"}
+2023/01/03 16:02:17 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610184759273590784","RemainSec":60}}
+2023/01/03 16:02:18 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":2,"cts":1672732937,"route":"p1"},{"index":15,"fishtype":25,"cts":1672732937,"route":"p3"},{"index":17,"fishtype":26,"cts":1672732937,"route":"p1"},{"index":18,"fishtype":27,"cts":1672732937,"route":"p2"},{"index":19,"fishtype":3,"cts":1672732937,"route":"p3"},{"index":34,"fishtype":1,"cts":1672732937,"route":"p0"}],"formation":null}}
+2023/01/03 16:02:19 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":35,"fishtype":1,"cts":1672732938,"route":"p0"}],"formation":null}}
+2023/01/03 16:02:20 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":1,"fishtype":2,"cts":1672732939,"route":"p1"},{"index":36,"fishtype":1,"cts":1672732939,"route":"p0"}],"formation":null}}
+2023/01/03 16:02:21 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":37,"fishtype":1,"cts":1672732940,"route":"p0"}],"formation":null}}
+2023/01/03 16:02:21 [ERROR] read tcp [::1]:60495->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:02:23 [INFO] 連線中斷
+2023/01/03 16:02:26 [ERROR] dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/01/03 16:02:26 [ERROR] Connect failed:dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/01/03 16:02:47 [INFO] simon SendMessage={IntoRoom:{GameID:3002}}
+2023/01/03 16:02:47 [ERROR] simon write tcp [::1]:60495->[::1]:10001: use of closed network connection
+2023/01/03 16:02:50 [INFO] simon SendMessage={IntoRoom:{GameID:3002}}
+2023/01/03 16:02:50 [ERROR] simon write tcp [::1]:60495->[::1]:10001: use of closed network connection
+2023/01/03 16:02:52 [INFO] simon SendMessage={OuttoRoom:{GameID:3002}}
+2023/01/03 16:02:52 [ERROR] simon write tcp [::1]:60495->[::1]:10001: use of closed network connection
+2023/01/03 16:02:57 [INFO] Connect Success
+2023/01/03 16:03:00 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:03:22 [ERROR] read tcp [::1]:60524->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:03:29 [INFO] 連線中斷
+2023/01/03 16:03:32 [INFO] Connect Success
+2023/01/03 16:03:33 [ERROR] read tcp [::1]:60541->[::1]:10001: use of closed network connection
+2023/01/03 16:03:33 [INFO] 連線中斷
+2023/01/03 16:03:38 [INFO] Connect Success
+2023/01/03 16:03:45 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:03:50 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 16:04:03 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/01/03 16:04:03 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"cbulletId":0,"bulletId":1,"angle":0,"lockfish":0}}
+2023/01/03 16:04:40 [INFO] Receive Message:{"Code":200001,"Ret":"MatchGameBet","Message":"data error"}
+2023/01/03 16:04:41 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610185363391778816","RemainSec":60}}
+2023/01/03 16:04:42 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":26,"cts":1672733081,"route":"p1"},{"index":1,"fishtype":27,"cts":1672733081,"route":"p2"},{"index":2,"fishtype":1,"cts":1672733081,"route":"p0"},{"index":17,"fishtype":3,"cts":1672733081,"route":"p3"},{"index":32,"fishtype":2,"cts":1672733081,"route":"p1"},{"index":47,"fishtype":25,"cts":1672733081,"route":"p3"}],"formation":null}}
+2023/01/03 16:04:43 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":3,"fishtype":1,"cts":1672733082,"route":"p0"}],"formation":null}}
+2023/01/03 16:04:44 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":4,"fishtype":1,"cts":1672733083,"route":"p0"},{"index":33,"fishtype":2,"cts":1672733083,"route":"p1"}],"formation":null}}
+2023/01/03 16:04:44 [ERROR] read tcp [::1]:60544->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:12:42 [INFO] Connect Success
+2023/01/03 16:12:50 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:12:56 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 16:13:01 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610187456194285568","RemainSec":60}}
+2023/01/03 16:13:01 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":26,"cts":1672733580,"route":"p1"},{"index":1,"fishtype":3,"cts":1672733580,"route":"p3"},{"index":16,"fishtype":25,"cts":1672733580,"route":"p3"},{"index":18,"fishtype":1,"cts":1672733580,"route":"p0"},{"index":33,"fishtype":2,"cts":1672733580,"route":"p1"},{"index":48,"fishtype":27,"cts":1672733580,"route":"p2"}],"formation":null}}
+2023/01/03 16:13:02 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":19,"fishtype":1,"cts":1672733581,"route":"p0"}],"formation":null}}
+2023/01/03 16:13:04 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/01/03 16:13:04 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":3,"cbulletId":0,"bulletId":1,"angle":0,"lockfish":0}}
+2023/01/03 16:13:04 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":20,"fishtype":1,"cts":1672733582,"route":"p0"},{"index":34,"fishtype":2,"cts":1672733582,"route":"p1"}],"formation":null}}
+2023/01/03 16:13:05 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":21,"fishtype":1,"cts":1672733583,"route":"p0"}],"formation":null}}
+2023/01/03 16:13:30 [INFO] Receive Message:{"Code":0,"Ret":"MatchGameBet","Message":"success","Data":null}
+2023/01/03 16:13:30 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":3,"diefish":null}}
+2023/01/03 16:13:30 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":2,"fishtype":3,"cts":1672733584,"route":"p3"},{"index":22,"fishtype":1,"cts":1672733584,"route":"p0"},{"index":35,"fishtype":2,"cts":1672733584,"route":"p1"}],"formation":null}}
+2023/01/03 16:13:32 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":36,"fishtype":2,"cts":1672733586,"route":"p1"}],"formation":null}}
+2023/01/03 16:13:34 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":3,"fishtype":3,"cts":1672733588,"route":"p3"},{"index":37,"fishtype":2,"cts":1672733588,"route":"p1"}],"formation":null}}
+2023/01/03 16:13:38 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":4,"fishtype":3,"cts":1672733592,"route":"p3"}],"formation":null}}
+2023/01/03 16:13:42 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":5,"fishtype":3,"cts":1672733596,"route":"p3"}],"formation":null}}
+2023/01/03 16:13:46 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":6,"fishtype":3,"cts":1672733600,"route":"p3"},{"index":23,"fishtype":1,"cts":1672733600,"route":"p0"},{"index":38,"fishtype":2,"cts":1672733600,"route":"p1"}],"formation":null}}
+2023/01/03 16:13:47 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":24,"fishtype":1,"cts":1672733601,"route":"p0"}],"formation":null}}
+2023/01/03 16:13:48 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":25,"fishtype":1,"cts":1672733602,"route":"p0"},{"index":39,"fishtype":2,"cts":1672733602,"route":"p1"}],"formation":null}}
+2023/01/03 16:13:49 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":26,"fishtype":1,"cts":1672733603,"route":"p0"}],"formation":null}}
+2023/01/03 16:13:50 [ERROR] read tcp [::1]:58693->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:16:26 [INFO] 連線中斷
+2023/01/03 16:16:27 [INFO] Connect Success
+2023/01/03 16:16:30 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:19:54 [ERROR] read tcp [::1]:59449->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:20:28 [INFO] simon SendMessage={IntoGame:{TableId:30020}}
+2023/01/03 16:20:28 [ERROR] simon write tcp [::1]:59449->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:20:31 [INFO] simon SendMessage={IntoRoom:{GameID:3002}}
+2023/01/03 16:20:31 [ERROR] simon write tcp [::1]:59449->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:20:37 [INFO] 連線中斷
+2023/01/03 16:20:38 [INFO] Connect Success
+2023/01/03 16:20:41 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:22:36 [ERROR] read tcp [::1]:59537->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:23:19 [INFO] 連線中斷
+2023/01/03 16:23:20 [INFO] Connect Success
+2023/01/03 16:23:24 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:25:29 [ERROR] read tcp [::1]:59593->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:26:42 [INFO] 連線中斷
+2023/01/03 16:26:43 [INFO] Connect Success
+2023/01/03 16:26:46 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:28:49 [ERROR] read tcp [::1]:59766->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:29:01 [INFO] simon SendMessage={IntoGame:{TableId:30020}}
+2023/01/03 16:29:01 [ERROR] simon write tcp [::1]:59766->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:29:02 [INFO] 連線中斷
+2023/01/03 16:29:03 [INFO] Connect Success
+2023/01/03 16:29:05 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:29:06 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 16:29:07 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success"}
+2023/01/03 16:29:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1610191525650632704","RemainSec":60}}
+2023/01/03 16:29:11 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":0,"fishtype":2,"cts":1672734550,"route":"p1"},{"index":15,"fishtype":25,"cts":1672734550,"route":"p3"},{"index":17,"fishtype":1,"cts":1672734550,"route":"p0"},{"index":32,"fishtype":3,"cts":1672734550,"route":"p3"},{"index":47,"fishtype":26,"cts":1672734550,"route":"p1"},{"index":48,"fishtype":27,"cts":1672734550,"route":"p2"}],"formation":null}}
+2023/01/03 16:29:12 [INFO] Receive Message:{"Ret":"CreateFish","Data":{"fishinfo":[{"index":18,"fishtype":1,"cts":1672734551,"route":"p0"}],"formation":null}}
+2023/01/03 16:29:12 [ERROR] read tcp [::1]:59831->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:29:28 [INFO] 連線中斷
+2023/01/03 16:29:29 [INFO] Connect Success
+2023/01/03 16:29:32 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:33:07 [ERROR] read tcp [::1]:59853->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:33:22 [INFO] 連線中斷
+2023/01/03 16:33:23 [INFO] Connect Success
+2023/01/03 16:33:26 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:34:37 [ERROR] read tcp [::1]:59972->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:35:02 [INFO] 連線中斷
+2023/01/03 16:35:02 [INFO] Connect Success
+2023/01/03 16:35:05 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:36:13 [ERROR] read tcp [::1]:56677->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:36:25 [INFO] 連線中斷
+2023/01/03 16:36:25 [INFO] Connect Success
+2023/01/03 16:36:28 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:36:33 [INFO] Receive Message:{"Code":0,"Ret":"IntoRoom","Message":"success","Data":[{"GameCode":"rcfishing","RoomType":0,"TableId":30020,"Num":0,"Status":1,"Ante":0.1,"EnterGold":6,"ExitGold":100000000},{"GameCode":"rcfishing","RoomType":1,"TableId":30021,"Num":0,"Status":1,"Ante":1,"EnterGold":60,"ExitGold":100000000},{"GameCode":"rcfishing","RoomType":2,"TableId":30022,"Num":0,"Status":1,"Ante":5,"EnterGold":300,"ExitGold":100000000}]}
+2023/01/03 16:36:47 [ERROR] read tcp [::1]:56722->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 16:40:25 [INFO] 連線中斷
+2023/01/03 16:40:27 [INFO] Connect Success
+2023/01/03 16:40:29 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999984.55,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":30020,"Version":"1.0.0","Marquee":null}}
+2023/01/03 16:40:38 [INFO] Receive Message:{"Code":0,"Ret":"IntoRoom","Message":"success","Data":[{"GameCode":"rcfishing","RoomType":0,"TableId":30020,"Num":0,"Status":1,"Ante":0.1,"EnterGold":6,"ExitGold":100000000},{"GameCode":"rcfishing","RoomType":1,"TableId":30021,"Num":0,"Status":1,"Ante":1,"EnterGold":60,"ExitGold":100000000},{"GameCode":"rcfishing","RoomType":2,"TableId":30022,"Num":0,"Status":1,"Ante":5,"EnterGold":300,"ExitGold":100000000}]}
+2023/01/03 16:40:55 [ERROR] read tcp [::1]:56796->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/01/03 17:53:27 [INFO] 連線中斷

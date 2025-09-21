@@ -1,0 +1,16 @@
+2023/08/14 14:03:25 [INFO] Connect Success
+2023/08/14 14:03:30 [INFO]  SendMessage={"Login":{"Token":"6a3d19785z2jm6sji4p4zro8c"}}
+2023/08/14 14:03:35 [ERROR] read tcp 127.0.0.1:57755->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/14 14:04:43 [INFO] 連線中斷
+2023/08/14 14:04:49 [INFO] Connect Success
+2023/08/14 14:04:52 [INFO]  SendMessage={"Login":{"Token":"6a3d19785z2jm6sji4p4zro8c"}}
+2023/08/14 14:08:45 [ERROR] read tcp 127.0.0.1:52581->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/14 14:09:00 [INFO] 連線中斷
+2023/08/14 14:09:02 [INFO] Connect Success
+2023/08/14 14:09:05 [INFO]  SendMessage={"Login":{"Token":"6ccceccddzcljbfi8fbgz1l2a0"}}
+2023/08/14 14:16:09 [ERROR] read tcp 127.0.0.1:64446->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/14 14:18:10 [INFO] 連線中斷
+2023/08/14 14:18:15 [INFO] Connect Success
+2023/08/14 14:18:18 [INFO]  SendMessage={"Login":{"Token":"6ccceccddzcljbfi8fbgz1l2a0"}}
+2023/08/14 14:20:29 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":5.14,"IconID":0,"Name":"TestAPLPK03","UserId":515940,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/08/14 14:34:19 [ERROR] read tcp 127.0.0.1:54428->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.

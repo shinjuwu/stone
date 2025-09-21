@@ -1,0 +1,54 @@
+2023/04/20 09:34:19 [INFO] Connect Success
+2023/04/20 09:34:27 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 09:35:10 [INFO] Connect Success
+2023/04/20 09:35:18 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/04/20 09:35:18 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 09:35:49 [INFO] 連線中斷
+2023/04/20 09:35:51 [INFO] Connect Success
+2023/04/20 09:36:03 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/04/20 09:36:03 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 09:36:44 [INFO] 連線中斷
+2023/04/20 09:36:44 [INFO] Connect Success
+2023/04/20 09:37:02 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/04/20 09:37:02 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 09:37:51 [INFO] 連線中斷
+2023/04/20 09:37:51 [INFO] Connect Success
+2023/04/20 09:37:59 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/04/20 09:37:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 09:38:05 [INFO] 連線中斷
+2023/04/20 09:38:05 [INFO] Connect Success
+2023/04/20 09:39:24 [ERROR] read tcp [::1]:65095->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/20 09:39:24 [ERROR] read tcp [::1]:65104->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/20 09:49:57 [INFO] 連線中斷
+2023/04/20 09:50:00 [INFO] Connect Success
+2023/04/20 09:50:07 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 09:50:18 [INFO] 連線中斷
+2023/04/20 09:50:18 [INFO] Connect Success
+2023/04/20 09:50:54 [INFO] 連線中斷
+2023/04/20 09:50:54 [ERROR] read tcp [::1]:63897->[::1]:10001: use of closed network connection
+2023/04/20 09:50:54 [INFO] Connect Success
+2023/04/20 09:51:04 [ERROR] read tcp [::1]:63917->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/20 09:51:04 [ERROR] read tcp [::1]:63891->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/20 09:51:24 [INFO] 連線中斷
+2023/04/20 09:51:24 [INFO] Connect Success
+2023/04/20 09:51:31 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 09:51:34 [INFO] 連線中斷
+2023/04/20 09:51:35 [INFO] Connect Success
+2023/04/20 09:52:33 [ERROR] read tcp [::1]:63937->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/20 09:52:33 [ERROR] read tcp [::1]:63940->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/20 09:53:13 [INFO] 連線中斷
+2023/04/20 09:53:16 [INFO] Connect Success
+2023/04/20 09:53:24 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 09:53:31 [INFO] 連線中斷
+2023/04/20 09:53:31 [INFO] Connect Success
+2023/04/20 09:53:45 [ERROR] read tcp [::1]:63985->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/20 09:53:45 [ERROR] read tcp [::1]:63990->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/20 10:06:41 [INFO] 連線中斷
+2023/04/20 10:06:41 [INFO] Connect Success
+2023/04/20 10:06:47 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 10:06:52 [INFO] 連線中斷
+2023/04/20 10:06:53 [INFO] Connect Success
+2023/04/20 10:07:03 [INFO] Receive Message:{"Ret":"ActMultiConnect","Data":{}}
+2023/04/20 10:07:03 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/04/20 10:07:03 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/20 10:26:12 [ERROR] read tcp [::1]:64208->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

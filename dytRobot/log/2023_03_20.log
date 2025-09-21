@@ -1,0 +1,736 @@
+2023/03/20 09:48:35 [INFO] 開始執行壓力測試:DEV
+2023/03/20 09:48:35 [ERROR] 百家樂已設置開啟，但未設定機器人數量。
+2023/03/20 09:48:55 [INFO] 開始執行壓力測試:DEV
+2023/03/20 09:48:55 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 09:51:29 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 09:51:29 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 09:53:11 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 09:53:11 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 09:55:47 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 09:55:47 [ERROR] 未設置任何遊戲
+2023/03/20 09:55:55 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 09:55:55 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 10:20:17 [ERROR] dayon0001 read tcp [::1]:50109->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:20:17 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 10:20:25 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:20:25 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 10:20:32 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:20:32 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 10:20:39 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:20:39 [INFO] dayon0001 重連共3次失敗
+2023/03/20 10:30:07 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 10:30:07 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 10:32:42 [ERROR] dayon0001 read tcp [::1]:50649->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:32:42 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 10:32:45 [INFO] dayon0001 SendMessage={Bet:{BetInfo:[{"AreaID":0,"Bet":20}]}}
+2023/03/20 10:32:45 [ERROR] dayon0001 write tcp [::1]:50649->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:32:49 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:32:49 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 10:32:55 [INFO] dayon0001 重新連線成功
+2023/03/20 10:33:02 [ERROR] dayon0001 Receive Message:{"Code":200008,"Ret":"Bet","Message":"money not enough"}
+2023/03/20 10:33:02 [INFO] dayon0001 上分成功
+2023/03/20 10:33:07 [ERROR] dayon0001 read tcp [::1]:50699->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:33:07 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 10:33:10 [INFO] dayon0001 SendMessage={Bet:{BetInfo:[{"AreaID":3,"Bet":20}]}}
+2023/03/20 10:33:10 [ERROR] dayon0001 write tcp [::1]:50699->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:33:15 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:33:15 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 10:34:05 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 10:34:05 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 10:35:18 [ERROR] dayon0001 一段時間未收到任何遊戲階段訊息
+2023/03/20 10:35:18 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 10:35:24 [INFO] dayon0001 重新連線成功
+2023/03/20 10:35:33 [ERROR] dayon0001 read tcp [::1]:50757->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:35:33 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 10:35:37 [INFO] dayon0001 SendMessage={Bet:{BetInfo:[{"AreaID":8,"Bet":2}]}}
+2023/03/20 10:35:37 [ERROR] dayon0001 write tcp [::1]:50757->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:35:41 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:35:41 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 10:35:47 [INFO] dayon0001 重新連線成功
+2023/03/20 10:40:25 [ERROR] dayon0001 read tcp [::1]:50781->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:40:25 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 10:40:25 [INFO] dayon0001 SendMessage={Bet:{BetInfo:[{"AreaID":8,"Bet":5}]}}
+2023/03/20 10:40:25 [ERROR] dayon0001 write tcp [::1]:50781->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 10:40:32 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:40:32 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 10:40:39 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:40:39 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 10:40:47 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 10:40:47 [INFO] dayon0001 重連共3次失敗
+2023/03/20 10:57:18 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 10:57:18 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 11:05:14 [ERROR] dayon0001 read tcp [::1]:51138->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:05:14 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 11:05:22 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:05:22 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 11:05:29 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:05:29 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 11:05:36 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:05:36 [INFO] dayon0001 重連共3次失敗
+2023/03/20 11:07:59 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 11:07:59 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 11:09:12 [ERROR] dayon0001 read tcp [::1]:51345->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:09:12 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 11:09:20 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:09:20 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 11:09:27 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:09:27 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 11:09:34 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:09:34 [INFO] dayon0001 重連共3次失敗
+2023/03/20 11:20:59 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 11:20:59 [INFO] dayon0010加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 11:20:59 [INFO] dayon0002加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 11:20:59 [INFO] dayon0007加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 11:20:59 [INFO] dayon0004加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 11:20:59 [INFO] dayon0003加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 11:20:59 [INFO] dayon0005 RobotType=5, Desc=只押大三元(雙７、鑽石、山竹)
+2023/03/20 11:20:59 [INFO] dayon0008加入「21點」的「新手房」(20010)進行測試
+2023/03/20 11:20:59 [INFO] dayon0005加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 11:20:59 [INFO] dayon0006加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 11:20:59 [INFO] dayon0009加入「三公」的「新手房」(20020)進行測試
+2023/03/20 11:20:59 [INFO] dayon0001加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 11:27:10 [ERROR] dayon0007 read tcp [::1]:51599->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [INFO] dayon0007 重連第1次，等候5秒執行
+2023/03/20 11:27:10 [ERROR] dayon0002 read tcp [::1]:51603->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [ERROR] dayon0005 read tcp [::1]:51604->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [ERROR] dayon0009 read tcp [::1]:51602->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [ERROR] dayon0003 read tcp [::1]:51597->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [ERROR] dayon0010 read tcp [::1]:51601->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [INFO] dayon0002 重連第1次，等候5秒執行
+2023/03/20 11:27:10 [INFO] dayon0005 重連第1次，等候5秒執行
+2023/03/20 11:27:10 [INFO] dayon0009 重連第1次，等候5秒執行
+2023/03/20 11:27:10 [INFO] dayon0003 重連第1次，等候5秒執行
+2023/03/20 11:27:10 [INFO] dayon0010 重連第1次，等候5秒執行
+2023/03/20 11:27:10 [ERROR] dayon0001 read tcp [::1]:51596->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [ERROR] dayon0004 read tcp [::1]:51595->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [ERROR] dayon0006 read tcp [::1]:51598->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:10 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 11:27:10 [INFO] dayon0004 重連第1次，等候5秒執行
+2023/03/20 11:27:10 [INFO] dayon0006 重連第1次，等候5秒執行
+2023/03/20 11:27:11 [INFO] dayon0008 SendMessage={MatchGameBet:{BetInfo:[{"SeatId":0,"Bet":150}]}}
+2023/03/20 11:27:11 [ERROR] dayon0008 write tcp [::1]:51600->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:11 [ERROR] dayon0008 read tcp [::1]:51600->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:11 [INFO] dayon0008 重連第1次，等候5秒執行
+2023/03/20 11:27:11 [INFO] dayon0006 SendMessage={Bet:{BetInfo:[{"AreaID":1,"Bet":100}]}}
+2023/03/20 11:27:11 [ERROR] dayon0006 write tcp [::1]:51598->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:12 [INFO] dayon0002 SendMessage={Bet:{BetInfo:[{"AreaID":8,"Bet":20}]}}
+2023/03/20 11:27:12 [ERROR] dayon0002 write tcp [::1]:51603->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:27:16 [INFO] dayon0005 SendMessage={PlayerAction:{Action:1 Data:{BetInfo:[0 0 0 0 20 27 21 0]}}}
+2023/03/20 11:27:16 [ERROR] dayon0005 write tcp [::1]:51604->[::1]:10001: use of closed network connection
+2023/03/20 11:27:17 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 11:27:17 [INFO] dayon0004 重連第2次，等候5秒執行
+2023/03/20 11:27:17 [INFO] dayon0005 重連第2次，等候5秒執行
+2023/03/20 11:27:17 [INFO] dayon0006 重連第2次，等候5秒執行
+2023/03/20 11:27:17 [INFO] dayon0007 重連第2次，等候5秒執行
+2023/03/20 11:27:17 [INFO] dayon0003 重連第2次，等候5秒執行
+2023/03/20 11:27:17 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:17 [INFO] dayon0010 重連第2次，等候5秒執行
+2023/03/20 11:27:17 [INFO] dayon0009 重連第2次，等候5秒執行
+2023/03/20 11:27:17 [INFO] dayon0002 重連第2次，等候5秒執行
+2023/03/20 11:27:18 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:18 [INFO] dayon0008 重連第2次，等候5秒執行
+2023/03/20 11:27:25 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [INFO] dayon0006 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [INFO] dayon0004 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [INFO] dayon0009 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [INFO] dayon0002 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [INFO] dayon0005 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [INFO] dayon0007 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [INFO] dayon0003 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [INFO] dayon0010 重連第3次，等候5秒執行
+2023/03/20 11:27:25 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:25 [INFO] dayon0008 重連第3次，等候5秒執行
+2023/03/20 11:27:32 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [INFO] dayon0007 重連共3次失敗
+2023/03/20 11:27:32 [INFO] dayon0009 重連共3次失敗
+2023/03/20 11:27:32 [INFO] dayon0005 重連共3次失敗
+2023/03/20 11:27:32 [INFO] dayon0002 重連共3次失敗
+2023/03/20 11:27:32 [INFO] dayon0006 重連共3次失敗
+2023/03/20 11:27:32 [INFO] dayon0004 重連共3次失敗
+2023/03/20 11:27:32 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:32 [INFO] dayon0003 重連共3次失敗
+2023/03/20 11:27:32 [INFO] dayon0010 重連共3次失敗
+2023/03/20 11:27:32 [INFO] dayon0001 重連共3次失敗
+2023/03/20 11:27:33 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:27:33 [INFO] dayon0008 重連共3次失敗
+2023/03/20 11:35:04 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 11:35:04 [ERROR] 21點已設置開啟，但未設定機器人數量。
+2023/03/20 11:35:26 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 11:35:26 [INFO] dayon0001加入「21點」的「新手房」(20010)進行測試
+2023/03/20 11:39:29 [ERROR] dayon0001 read tcp [::1]:51912->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:39:29 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 11:39:36 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:39:36 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 11:39:43 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:39:43 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 11:39:51 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:39:51 [INFO] dayon0001 重連共3次失敗
+2023/03/20 11:44:43 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 11:44:43 [INFO] dayon0010加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 11:44:43 [INFO] dayon0005加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 11:44:43 [INFO] dayon0006加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 11:44:43 [INFO] dayon0007加入「21點」的「新手房」(20010)進行測試
+2023/03/20 11:44:43 [INFO] dayon0008加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 11:44:43 [INFO] dayon0009加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 11:44:43 [INFO] dayon0001加入「三公」的「新手房」(20020)進行測試
+2023/03/20 11:44:43 [INFO] dayon0003 RobotType=5, Desc=只押大三元(雙７、鑽石、山竹)
+2023/03/20 11:44:43 [INFO] dayon0002加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 11:44:43 [INFO] dayon0004加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 11:44:43 [INFO] dayon0003加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 11:46:49 [ERROR] dayon0006 read tcp [::1]:52123->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [ERROR] dayon0002 read tcp [::1]:52129->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [ERROR] dayon0008 read tcp [::1]:52128->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [ERROR] dayon0009 read tcp [::1]:52127->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [INFO] dayon0008 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [ERROR] dayon0010 read tcp [::1]:52132->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [ERROR] dayon0005 read tcp [::1]:52131->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [INFO] dayon0007 SendMessage={MatchGameBet:{BetInfo:[{"SeatId":2,"Bet":30}]}}
+2023/03/20 11:46:49 [INFO] dayon0002 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [INFO] dayon0006 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [INFO] dayon0009 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [ERROR] dayon0003 read tcp [::1]:52126->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [ERROR] dayon0001 read tcp [::1]:52124->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [INFO] dayon0010 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [INFO] dayon0005 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [ERROR] dayon0007 write tcp [::1]:52125->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [ERROR] dayon0004 read tcp [::1]:52130->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [INFO] dayon0003 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [ERROR] dayon0007 read tcp [::1]:52125->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:49 [INFO] dayon0004 重連第1次，等候5秒執行
+2023/03/20 11:46:49 [INFO] dayon0007 重連第1次，等候5秒執行
+2023/03/20 11:46:50 [INFO] dayon0004 SendMessage={Bet:{BetInfo:[{"AreaID":9,"Bet":20}]}}
+2023/03/20 11:46:50 [ERROR] dayon0004 write tcp [::1]:52130->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:50 [INFO] dayon0006 SendMessage={Bet:{BetInfo:[{"AreaID":0,"Bet":2}]}}
+2023/03/20 11:46:50 [ERROR] dayon0006 write tcp [::1]:52123->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:52 [INFO] dayon0009 SendMessage={Bet:{BetInfo:[{"AreaID":1,"Bet":20}]}}
+2023/03/20 11:46:52 [ERROR] dayon0009 write tcp [::1]:52127->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:46:53 [INFO] dayon0005 SendMessage={Bet:{BetInfo:[{"AreaID":22,"Bet":2}]}}
+2023/03/20 11:46:53 [ERROR] dayon0005 write tcp [::1]:52131->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:48:54 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 11:48:54 [INFO] dayon0001加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 11:48:54 [INFO] dayon0002加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 11:48:54 [INFO] dayon0006加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 11:48:54 [INFO] dayon0004加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 11:48:54 [INFO] dayon0010加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 11:48:54 [INFO] dayon0003加入「21點」的「新手房」(20010)進行測試
+2023/03/20 11:48:54 [INFO] dayon0007加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 11:48:54 [INFO] dayon0009加入「三公」的「新手房」(20020)進行測試
+2023/03/20 11:48:54 [INFO] dayon0005 RobotType=2, Desc=只押鈴鐺、山竹
+2023/03/20 11:48:54 [INFO] dayon0008加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 11:48:54 [INFO] dayon0005加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 11:50:42 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 11:50:42 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 11:53:13 [ERROR] dayon0001 read tcp [::1]:52280->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 11:53:13 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 11:53:21 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:53:21 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 11:53:28 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:53:28 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 11:53:36 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 11:53:36 [INFO] dayon0001 重連共3次失敗
+2023/03/20 11:55:04 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 11:55:04 [INFO] dayon0005加入「三公」的「新手房」(20020)進行測試
+2023/03/20 11:55:04 [INFO] dayon0002加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 11:55:04 [INFO] dayon0007加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 11:55:04 [INFO] dayon0010 RobotType=3, Desc=只押鑽石、雙7、皇冠
+2023/03/20 11:55:04 [INFO] dayon0009加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 11:55:04 [INFO] dayon0008加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 11:55:04 [INFO] dayon0006加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 11:55:04 [INFO] dayon0010加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 11:55:04 [INFO] dayon0001加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 11:55:04 [INFO] dayon0003加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 11:55:04 [INFO] dayon0004加入「21點」的「新手房」(20010)進行測試
+2023/03/20 12:12:09 [ERROR] dayon0010 read tcp [::1]:52381->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [INFO] dayon0010 重連第1次，等候5秒執行
+2023/03/20 12:12:09 [ERROR] dayon0005 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/20 12:12:09 [ERROR] dayon0008 read tcp [::1]:52375->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [ERROR] dayon0009 read tcp [::1]:52379->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [ERROR] dayon0004 read tcp [::1]:52374->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [ERROR] dayon0001 read tcp [::1]:52373->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [ERROR] dayon0006 read tcp [::1]:52378->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [ERROR] dayon0002 read tcp [::1]:52376->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [ERROR] dayon0007 read tcp [::1]:52372->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [ERROR] dayon0003 read tcp [::1]:52377->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:09 [INFO] dayon0010 SendMessage={PlayerAction:{Action:6 Data:{BetInfo:141}}}
+2023/03/20 12:12:10 [INFO] dayon0005 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [INFO] dayon0008 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [INFO] dayon0004 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [INFO] dayon0009 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [ERROR] dayon0010 write tcp [::1]:52381->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:10 [INFO] dayon0003 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [INFO] dayon0002 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [INFO] dayon0006 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [INFO] dayon0007 重連第1次，等候5秒執行
+2023/03/20 12:12:10 [INFO] dayon0002 SendMessage={Bet:{BetInfo:[{"AreaID":0,"Bet":50}]}}
+2023/03/20 12:12:10 [ERROR] dayon0002 write tcp [::1]:52376->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:11 [INFO] dayon0009 SendMessage={Bet:{BetInfo:[{"AreaID":11,"Bet":2}]}}
+2023/03/20 12:12:11 [ERROR] dayon0009 write tcp [::1]:52379->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:11 [INFO] dayon0003 SendMessage={Bet:{BetInfo:[{"AreaID":3,"Bet":10}]}}
+2023/03/20 12:12:11 [ERROR] dayon0003 write tcp [::1]:52377->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:14 [INFO] dayon0008 SendMessage={Bet:{BetInfo:[{"AreaID":1,"Bet":5}]}}
+2023/03/20 12:12:14 [ERROR] dayon0008 write tcp [::1]:52375->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:12:17 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [INFO] dayon0010 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [INFO] dayon0004 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [INFO] dayon0005 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [INFO] dayon0008 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [INFO] dayon0003 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [INFO] dayon0007 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [INFO] dayon0002 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:17 [INFO] dayon0009 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [INFO] dayon0006 重連第2次，等候5秒執行
+2023/03/20 12:12:17 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 12:12:24 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [INFO] dayon0010 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [INFO] dayon0005 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [INFO] dayon0008 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [INFO] dayon0003 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [INFO] dayon0007 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [INFO] dayon0006 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [INFO] dayon0009 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [INFO] dayon0002 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:24 [INFO] dayon0004 重連第3次，等候5秒執行
+2023/03/20 12:12:24 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 12:12:32 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [INFO] dayon0010 重連共3次失敗
+2023/03/20 12:12:32 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [INFO] dayon0006 重連共3次失敗
+2023/03/20 12:12:32 [INFO] dayon0001 重連共3次失敗
+2023/03/20 12:12:32 [INFO] dayon0008 重連共3次失敗
+2023/03/20 12:12:32 [INFO] dayon0004 重連共3次失敗
+2023/03/20 12:12:32 [INFO] dayon0005 重連共3次失敗
+2023/03/20 12:12:32 [INFO] dayon0002 重連共3次失敗
+2023/03/20 12:12:32 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:12:32 [INFO] dayon0007 重連共3次失敗
+2023/03/20 12:12:32 [INFO] dayon0009 重連共3次失敗
+2023/03/20 12:12:32 [INFO] dayon0003 重連共3次失敗
+2023/03/20 12:15:40 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 12:15:40 [INFO] dayon0004加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 12:15:40 [INFO] dayon0028加入「三公」的「新手房」(20020)進行測試
+2023/03/20 12:15:40 [INFO] dayon0016加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 12:15:40 [INFO] dayon0001加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 12:15:40 [INFO] dayon0022 RobotType=6, Desc=只押大四喜(蘋果)
+2023/03/20 12:15:40 [INFO] dayon0025加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 12:15:40 [INFO] dayon0019加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 12:15:40 [INFO] dayon0010加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 12:15:40 [INFO] dayon0013加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 12:15:40 [INFO] dayon0007加入「21點」的「新手房」(20010)進行測試
+2023/03/20 12:15:40 [INFO] dayon0022加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 12:15:43 [INFO] dayon0005加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 12:15:43 [INFO] dayon0023 RobotType=1, Desc=只壓蘋果、檸檬、鈴鐺
+2023/03/20 12:15:43 [INFO] dayon0014加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 12:15:43 [INFO] dayon0029加入「三公」的「新手房」(20020)進行測試
+2023/03/20 12:15:43 [INFO] dayon0026加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 12:15:43 [INFO] dayon0002加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 12:15:43 [INFO] dayon0017加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 12:15:43 [INFO] dayon0023加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 12:15:43 [INFO] dayon0008加入「21點」的「新手房」(20010)進行測試
+2023/03/20 12:15:43 [INFO] dayon0020加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 12:15:43 [INFO] dayon0011加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 12:15:46 [INFO] dayon0024 RobotType=6, Desc=只押大四喜(蘋果)
+2023/03/20 12:15:46 [INFO] dayon0021加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 12:15:46 [INFO] dayon0018加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 12:15:46 [INFO] dayon0012加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 12:15:46 [INFO] dayon0009加入「21點」的「新手房」(20010)進行測試
+2023/03/20 12:15:46 [INFO] dayon0015加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 12:15:46 [INFO] dayon0024加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 12:15:46 [INFO] dayon0006加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 12:15:46 [INFO] dayon0003加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 12:15:46 [INFO] dayon0027加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 12:15:46 [INFO] dayon0030加入「三公」的「新手房」(20020)進行測試
+2023/03/20 12:15:57 [ERROR] dayon0004 Receive Message:{"Code":200008,"Ret":"Bet","Message":"money not enough"}
+2023/03/20 12:15:57 [ERROR] dayon0006 Receive Message:{"Code":200008,"Ret":"Bet","Message":"money not enough"}
+2023/03/20 12:15:57 [ERROR] dayon0005 Receive Message:{"Code":200008,"Ret":"Bet","Message":"money not enough"}
+2023/03/20 12:15:57 [INFO] dayon0004 上分成功
+2023/03/20 12:15:57 [INFO] dayon0006 上分成功
+2023/03/20 12:15:57 [INFO] dayon0005 上分成功
+2023/03/20 12:19:45 [ERROR] dayon0022 read tcp [::1]:52869->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0022 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0013 read tcp [::1]:52871->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0004 read tcp [::1]:52866->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0028 read tcp [::1]:52867->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0019 read tcp [::1]:52863->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0007 read tcp [::1]:52865->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0004 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0013 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0028 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0019 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0007 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0016 read tcp [::1]:52864->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0006 read tcp [::1]:52896->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0018 read tcp [::1]:52888->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0027 read tcp [::1]:52892->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0009 read tcp [::1]:52890->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0027 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0006 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0016 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0018 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0009 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0030 read tcp [::1]:52895->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0012 read tcp [::1]:52889->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0029 read tcp [::1]:52880->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0015 read tcp [::1]:52887->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0024 read tcp [::1]:52891->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0030 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0012 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0015 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0024 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0021 read tcp [::1]:52894->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0029 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0003 read tcp [::1]:52893->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0011 read tcp [::1]:52885->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0014 read tcp [::1]:52879->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0021 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0001 read tcp [::1]:52872->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0003 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0014 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0011 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0005 read tcp [::1]:52877->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0008 read tcp [::1]:52876->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0025 read tcp [::1]:52870->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0023 read tcp [::1]:52883->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0005 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0010 read tcp [::1]:52868->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0008 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0025 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0023 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0017 read tcp [::1]:52878->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0010 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [ERROR] dayon0002 read tcp [::1]:52882->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [ERROR] dayon0026 read tcp [::1]:52881->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0017 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0002 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0026 重連第1次，等候5秒執行
+2023/03/20 12:19:45 [INFO] dayon0024 SendMessage={PlayerAction:{Action:1 Data:{BetInfo:[41 0 0 0 0 0 0 0]}}}
+2023/03/20 12:19:45 [ERROR] dayon0024 write tcp [::1]:52891->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0004 SendMessage={Bet:{BetInfo:[{"AreaID":8,"Bet":5}]}}
+2023/03/20 12:19:45 [ERROR] dayon0004 write tcp [::1]:52866->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0006 SendMessage={Bet:{BetInfo:[{"AreaID":21,"Bet":2}]}}
+2023/03/20 12:19:45 [ERROR] dayon0006 write tcp [::1]:52896->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0005 SendMessage={Bet:{BetInfo:[{"AreaID":23,"Bet":5}]}}
+2023/03/20 12:19:45 [ERROR] dayon0005 write tcp [::1]:52877->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0018 SendMessage={Bet:{BetInfo:[{"AreaID":7,"Bet":2}]}}
+2023/03/20 12:19:45 [ERROR] dayon0018 write tcp [::1]:52888->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0017 SendMessage={Bet:{BetInfo:[{"AreaID":1,"Bet":2}]}}
+2023/03/20 12:19:45 [ERROR] dayon0017 write tcp [::1]:52878->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:45 [INFO] dayon0016 SendMessage={Bet:{BetInfo:[{"AreaID":3,"Bet":20}]}}
+2023/03/20 12:19:45 [ERROR] dayon0016 write tcp [::1]:52864->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:46 [INFO] dayon0020 SendMessage={MatchGameBet:{BetInfo:8}}
+2023/03/20 12:19:46 [ERROR] dayon0020 write tcp [::1]:52884->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:46 [ERROR] dayon0020 read tcp [::1]:52884->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:46 [INFO] dayon0020 重連第1次，等候5秒執行
+2023/03/20 12:19:46 [INFO] dayon0015 SendMessage={Bet:{BetInfo:[{"AreaID":3,"Bet":100}]}}
+2023/03/20 12:19:46 [ERROR] dayon0015 write tcp [::1]:52887->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:46 [INFO] dayon0013 SendMessage={Bet:{BetInfo:[{"AreaID":1,"Bet":20}]}}
+2023/03/20 12:19:46 [ERROR] dayon0013 write tcp [::1]:52871->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:46 [INFO] dayon0014 SendMessage={Bet:{BetInfo:[{"AreaID":8,"Bet":5}]}}
+2023/03/20 12:19:46 [ERROR] dayon0014 write tcp [::1]:52879->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:47 [INFO] dayon0001 SendMessage={Bet:{BetInfo:[{"AreaID":5,"Bet":20}]}}
+2023/03/20 12:19:47 [ERROR] dayon0001 write tcp [::1]:52872->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:47 [INFO] dayon0003 SendMessage={Bet:{BetInfo:[{"AreaID":5,"Bet":20}]}}
+2023/03/20 12:19:47 [ERROR] dayon0003 write tcp [::1]:52893->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:47 [INFO] dayon0002 SendMessage={Bet:{BetInfo:[{"AreaID":10,"Bet":50}]}}
+2023/03/20 12:19:47 [ERROR] dayon0002 write tcp [::1]:52882->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:48 [INFO] dayon0022 SendMessage={PlayerAction:{Action:4 Data:{BetInfo:0}}}
+2023/03/20 12:19:48 [ERROR] dayon0022 write tcp [::1]:52869->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:48 [INFO] dayon0025 SendMessage={Bet:{BetInfo:[{"AreaID":1,"Bet":2}]}}
+2023/03/20 12:19:48 [ERROR] dayon0025 write tcp [::1]:52870->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:48 [INFO] dayon0026 SendMessage={Bet:{BetInfo:[{"AreaID":0,"Bet":50}]}}
+2023/03/20 12:19:48 [ERROR] dayon0026 write tcp [::1]:52881->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:48 [INFO] dayon0027 SendMessage={Bet:{BetInfo:[{"AreaID":0,"Bet":5}]}}
+2023/03/20 12:19:48 [ERROR] dayon0027 write tcp [::1]:52892->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/20 12:19:50 [INFO] dayon0023 SendMessage={PlayerAction:{Action:1 Data:{BetInfo:[30 31 0 30 0 0 0 0]}}}
+2023/03/20 12:19:50 [ERROR] dayon0023 write tcp [::1]:52883->[::1]:10001: use of closed network connection
+2023/03/20 12:19:52 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0021 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0025 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0023 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0011 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [INFO] dayon0007 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0021 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0025 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0023 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0009 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0011 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0012 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0026 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0019 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [INFO] dayon0010 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0012 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0026 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0019 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0004 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [ERROR] dayon0018 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0016 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0028 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0030 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0024 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [INFO] dayon0018 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0016 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0028 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0030 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0024 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0014 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0029 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0017 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [INFO] dayon0005 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0014 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0029 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0017 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0008 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [ERROR] dayon0022 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0013 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [INFO] dayon0022 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0013 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0003 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [ERROR] dayon0027 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0015 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:52 [INFO] dayon0006 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0015 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0027 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0002 重連第2次，等候5秒執行
+2023/03/20 12:19:52 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 12:19:53 [ERROR] dayon0020 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:19:53 [INFO] dayon0020 重連第2次，等候5秒執行
+2023/03/20 12:20:00 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0019 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0018 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [INFO] dayon0010 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [ERROR] dayon0027 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0017 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [INFO] dayon0019 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0018 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0027 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0017 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0004 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0026 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0021 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0011 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [INFO] dayon0002 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0005 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0021 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0011 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0026 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0024 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0013 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0003 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0024 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0013 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0008 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [ERROR] dayon0016 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0028 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0023 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0014 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [INFO] dayon0016 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0028 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0023 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0007 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0014 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [ERROR] dayon0022 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0025 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0015 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0029 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [INFO] dayon0022 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0025 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [ERROR] dayon0030 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [INFO] dayon0015 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0029 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0030 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [ERROR] dayon0012 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:00 [INFO] dayon0012 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0009 重連第3次，等候5秒執行
+2023/03/20 12:20:00 [INFO] dayon0006 重連第3次，等候5秒執行
+2023/03/20 12:20:01 [ERROR] dayon0020 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:01 [INFO] dayon0020 重連第3次，等候5秒執行
+2023/03/20 12:20:07 [ERROR] dayon0016 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0012 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0006 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0011 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0010 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0024 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [INFO] dayon0016 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0012 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0006 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0011 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0010 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0024 重連共3次失敗
+2023/03/20 12:20:07 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0030 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0029 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0022 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0004 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [INFO] dayon0001 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0029 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0022 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0004 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0030 重連共3次失敗
+2023/03/20 12:20:07 [ERROR] dayon0027 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0009 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0007 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0021 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0017 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [INFO] dayon0027 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0009 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0007 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0021 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0017 重連共3次失敗
+2023/03/20 12:20:07 [ERROR] dayon0013 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0014 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0019 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0015 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0002 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [INFO] dayon0013 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0014 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0019 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0015 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0002 重連共3次失敗
+2023/03/20 12:20:07 [ERROR] dayon0025 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0008 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0026 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0005 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0018 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [INFO] dayon0025 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0008 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0026 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0005 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0018 重連共3次失敗
+2023/03/20 12:20:07 [ERROR] dayon0028 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0023 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [ERROR] dayon0003 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:07 [INFO] dayon0028 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0023 重連共3次失敗
+2023/03/20 12:20:07 [INFO] dayon0003 重連共3次失敗
+2023/03/20 12:20:08 [ERROR] dayon0020 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 12:20:08 [INFO] dayon0020 重連共3次失敗
+2023/03/20 12:22:03 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 12:22:03 [INFO] dayon0019加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 12:22:03 [INFO] dayon0028 RobotType=2, Desc=只押鈴鐺、山竹
+2023/03/20 12:22:03 [INFO] dayon0016加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 12:22:03 [INFO] dayon0013加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 12:22:03 [INFO] dayon0022加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 12:22:03 [INFO] dayon0004加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 12:22:03 [INFO] dayon0025加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 12:22:03 [INFO] dayon0028加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 12:22:03 [INFO] dayon0007加入「21點」的「新手房」(20010)進行測試
+2023/03/20 12:22:03 [INFO] dayon0010加入「三公」的「新手房」(20020)進行測試
+2023/03/20 12:22:03 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 12:22:06 [INFO] dayon0029 RobotType=0, Desc=全押
+2023/03/20 12:22:06 [INFO] dayon0002加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 12:22:06 [INFO] dayon0011加入「三公」的「新手房」(20020)進行測試
+2023/03/20 12:22:06 [INFO] dayon0017加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 12:22:06 [INFO] dayon0014加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 12:22:06 [INFO] dayon0026加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 12:22:06 [INFO] dayon0023加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 12:22:06 [INFO] dayon0005加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 12:22:06 [INFO] dayon0029加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 12:22:06 [INFO] dayon0008加入「21點」的「新手房」(20010)進行測試
+2023/03/20 12:22:06 [INFO] dayon0020加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 12:22:09 [INFO] dayon0021加入「色碟」的「新手房」(100301)進行測試
+2023/03/20 12:22:09 [INFO] dayon0018加入「番攤」的「新手房」(100201)進行測試
+2023/03/20 12:22:09 [INFO] dayon0027加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/20 12:22:09 [INFO] dayon0012加入「三公」的「新手房」(20020)進行測試
+2023/03/20 12:22:09 [INFO] dayon0015加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/20 12:22:09 [INFO] dayon0009加入「21點」的「新手房」(20010)進行測試
+2023/03/20 12:22:09 [INFO] dayon0024加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/20 12:22:09 [INFO] dayon0030 RobotType=0, Desc=全押
+2023/03/20 12:22:09 [INFO] dayon0003加入「百家樂」的「新手房」(100101)進行測試
+2023/03/20 12:22:09 [INFO] dayon0006加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/20 12:22:09 [INFO] dayon0030加入「水果機」的「新手房」(30010)進行測試
+2023/03/20 12:22:13 [ERROR] dayon0030 Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"game is finished"}
+2023/03/20 12:22:13 [ERROR] dayon0019 Receive Message:{"Code":200008,"Ret":"Bet","Message":"money not enough"}
+2023/03/20 12:22:13 [INFO] dayon0019 上分成功
+2023/03/20 12:22:15 [ERROR] dayon0028 Receive Message:{"Code":200008,"Ret":"PlayerAction","Message":"money not enough"}
+2023/03/20 12:22:15 [INFO] dayon0028 上分成功
+2023/03/20 12:22:18 [ERROR] dayon0029 Receive Message:{"Code":200008,"Ret":"PlayerAction","Message":"money not enough"}
+2023/03/20 12:22:18 [INFO] dayon0029 上分成功
+2023/03/20 12:22:22 [ERROR] dayon0030 Receive Message:{"Code":200008,"Ret":"PlayerAction","Message":"money not enough"}
+2023/03/20 12:22:22 [INFO] dayon0030 上分成功
+2023/03/20 12:22:39 [ERROR] dayon0021 Receive Message:{"Code":200008,"Ret":"Bet","Message":"money not enough"}
+2023/03/20 12:22:39 [ERROR] dayon0020 Receive Message:{"Code":200008,"Ret":"Bet","Message":"money not enough"}
+2023/03/20 12:22:39 [INFO] dayon0021 上分成功
+2023/03/20 12:22:39 [INFO] dayon0020 上分成功
+2023/03/20 23:31:44 [INFO] Connect Success
+2023/03/20 23:31:55 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":4000003.6,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/03/20 23:32:26 [INFO] 連線中斷
+2023/03/20 23:32:26 [ERROR] read tcp [::1]:60991->[::1]:10001: use of closed network connection
+2023/03/20 23:32:57 [INFO] 開始執行壓力測試:LOCAL
+2023/03/20 23:32:57 [INFO] dayon0001加入「21點」的「新手房」(20010)進行測試
+2023/03/20 23:33:56 [ERROR] dayon0001 read tcp [::1]:61002->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/20 23:33:56 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/20 23:34:04 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 23:34:04 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/20 23:34:11 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 23:34:11 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/20 23:34:18 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/20 23:34:18 [INFO] dayon0001 重連共3次失敗

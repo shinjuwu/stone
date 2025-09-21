@@ -1,0 +1,62 @@
+2023/07/06 09:59:36 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 09:59:36 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 09:59:44 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:00:47 [ERROR] dayon0001 一段時間未收到任何遊戲階段訊息
+2023/07/06 10:00:47 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:00:53 [INFO] dayon0001 重新連線成功
+2023/07/06 10:00:55 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:02:03 [ERROR] dayon0001 一段時間未收到任何遊戲階段訊息
+2023/07/06 10:02:03 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:02:09 [INFO] dayon0001 重新連線成功
+2023/07/06 10:02:11 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:03:14 [ERROR] dayon0001 一段時間未收到任何遊戲階段訊息
+2023/07/06 10:03:14 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:03:20 [INFO] dayon0001 重新連線成功
+2023/07/06 10:03:22 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:04:24 [ERROR] dayon0001 一段時間未收到任何遊戲階段訊息
+2023/07/06 10:04:24 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:04:30 [INFO] dayon0001 重新連線成功
+2023/07/06 10:04:32 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:05:45 [ERROR] dayon0001 一段時間未收到任何遊戲階段訊息
+2023/07/06 10:05:45 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:05:51 [INFO] dayon0001 重新連線成功
+2023/07/06 10:05:53 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:07:00 [ERROR] dayon0001 一段時間未收到任何遊戲階段訊息
+2023/07/06 10:07:00 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:07:06 [INFO] dayon0001 重新連線成功
+2023/07/06 10:07:08 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:07:44 [ERROR] dayon0001 read tcp [::1]:54064->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/06 10:07:44 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:07:52 [INFO] dayon0001 重新連線成功
+2023/07/06 10:07:54 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:09:13 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 10:09:13 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 10:09:17 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:12:03 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 10:12:03 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 10:12:07 [ERROR] dayon0001 Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/07/06 10:13:37 [ERROR] dayon0001 read tcp [::1]:54218->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/06 10:13:37 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:13:44 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/07/06 10:13:44 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/07/06 10:13:50 [INFO] dayon0001 重新連線成功
+2023/07/06 10:13:57 [ERROR] dayon0001 read tcp [::1]:54301->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/07/06 10:13:57 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/07/06 10:14:45 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 10:14:45 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 10:17:17 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 10:17:17 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 10:17:19 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/07/06 10:17:57 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 10:17:57 [ERROR] 炸金花已設置開啟，但未設定測試廳館。
+2023/07/06 10:18:17 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 10:18:17 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 10:21:32 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 10:21:32 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 11:16:11 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 11:16:11 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 11:19:08 [INFO] 開始執行壓力測試:LOCAL
+2023/07/06 11:19:08 [INFO] dayon0001加入「炸金花」的「新手房」(20060)進行測試
+2023/07/06 11:19:36 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error"}
+2023/07/06 11:20:04 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error"}
+2023/07/06 11:20:38 [ERROR] dayon0001 Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error"}

@@ -1,0 +1,14 @@
+2023/03/24 09:38:01 [INFO] 開始執行壓力測試:LOCAL
+2023/03/24 09:38:01 [ERROR] 未設置任何遊戲
+2023/03/24 09:38:11 [INFO] 開始執行壓力測試:LOCAL
+2023/03/24 09:38:11 [INFO] dayon0001加入「21點」的「新手房」(20010)進行測試
+2023/03/24 09:40:53 [INFO] dayon0001 SendMessage={PlayOperate:{Instruction:4}}
+2023/03/24 09:40:53 [ERROR] dayon0001 write tcp [::1]:63295->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/03/24 09:40:53 [ERROR] dayon0001 read tcp [::1]:63295->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/24 09:40:53 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/24 09:41:00 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/24 09:41:00 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/03/24 09:41:08 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/24 09:41:08 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/03/24 09:41:15 [ERROR] dayon0001 dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/24 09:41:15 [INFO] dayon0001 重連共3次失敗

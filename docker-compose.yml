@@ -1,0 +1,175 @@
+version: '3.8'
+
+services:
+  # PostgreSQL 數據庫
+  postgres:
+    image: postgres:15-alpine
+    container_name: gamehub-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-gamehub}
+      POSTGRES_USER: ${POSTGRES_USER:-gamehub}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-gamehub123}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/init-scripts:/docker-entrypoint-initdb.d
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    networks:
+      - gamehub-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-gamehub}"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # Redis 緩存
+  redis:
+    image: redis:7-alpine
+    container_name: gamehub-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-redis123}
+    volumes:
+      - redis_data:/data
+      - ./docker/redis/redis.conf:/usr/local/etc/redis/redis.conf
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    networks:
+      - gamehub-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # GameHub 主服務
+  gamehub:
+    build:
+      context: .
+      dockerfile: GameHub/Dockerfile
+    container_name: gamehub-server
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      # 數據庫配置
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: ${POSTGRES_DB:-gamehub}
+      DB_USER: ${POSTGRES_USER:-gamehub}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-gamehub123}
+      
+      # Redis 配置
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: ${REDIS_PASSWORD:-redis123}
+      
+      # 服務配置
+      SERVER_ID: ${SERVER_ID:-1}
+      PLATFORM: ${PLATFORM:-DEV}
+      LOG_LEVEL: ${LOG_LEVEL:-3}
+    ports:
+      - "${GAMEHUB_WS_PORT:-3563}:3563"    # WebSocket 端口
+      - "${GAMEHUB_TCP_PORT:-3564}:3564"   # TCP 端口
+      - "${GAMEHUB_HTTP_PORT:-8080}:8080"  # HTTP API 端口
+    volumes:
+      - ./docker/config/GameHub.conf:/app/bin/conf/GameHub.conf:ro
+      - gamehub_logs:/app/bin/log
+    networks:
+      - gamehub-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # 老虎機編輯器 (可選)
+  slot-editor:
+    build:
+      context: ./slotmachine
+      dockerfile: Dockerfile.editor
+    container_name: gamehub-slot-editor
+    restart: unless-stopped
+    profiles:
+      - tools
+    ports:
+      - "${SLOT_EDITOR_PORT:-8081}:8080"
+    volumes:
+      - ./slotmachine:/app/data
+    networks:
+      - gamehub-network
+
+  # Nginx 反向代理
+  nginx:
+    image: nginx:alpine
+    container_name: gamehub-nginx
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-80}:80"
+      - "${HTTPS_PORT:-443}:443"
+    volumes:
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./docker/nginx/ssl:/etc/nginx/ssl:ro
+      - nginx_logs:/var/log/nginx
+    depends_on:
+      - gamehub
+    networks:
+      - gamehub-network
+
+  # 監控 - Prometheus (可選)
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: gamehub-prometheus
+    restart: unless-stopped
+    profiles:
+      - monitoring
+    ports:
+      - "${PROMETHEUS_PORT:-9090}:9090"
+    volumes:
+      - ./docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    networks:
+      - gamehub-network
+
+  # 監控 - Grafana (可選)
+  grafana:
+    image: grafana/grafana:latest
+    container_name: gamehub-grafana
+    restart: unless-stopped
+    profiles:
+      - monitoring
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin123}
+    ports:
+      - "${GRAFANA_PORT:-3000}:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./docker/grafana/dashboards:/etc/grafana/provisioning/dashboards:ro
+    depends_on:
+      - prometheus
+    networks:
+      - gamehub-network
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  gamehub_logs:
+    driver: local
+  nginx_logs:
+    driver: local
+  prometheus_data:
+    driver: local
+  grafana_data:
+    driver: local
+
+networks:
+  gamehub-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

@@ -1,0 +1,16 @@
+2023/05/02 10:18:14 [ERROR] read tcp [::1]:54012->[::1]:10001: use of closed network connection
+2023/05/02 10:18:14 [INFO] 連線中斷
+2023/05/02 10:19:45 [INFO] 開始執行壓力測試:ETE
+2023/05/02 10:19:45 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2023/05/02 10:20:22 [ERROR] dayon0001 Receive Message:{"Code":200008,"Ret":"Bet","Message":"money not enough"}
+2023/05/02 10:20:22 [INFO] dayon0001 上分成功
+2023/05/02 10:34:45 [ERROR] dayon0001 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/05/02 10:34:45 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/05/02 10:34:49 [INFO] dayon0001 SendMessage={Bet:{BetInfo:[{"AreaID":7,"Bet":5}]}}
+2023/05/02 10:34:49 [ERROR] dayon0001 write tcp 192.168.180.114:51680->35.187.246.225:10001: wsasend: An established connection was aborted by the software in your host machine.
+2023/05/02 10:34:53 [ERROR] dayon0001 dial tcp 35.187.246.225:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/05/02 10:34:53 [INFO] dayon0001 重連第2次，等候5秒執行
+2023/05/02 10:35:00 [ERROR] dayon0001 dial tcp 35.187.246.225:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/05/02 10:35:00 [INFO] dayon0001 重連第3次，等候5秒執行
+2023/05/02 10:35:07 [ERROR] dayon0001 dial tcp 35.187.246.225:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/05/02 10:35:07 [INFO] dayon0001 重連共3次失敗

@@ -1,0 +1,3 @@
+2023/09/12 16:07:33 [INFO] Connect Success
+2023/09/12 16:07:42 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000000,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/12 16:53:37 [ERROR] read tcp [::1]:63345->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

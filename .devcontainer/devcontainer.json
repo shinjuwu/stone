@@ -1,0 +1,174 @@
+{
+  "name": "GameHub Development Environment",
+  "dockerComposeFile": ["../docker-compose.dev.yml"],
+  "service": "gamehub-dev",
+  "workspaceFolder": "/app/src",
+  
+  // 容器啟動後執行的命令
+  "postCreateCommand": "go mod tidy && go mod download",
+  
+  // VS Code 設置
+  "customizations": {
+    "vscode": {
+      // 推薦的擴展
+      "extensions": [
+        "golang.go",
+        "ms-vscode.vscode-json",
+        "redhat.vscode-yaml",
+        "ms-vscode.dockerfile",
+        "ms-azuretools.vscode-docker",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-eslint",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-wsl",
+        "github.copilot",
+        "github.copilot-chat",
+        "formulahendry.auto-rename-tag",
+        "christian-kohler.path-intellisense",
+        "streetsidesoftware.code-spell-checker",
+        "gruntfuggly.todo-tree",
+        "oderwat.indent-rainbow",
+        "ms-vscode.theme-tomorrowkit"
+      ],
+      
+      // VS Code 設置
+      "settings": {
+        // Go 語言設置
+        "go.gopath": "/go",
+        "go.goroot": "/usr/local/go",
+        "go.toolsManagement.checkForUpdates": "local",
+        "go.useLanguageServer": true,
+        "go.formatTool": "goimports",
+        "go.lintTool": "golangci-lint",
+        "go.lintOnSave": "package",
+        "go.vetOnSave": "package",
+        "go.buildOnSave": "package",
+        "go.coverOnSave": true,
+        "go.coverageDecorator": {
+          "type": "gutter",
+          "coveredHighlightColor": "rgba(64,128,64,0.5)",
+          "uncoveredHighlightColor": "rgba(128,64,64,0.25)"
+        },
+        "go.testFlags": ["-v"],
+        "go.testTimeout": "30s",
+        
+        // 編輯器設置
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": "explicit"
+        },
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false,
+        "editor.detectIndentation": false,
+        "editor.rulers": [80, 120],
+        "editor.wordWrap": "on",
+        "editor.minimap.enabled": true,
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": true,
+        
+        // 文件設置
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "files.exclude": {
+          "**/.git": true,
+          "**/.svn": true,
+          "**/.hg": true,
+          "**/CVS": true,
+          "**/.DS_Store": true,
+          "**/node_modules": true,
+          "**/tmp": true,
+          "**/*.exe": true,
+          "**/*.log": true
+        },
+        
+        // 終端設置
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "terminal.integrated.fontSize": 14,
+        
+        // Docker 設置
+        "docker.showStartPage": false,
+        
+        // 其他設置
+        "workbench.colorTheme": "Default Dark+",
+        "workbench.iconTheme": "vs-seti",
+        "workbench.startupEditor": "newUntitledFile",
+        "explorer.confirmDelete": false,
+        "explorer.confirmDragAndDrop": false,
+        
+        // JSON 設置
+        "json.schemas": [
+          {
+            "fileMatch": ["**/docker-compose*.yml", "**/docker-compose*.yaml"],
+            "url": "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"
+          }
+        ],
+        
+        // TODO Tree 設置
+        "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+        "todo-tree.general.tags": [
+          "BUG",
+          "HACK",
+          "FIXME",
+          "TODO",
+          "XXX",
+          "[ ]",
+          "[x]"
+        ]
+      }
+    }
+  },
+  
+  // 端口轉發
+  "forwardPorts": [3563, 3564, 8080, 5432, 6379, 5050, 8081, 8083],
+  "portsAttributes": {
+    "3563": {
+      "label": "GameHub WebSocket",
+      "protocol": "ws"
+    },
+    "3564": {
+      "label": "GameHub TCP"
+    },
+    "8080": {
+      "label": "GameHub HTTP API"
+    },
+    "5432": {
+      "label": "PostgreSQL"
+    },
+    "6379": {
+      "label": "Redis"
+    },
+    "5050": {
+      "label": "pgAdmin"
+    },
+    "8081": {
+      "label": "Redis Commander"
+    },
+    "8083": {
+      "label": "API Docs"
+    }
+  },
+  
+  // 掛載點
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/app/src,type=bind,consistency=cached",
+    "source=${localWorkspaceFolder}/../collie,target=/app/collie,type=bind,consistency=cached",
+    "source=${localWorkspaceFolder}/../slotmachine/server,target=/app/slotmachine/server,type=bind,consistency=cached"
+  ],
+  
+  // 容器用戶
+  "remoteUser": "root",
+  
+  // 初始化腳本
+  "initializeCommand": "docker --version && docker-compose --version",
+  
+  // 容器環境變量
+  "containerEnv": {
+    "GOPROXY": "https://proxy.golang.org,direct",
+    "GOSUMDB": "sum.golang.org",
+    "CGO_ENABLED": "0"
+  }
+}

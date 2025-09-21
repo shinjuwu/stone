@@ -1,0 +1,37 @@
+2023/04/21 13:56:22 [INFO] Connect Success
+2023/04/21 13:56:29 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/21 13:56:31 [INFO] Receive Message:{"Code":200016,"Ret":"JoinGame","Message":"game is close"}
+2023/04/21 13:59:09 [ERROR] read tcp [::1]:54263->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/04/21 13:59:23 [INFO] 連線中斷
+2023/04/21 13:59:29 [INFO] Connect Success
+2023/04/21 13:59:31 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":6999969.65,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/04/21 13:59:34 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","raiseArray":[4,6,8,10,12,14],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":6999969.65,"IsActive":false}],"Fsm":"Init","result":null,"own":0}}
+2023/04/21 13:59:35 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2006-1649291771974258688","RemainSec":3}}
+2023/04/21 13:59:38 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":6999969.65,"isSitDown":true},{"seatId":1,"iconId":5,"name":"****e78","gold":162601,"isSitDown":true},{"seatId":2,"iconId":102,"name":"****h51","gold":182944,"isSitDown":true},{"seatId":3,"iconId":3,"name":"****n52","gold":197873,"isSitDown":true}]}}
+2023/04/21 13:59:38 [INFO] Receive Message:{"Ret":"ActRaiseArray","Data":{"raiseArray":[4,6,8,10,12,14]}}
+2023/04/21 13:59:38 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":6999968.65}}
+2023/04/21 13:59:38 [INFO] Receive Message:{"Ret":"ActAnteBet","Data":{"antebet":[{"seatId":0,"bet":1},{"seatId":1,"bet":1},{"seatId":2,"bet":1},{"seatId":3,"bet":1}]}}
+2023/04/21 13:59:38 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2006-1649291771974258688","RemainSec":1}}
+2023/04/21 13:59:39 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2006-1649291771974258688","RemainSec":1}}
+2023/04/21 13:59:39 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"seatid":0,"cards":[-1,-1,-1]}}
+2023/04/21 13:59:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2006-1649291771974258688","RemainSec":15}}
+2023/04/21 13:59:40 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/04/21 13:59:41 [INFO] Receive Message:{"Ret":"ActAction","Data":{"seatId":2,"actiontype":"fold","data":null}}
+2023/04/21 13:59:41 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2006-1649291771974258688","RemainSec":15}}
+2023/04/21 13:59:41 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/04/21 13:59:43 [INFO] Receive Message:{"Ret":"ActAction","Data":{"seatId":3,"actiontype":"call","data":null}}
+2023/04/21 13:59:43 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2006-1649291771974258688","RemainSec":15}}
+2023/04/21 13:59:43 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/04/21 13:59:49 [INFO] Receive Message:{"Code":0,"Ret":"PlayOperate","Message":"success"}
+2023/04/21 13:59:49 [INFO] Receive Message:{"Ret":"ActAction","Data":{"seatId":0,"actiontype":"fold","data":null}}
+2023/04/21 13:59:49 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2006-1649291771974258688","RemainSec":15}}
+2023/04/21 13:59:49 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/04/21 13:59:51 [INFO] Receive Message:{"Ret":"ActAction","Data":{"seatId":1,"actiontype":"call","data":null}}
+2023/04/21 13:59:51 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2006-1649291771974258688","RemainSec":15}}
+2023/04/21 13:59:51 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/04/21 13:59:52 [INFO] Receive Message:{"Ret":"ActAction","Data":{"seatId":3,"actiontype":"fold","data":null}}
+2023/04/21 13:59:52 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2006-1649291771974258688","RemainSec":15}}
+2023/04/21 13:59:52 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/04/21 13:59:52 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"2006-1649291771974258688","RemainSec":4}}
+2023/04/21 13:59:52 [INFO] Receive Message:{"Ret":"SettleInfo","Data":[{"seatId":0,"bet":1,"win":0,"Gold":6999968.65,"refund":0},{"seatId":1,"bet":2,"win":3.8,"Gold":162602.8,"refund":0},{"seatId":2,"bet":1,"win":0,"Gold":182943,"refund":0},{"seatId":3,"bet":2,"win":0,"Gold":197871,"refund":0}]}
+2023/04/21 15:17:18 [ERROR] read tcp [::1]:54313->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

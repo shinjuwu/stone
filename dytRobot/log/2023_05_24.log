@@ -1,0 +1,8 @@
+2023/05/24 10:05:40 [INFO] 連線中斷
+2023/05/24 10:05:41 [INFO] Connect Success
+2023/05/24 10:05:43 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":9999813.7,"IconID":100,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/05/24 10:05:55 [ERROR] read tcp [::1]:49377->[::1]:10001: use of closed network connection
+2023/05/24 10:05:55 [INFO] 連線中斷
+2023/05/24 10:05:57 [INFO] Connect Success
+2023/05/24 10:06:00 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":9999813.7,"IconID":100,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/05/24 10:06:17 [ERROR] read tcp [::1]:49395->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

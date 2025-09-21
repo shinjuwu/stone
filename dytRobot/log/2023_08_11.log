@@ -1,0 +1,8 @@
+2023/08/11 15:28:26 [INFO] Connect Success
+2023/08/11 15:29:38 [ERROR] 未輸入帳號
+2023/08/11 15:29:45 [INFO]  SendMessage={"Login":{"Token":"6a3d19785z2jm6sji4p4zro8c"}}
+2023/08/11 15:30:28 [ERROR] read tcp 127.0.0.1:62983->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/08/11 15:32:48 [INFO] 連線中斷
+2023/08/11 15:32:49 [INFO] Connect Success
+2023/08/11 15:32:53 [INFO]  SendMessage={"Login":{"Token":"6a3d19785z2jm6sji4p4zro8c"}}
+2023/08/11 15:33:17 [ERROR] read tcp 127.0.0.1:63074->127.0.0.1:10001: wsarecv: An existing connection was forcibly closed by the remote host.

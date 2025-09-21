@@ -1,0 +1,6 @@
+2023/09/23 13:52:31 [ERROR] read tcp [::1]:49841->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/23 18:29:22 [INFO] 連線中斷
+2023/09/23 18:29:31 [ERROR] 未選擇環境
+2023/09/23 18:29:39 [ERROR] 未選擇環境
+2023/09/23 18:29:44 [INFO] Connect Success
+2023/09/23 18:29:57 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF

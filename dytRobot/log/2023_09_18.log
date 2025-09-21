@@ -1,0 +1,671 @@
+2023/09/18 14:32:01 [INFO] 連線中斷
+2023/09/18 14:32:04 [INFO] Connect Success
+2023/09/18 14:32:08 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999991,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 14:32:10 [ERROR] read tcp [::1]:54098->[::1]:10001: use of closed network connection
+2023/09/18 14:32:10 [INFO] 連線中斷
+2023/09/18 14:32:19 [INFO] Connect Success
+2023/09/18 14:32:27 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999991,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 14:32:30 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 14:32:30 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":3,"iconId":0,"name":"Test_simon","gold":999991,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":3}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 14:32:31 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703658241994526720","RemainSec":3}}
+2023/09/18 14:32:34 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":0,"name":"****ett","gold":180563,"isSitDown":true},{"seatId":2,"iconId":3,"name":"****e04","gold":104692,"isSitDown":true},{"seatId":3,"iconId":0,"name":"****mon","gold":999991,"isSitDown":true},{"seatId":4,"iconId":100,"name":"****ram","gold":117362,"isSitDown":true}]}}
+2023/09/18 14:32:34 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703658241994526720","RemainSec":20}}
+2023/09/18 14:32:36 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****ett","parentSeat":1},{"seatId":2,"name":"****e04","parentSeat":2},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ram","parentSeat":4}]}}
+2023/09/18 14:32:36 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[165,0],"Gold":180398},{"seatId":2,"bet":[0,0],"Gold":104692},{"seatId":3,"bet":[0,0],"Gold":999991},{"seatId":4,"bet":[0,0],"Gold":117362}]}}
+2023/09/18 14:32:36 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****ett","parentSeat":1},{"seatId":2,"name":"****e04","parentSeat":2},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ram","parentSeat":4}]}}
+2023/09/18 14:32:36 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[165,0],"Gold":180398},{"seatId":2,"bet":[0,0],"Gold":104692},{"seatId":3,"bet":[0,0],"Gold":999991},{"seatId":4,"bet":[183,0],"Gold":117179}]}}
+2023/09/18 14:32:36 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":1}}
+2023/09/18 14:32:36 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 14:32:39 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****ett","parentSeat":1},{"seatId":2,"name":"****e04","parentSeat":2},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ram","parentSeat":4}]}}
+2023/09/18 14:32:39 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[165,0],"Gold":180398},{"seatId":2,"bet":[30,0],"Gold":104662},{"seatId":3,"bet":[0,0],"Gold":999991},{"seatId":4,"bet":[183,0],"Gold":117179}]}}
+2023/09/18 14:32:39 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":2}}
+2023/09/18 14:32:54 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703658241994526720","RemainSec":3}}
+2023/09/18 14:32:54 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999988}}
+2023/09/18 14:32:54 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****ett","parentSeat":1},{"seatId":2,"name":"****e04","parentSeat":2},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ram","parentSeat":4}]}}
+2023/09/18 14:32:54 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[165,0],"Gold":180398},{"seatId":2,"bet":[30,0],"Gold":104662},{"seatId":3,"bet":[3,0],"Gold":999988},{"seatId":4,"bet":[183,0],"Gold":117179}]}}
+2023/09/18 14:32:54 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[13,-1],"playerCards":[[],[28,47],[27,35],[24,14],[38,14]],"point":[0,12,12,12,12]}}
+2023/09/18 14:32:55 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Insurance","Gid":"2001-1703658241994526720","RemainSec":10}}
+2023/09/18 14:33:05 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703658241994526720","RemainSec":20}}
+2023/09/18 14:33:05 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 14:33:06 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":1,"card":14,"bust":false,"point":14,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:33:08 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":1,"card":36,"bust":true,"point":24,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:33:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703658241994526720","RemainSec":20}}
+2023/09/18 14:33:10 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/09/18 14:33:11 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":2,"card":49,"bust":true,"point":22,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:33:13 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703658241994526720","RemainSec":20}}
+2023/09/18 14:33:13 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 14:33:33 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703658241994526720","RemainSec":20}}
+2023/09/18 14:33:33 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 14:33:36 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":3,"bust":false,"point":16,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:33:38 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":25,"bust":true,"point":26,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:33:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703658241994526720","RemainSec":20}}
+2023/09/18 14:33:43 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703658241994526720","RemainSec":4}}
+2023/09/18 14:33:43 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[13,28,15],"point":17,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:35:08 [ERROR] read tcp [::1]:54108->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 14:36:04 [INFO] 連線中斷
+2023/09/18 14:36:10 [INFO] Connect Success
+2023/09/18 14:36:12 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999988,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 14:36:16 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 14:36:16 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":2,"iconId":0,"name":"Test_simon","gold":999988,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":2}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 14:36:17 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703659189542326272","RemainSec":3}}
+2023/09/18 14:36:20 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":2,"iconId":0,"name":"****mon","gold":999988,"isSitDown":true},{"seatId":3,"iconId":1,"name":"****ora","gold":105765.7,"isSitDown":true},{"seatId":4,"iconId":7,"name":"****the","gold":146619,"isSitDown":true}]}}
+2023/09/18 14:36:20 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703659189542326272","RemainSec":20}}
+2023/09/18 14:36:25 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":3,"name":"****ora","parentSeat":3},{"seatId":4,"name":"****the","parentSeat":4}]}}
+2023/09/18 14:36:25 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":2,"bet":[0,0],"Gold":999988},{"seatId":3,"bet":[0,0],"Gold":105765.7},{"seatId":4,"bet":[240,0],"Gold":146379}]}}
+2023/09/18 14:36:25 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 14:36:25 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":3,"name":"****ora","parentSeat":3},{"seatId":4,"name":"****the","parentSeat":4}]}}
+2023/09/18 14:36:25 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":2,"bet":[0,0],"Gold":999988},{"seatId":3,"bet":[300,0],"Gold":105465.7},{"seatId":4,"bet":[240,0],"Gold":146379}]}}
+2023/09/18 14:36:25 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":3}}
+2023/09/18 14:36:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703659189542326272","RemainSec":3}}
+2023/09/18 14:36:40 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999985}}
+2023/09/18 14:36:40 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":3,"name":"****ora","parentSeat":3},{"seatId":4,"name":"****the","parentSeat":4}]}}
+2023/09/18 14:36:40 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":2,"bet":[3,0],"Gold":999985},{"seatId":3,"bet":[300,0],"Gold":105465.7},{"seatId":4,"bet":[240,0],"Gold":146379}]}}
+2023/09/18 14:36:40 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[0,-1],"playerCards":[[],[],[4,41],[43,13],[11,14]],"point":[0,0,8,16,12]}}
+2023/09/18 14:36:41 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Insurance","Gid":"2001-1703659189542326272","RemainSec":10}}
+2023/09/18 14:36:51 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703659189542326272","RemainSec":20}}
+2023/09/18 14:36:51 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/09/18 14:37:11 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703659189542326272","RemainSec":20}}
+2023/09/18 14:37:11 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 14:37:12 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":3,"card":44,"bust":false,"point":12,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:37:14 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":3,"card":1,"bust":false,"point":14,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:37:17 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":3,"card":8,"bust":true,"point":23,"is21Point":false,"isFiveDragon":true,"isBlackJack":false}}
+2023/09/18 14:37:19 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703659189542326272","RemainSec":20}}
+2023/09/18 14:37:19 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 14:37:22 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":40,"bust":false,"point":14,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:37:23 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":46,"bust":true,"point":22,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:37:25 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703659189542326272","RemainSec":20}}
+2023/09/18 14:37:28 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703659189542326272","RemainSec":4}}
+2023/09/18 14:37:28 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[0,50],"point":21,"is21Point":true,"isFiveDragon":false,"isBlackJack":true}}
+2023/09/18 14:38:54 [ERROR] read tcp [::1]:54199->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 14:41:05 [INFO] 連線中斷
+2023/09/18 14:41:07 [INFO] Connect Success
+2023/09/18 14:41:09 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999985,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 14:41:13 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 14:41:13 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":999985,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":0}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 14:41:14 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703660431748370432","RemainSec":3}}
+2023/09/18 14:41:17 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":999985,"isSitDown":true},{"seatId":1,"iconId":6,"name":"****k91","gold":135581.2,"isSitDown":true},{"seatId":4,"iconId":100,"name":"****een","gold":198191,"isSitDown":true}]}}
+2023/09/18 14:41:17 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703660431748370432","RemainSec":20}}
+2023/09/18 14:41:18 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****mon","parentSeat":0},{"seatId":1,"name":"****k91","parentSeat":1},{"seatId":4,"name":"****een","parentSeat":4}]}}
+2023/09/18 14:41:18 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":999985},{"seatId":1,"bet":[0,0],"Gold":135581.2},{"seatId":4,"bet":[213,0],"Gold":197978}]}}
+2023/09/18 14:41:18 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 14:41:19 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****mon","parentSeat":0},{"seatId":1,"name":"****k91","parentSeat":1},{"seatId":4,"name":"****een","parentSeat":4}]}}
+2023/09/18 14:41:19 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":999985},{"seatId":1,"bet":[225,0],"Gold":135356.2},{"seatId":4,"bet":[213,0],"Gold":197978}]}}
+2023/09/18 14:41:19 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":1}}
+2023/09/18 14:41:37 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703660431748370432","RemainSec":3}}
+2023/09/18 14:41:37 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999982}}
+2023/09/18 14:41:37 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****mon","parentSeat":0},{"seatId":1,"name":"****k91","parentSeat":1},{"seatId":4,"name":"****een","parentSeat":4}]}}
+2023/09/18 14:41:37 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[3,0],"Gold":999982},{"seatId":1,"bet":[225,0],"Gold":135356.2},{"seatId":4,"bet":[213,0],"Gold":197978}]}}
+2023/09/18 14:41:37 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[31,-1],"playerCards":[[37,32],[14,35],[],[],[34,3]],"point":[17,12,0,0,13]}}
+2023/09/18 14:41:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703660431748370432","RemainSec":20}}
+2023/09/18 14:41:40 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 14:42:00 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703660431748370432","RemainSec":20}}
+2023/09/18 14:42:00 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 14:42:03 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":1,"card":16,"bust":false,"point":16,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:42:04 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":1,"card":6,"bust":true,"point":23,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:42:06 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703660431748370432","RemainSec":20}}
+2023/09/18 14:42:06 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 14:42:09 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":27,"bust":false,"point":15,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:42:10 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":26,"bust":false,"point":16,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:42:13 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":50,"bust":true,"point":26,"is21Point":false,"isFiveDragon":true,"isBlackJack":false}}
+2023/09/18 14:42:15 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703660431748370432","RemainSec":20}}
+2023/09/18 14:42:18 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703660431748370432","RemainSec":4}}
+2023/09/18 14:42:18 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[31,48,27],"point":18,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 14:59:20 [ERROR] read tcp [::1]:54328->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 14:59:50 [INFO] 連線中斷
+2023/09/18 14:59:53 [INFO] Connect Success
+2023/09/18 14:59:55 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999982,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 14:59:58 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 14:59:58 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":3,"iconId":0,"name":"Test_simon","gold":999982,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":3}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 14:59:59 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703665151229562880","RemainSec":3}}
+2023/09/18 15:00:02 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":102,"name":"****hne","gold":114164,"isSitDown":true},{"seatId":3,"iconId":0,"name":"****mon","gold":999982,"isSitDown":true},{"seatId":4,"iconId":0,"name":"****ian","gold":138721,"isSitDown":true}]}}
+2023/09/18 15:00:02 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703665151229562880","RemainSec":20}}
+2023/09/18 15:00:03 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****hne","parentSeat":1},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ian","parentSeat":4}]}}
+2023/09/18 15:00:03 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[150,0],"Gold":114014},{"seatId":3,"bet":[0,0],"Gold":999982},{"seatId":4,"bet":[0,0],"Gold":138721}]}}
+2023/09/18 15:00:03 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":1}}
+2023/09/18 15:00:05 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****hne","parentSeat":1},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ian","parentSeat":4}]}}
+2023/09/18 15:00:05 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[150,0],"Gold":114014},{"seatId":3,"bet":[0,0],"Gold":999982},{"seatId":4,"bet":[300,0],"Gold":138421}]}}
+2023/09/18 15:00:05 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 15:00:22 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703665151229562880","RemainSec":3}}
+2023/09/18 15:00:22 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999979}}
+2023/09/18 15:00:22 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****hne","parentSeat":1},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ian","parentSeat":4}]}}
+2023/09/18 15:00:22 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[150,0],"Gold":114014},{"seatId":3,"bet":[3,0],"Gold":999979},{"seatId":4,"bet":[300,0],"Gold":138421}]}}
+2023/09/18 15:00:22 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[48,-1],"playerCards":[[],[23,3],[],[42,17],[37,29]],"point":[0,14,0,9,14]}}
+2023/09/18 15:00:25 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703665151229562880","RemainSec":20}}
+2023/09/18 15:00:25 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 15:00:28 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":1,"card":8,"bust":true,"point":23,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:00:30 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703665151229562880","RemainSec":20}}
+2023/09/18 15:00:30 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 15:00:50 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703665151229562880","RemainSec":20}}
+2023/09/18 15:00:50 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 15:00:52 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":5,"bust":false,"point":20,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:00:53 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":4}}
+2023/09/18 15:00:53 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703665151229562880","RemainSec":20}}
+2023/09/18 15:00:56 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703665151229562880","RemainSec":4}}
+2023/09/18 15:00:56 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[48,9],"point":20,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:02:25 [ERROR] read tcp [::1]:54142->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 15:05:16 [INFO] 連線中斷
+2023/09/18 15:05:16 [INFO] Connect Success
+2023/09/18 15:05:19 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999979,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 15:05:23 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 15:05:23 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":999979,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":0}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 15:05:24 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703666517247266816","RemainSec":3}}
+2023/09/18 15:05:27 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":999979,"isSitDown":true},{"seatId":3,"iconId":2,"name":"****a35","gold":190862,"isSitDown":true},{"seatId":4,"iconId":100,"name":"****y45","gold":116092,"isSitDown":true}]}}
+2023/09/18 15:05:27 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703666517247266816","RemainSec":20}}
+2023/09/18 15:05:30 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****mon","parentSeat":0},{"seatId":3,"name":"****a35","parentSeat":3},{"seatId":4,"name":"****y45","parentSeat":4}]}}
+2023/09/18 15:05:30 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":999979},{"seatId":3,"bet":[30,0],"Gold":190832},{"seatId":4,"bet":[0,0],"Gold":116092}]}}
+2023/09/18 15:05:30 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":3}}
+2023/09/18 15:05:32 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****mon","parentSeat":0},{"seatId":3,"name":"****a35","parentSeat":3},{"seatId":4,"name":"****y45","parentSeat":4}]}}
+2023/09/18 15:05:32 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":999979},{"seatId":3,"bet":[30,0],"Gold":190832},{"seatId":4,"bet":[300,0],"Gold":115792}]}}
+2023/09/18 15:05:32 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 15:05:47 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703666517247266816","RemainSec":3}}
+2023/09/18 15:05:47 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999976}}
+2023/09/18 15:05:47 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****mon","parentSeat":0},{"seatId":3,"name":"****a35","parentSeat":3},{"seatId":4,"name":"****y45","parentSeat":4}]}}
+2023/09/18 15:05:47 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[3,0],"Gold":999976},{"seatId":3,"bet":[30,0],"Gold":190832},{"seatId":4,"bet":[300,0],"Gold":115792}]}}
+2023/09/18 15:05:47 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[48,-1],"playerCards":[[47,28],[],[],[13,14],[47,44]],"point":[12,0,0,13,15]}}
+2023/09/18 15:05:50 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703666517247266816","RemainSec":20}}
+2023/09/18 15:05:50 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 15:06:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703666517247266816","RemainSec":20}}
+2023/09/18 15:06:10 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 15:06:14 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":3,"card":10,"bust":false,"point":13,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:06:16 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":3,"card":48,"bust":true,"point":23,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:06:18 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703666517247266816","RemainSec":20}}
+2023/09/18 15:06:18 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 15:06:21 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":14,"bust":false,"point":17,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:06:23 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":4}}
+2023/09/18 15:06:23 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703666517247266816","RemainSec":20}}
+2023/09/18 15:06:26 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703666517247266816","RemainSec":4}}
+2023/09/18 15:06:26 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[48,10],"point":20,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:06:36 [ERROR] read tcp [::1]:61046->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 15:13:00 [INFO] 連線中斷
+2023/09/18 15:13:00 [INFO] Connect Success
+2023/09/18 15:13:04 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999976,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 15:13:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 15:13:08 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":999976,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":1}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 15:13:09 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703668465568583680","RemainSec":3}}
+2023/09/18 15:13:12 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":7,"name":"****Ray","gold":160479,"isSitDown":true},{"seatId":1,"iconId":0,"name":"****mon","gold":999976,"isSitDown":true},{"seatId":4,"iconId":106,"name":"****ity","gold":134412,"isSitDown":true}]}}
+2023/09/18 15:13:12 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703668465568583680","RemainSec":20}}
+2023/09/18 15:13:14 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****Ray","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":4,"name":"****ity","parentSeat":4}]}}
+2023/09/18 15:13:14 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":160179},{"seatId":1,"bet":[0,0],"Gold":999976},{"seatId":4,"bet":[0,0],"Gold":134412}]}}
+2023/09/18 15:13:14 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/09/18 15:13:15 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****Ray","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":4,"name":"****ity","parentSeat":4}]}}
+2023/09/18 15:13:15 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":160179},{"seatId":1,"bet":[0,0],"Gold":999976},{"seatId":4,"bet":[300,0],"Gold":134112}]}}
+2023/09/18 15:13:15 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 15:13:32 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703668465568583680","RemainSec":3}}
+2023/09/18 15:13:32 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999973}}
+2023/09/18 15:13:32 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****Ray","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":4,"name":"****ity","parentSeat":4}]}}
+2023/09/18 15:13:32 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":160179},{"seatId":1,"bet":[3,0],"Gold":999973},{"seatId":4,"bet":[300,0],"Gold":134112}]}}
+2023/09/18 15:13:32 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[43,-1],"playerCards":[[33,35],[1,18],[],[],[21,49]],"point":[18,8,0,0,19]}}
+2023/09/18 15:13:35 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668465568583680","RemainSec":20}}
+2023/09/18 15:13:35 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 15:13:37 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":0}}
+2023/09/18 15:13:37 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668465568583680","RemainSec":20}}
+2023/09/18 15:13:37 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 15:13:57 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668465568583680","RemainSec":20}}
+2023/09/18 15:13:57 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 15:14:00 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":4}}
+2023/09/18 15:14:00 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668465568583680","RemainSec":20}}
+2023/09/18 15:14:03 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703668465568583680","RemainSec":4}}
+2023/09/18 15:14:03 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":true,"cards":[43,51,37],"point":25,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:14:32 [ERROR] read tcp [::1]:61189->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 15:14:40 [INFO] 連線中斷
+2023/09/18 15:14:41 [INFO] Connect Success
+2023/09/18 15:14:43 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.85,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 15:14:47 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 15:14:47 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":999978.85,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":1}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 15:14:48 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703668879219232768","RemainSec":3}}
+2023/09/18 15:14:51 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":0,"name":"****mon","gold":999978.85,"isSitDown":true},{"seatId":2,"iconId":105,"name":"****n02","gold":195661,"isSitDown":true},{"seatId":3,"iconId":100,"name":"****e57","gold":106483,"isSitDown":true},{"seatId":4,"iconId":7,"name":"****ine","gold":156657,"isSitDown":true}]}}
+2023/09/18 15:14:51 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703668879219232768","RemainSec":20}}
+2023/09/18 15:14:52 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****n02","parentSeat":2},{"seatId":3,"name":"****e57","parentSeat":3},{"seatId":4,"name":"****ine","parentSeat":4}]}}
+2023/09/18 15:14:52 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[0,0],"Gold":999978.85},{"seatId":2,"bet":[0,0],"Gold":195661},{"seatId":3,"bet":[0,0],"Gold":106483},{"seatId":4,"bet":[300,0],"Gold":156357}]}}
+2023/09/18 15:14:52 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 15:14:54 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****n02","parentSeat":2},{"seatId":3,"name":"****e57","parentSeat":3},{"seatId":4,"name":"****ine","parentSeat":4}]}}
+2023/09/18 15:14:54 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[0,0],"Gold":999978.85},{"seatId":2,"bet":[228,0],"Gold":195433},{"seatId":3,"bet":[0,0],"Gold":106483},{"seatId":4,"bet":[300,0],"Gold":156357}]}}
+2023/09/18 15:14:54 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":2}}
+2023/09/18 15:14:55 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****n02","parentSeat":2},{"seatId":3,"name":"****e57","parentSeat":3},{"seatId":4,"name":"****ine","parentSeat":4}]}}
+2023/09/18 15:14:55 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[0,0],"Gold":999978.85},{"seatId":2,"bet":[228,0],"Gold":195433},{"seatId":3,"bet":[3,0],"Gold":106480},{"seatId":4,"bet":[300,0],"Gold":156357}]}}
+2023/09/18 15:14:55 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":3}}
+2023/09/18 15:15:11 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703668879219232768","RemainSec":3}}
+2023/09/18 15:15:11 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999975.85}}
+2023/09/18 15:15:11 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****n02","parentSeat":2},{"seatId":3,"name":"****e57","parentSeat":3},{"seatId":4,"name":"****ine","parentSeat":4}]}}
+2023/09/18 15:15:11 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[3,0],"Gold":999975.85},{"seatId":2,"bet":[228,0],"Gold":195433},{"seatId":3,"bet":[3,0],"Gold":106480},{"seatId":4,"bet":[300,0],"Gold":156357}]}}
+2023/09/18 15:15:11 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[40,-1],"playerCards":[[],[43,33],[5,31],[23,9],[16,38]],"point":[0,13,12,20,14]}}
+2023/09/18 15:15:14 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668879219232768","RemainSec":20}}
+2023/09/18 15:15:14 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 15:15:34 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668879219232768","RemainSec":20}}
+2023/09/18 15:15:34 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/09/18 15:15:36 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":2,"card":33,"bust":false,"point":20,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:15:39 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":2}}
+2023/09/18 15:15:39 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668879219232768","RemainSec":20}}
+2023/09/18 15:15:39 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 15:15:42 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":3}}
+2023/09/18 15:15:42 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668879219232768","RemainSec":20}}
+2023/09/18 15:15:42 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 15:15:45 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":3,"bust":false,"point":18,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:15:47 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":4}}
+2023/09/18 15:15:47 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703668879219232768","RemainSec":20}}
+2023/09/18 15:15:50 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703668879219232768","RemainSec":4}}
+2023/09/18 15:15:50 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":true,"cards":[40,1,37,35],"point":24,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:16:23 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"2001-1703668879219232768","RemainSec":1}}
+2023/09/18 15:16:23 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999981.7}}
+2023/09/18 15:16:23 [INFO] Receive Message:{"Ret":"ActMatchGameResult","Data":{"gid":"2001-1703668879219232768","result":[{"seatId":1,"bet":[3,0],"win":[5.85,0],"Gold":999981.7},{"seatId":2,"bet":[228,0],"win":[444.6,0],"Gold":195877.6},{"seatId":3,"bet":[3,0],"win":[5.85,0],"Gold":106485.85},{"seatId":4,"bet":[300,0],"win":[585,0],"Gold":156942}]}}
+2023/09/18 15:16:45 [ERROR] read tcp [::1]:61256->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 15:17:05 [INFO] 連線中斷
+2023/09/18 15:17:05 [INFO] Connect Success
+2023/09/18 15:17:07 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999981.7,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 15:17:13 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 15:17:13 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":999981.7,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":1}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 15:17:14 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703669493579911168","RemainSec":3}}
+2023/09/18 15:17:17 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":5,"name":"****r70","gold":134367,"isSitDown":true},{"seatId":1,"iconId":0,"name":"****mon","gold":999981.7,"isSitDown":true},{"seatId":3,"iconId":101,"name":"****ace","gold":124952,"isSitDown":true}]}}
+2023/09/18 15:17:17 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703669493579911168","RemainSec":20}}
+2023/09/18 15:17:19 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****r70","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":3,"name":"****ace","parentSeat":3}]}}
+2023/09/18 15:17:19 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":134067},{"seatId":1,"bet":[0,0],"Gold":999981.7},{"seatId":3,"bet":[0,0],"Gold":124952}]}}
+2023/09/18 15:17:19 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****r70","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":3,"name":"****ace","parentSeat":3}]}}
+2023/09/18 15:17:19 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":134067},{"seatId":1,"bet":[0,0],"Gold":999981.7},{"seatId":3,"bet":[180,0],"Gold":124772}]}}
+2023/09/18 15:17:19 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/09/18 15:17:19 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":3}}
+2023/09/18 15:17:37 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703669493579911168","RemainSec":3}}
+2023/09/18 15:17:37 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999978.7}}
+2023/09/18 15:17:37 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****r70","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":3,"name":"****ace","parentSeat":3}]}}
+2023/09/18 15:17:37 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":134067},{"seatId":1,"bet":[3,0],"Gold":999978.7},{"seatId":3,"bet":[180,0],"Gold":124772}]}}
+2023/09/18 15:17:37 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[36,-1],"playerCards":[[39,49],[45,49],[],[25,2],[]],"point":[21,17,0,13,0]}}
+2023/09/18 15:17:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703669493579911168","RemainSec":20}}
+2023/09/18 15:17:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703669493579911168","RemainSec":20}}
+2023/09/18 15:17:40 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 15:18:00 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703669493579911168","RemainSec":20}}
+2023/09/18 15:18:00 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 15:18:03 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":3,"card":21,"bust":true,"point":22,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:18:05 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703669493579911168","RemainSec":20}}
+2023/09/18 15:18:08 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703669493579911168","RemainSec":4}}
+2023/09/18 15:18:08 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[36,51],"point":20,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:20:22 [ERROR] read tcp [::1]:61311->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 15:22:16 [INFO] 連線中斷
+2023/09/18 15:22:17 [INFO] Connect Success
+2023/09/18 15:22:19 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.7,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 15:22:21 [INFO] Receive Message:{"Code":0,"Ret":"JoinRoom","Message":"success","Data":[{"GameCode":"blackjack","RoomType":0,"TableId":20010,"Num":0,"Status":1,"Ante":3,"EnterGold":6,"ExitGold":100000000,"BringIn":300},{"GameCode":"blackjack","RoomType":1,"TableId":20011,"Num":0,"Status":1,"Ante":10,"EnterGold":20,"ExitGold":100000000,"BringIn":1000},{"GameCode":"blackjack","RoomType":2,"TableId":20012,"Num":0,"Status":1,"Ante":30,"EnterGold":60,"ExitGold":100000000,"BringIn":3000},{"GameCode":"blackjack","RoomType":3,"TableId":20013,"Num":0,"Status":1,"Ante":100,"EnterGold":200,"ExitGold":100000000,"BringIn":10000}]}
+2023/09/18 15:22:35 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 15:22:35 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":4,"iconId":0,"name":"Test_simon","gold":999978.7,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":4}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 15:22:36 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703670843906723840","RemainSec":3}}
+2023/09/18 15:22:39 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****e09","gold":114346.4,"isSitDown":true},{"seatId":2,"iconId":5,"name":"****y94","gold":198256.5,"isSitDown":true},{"seatId":4,"iconId":0,"name":"****mon","gold":999978.7,"isSitDown":true}]}}
+2023/09/18 15:22:39 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703670843906723840","RemainSec":20}}
+2023/09/18 15:22:40 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****e09","parentSeat":0},{"seatId":2,"name":"****y94","parentSeat":2},{"seatId":4,"name":"****mon","parentSeat":4}]}}
+2023/09/18 15:22:40 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":114046.4},{"seatId":2,"bet":[0,0],"Gold":198256.5},{"seatId":4,"bet":[0,0],"Gold":999978.7}]}}
+2023/09/18 15:22:40 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/09/18 15:22:42 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****e09","parentSeat":0},{"seatId":2,"name":"****y94","parentSeat":2},{"seatId":4,"name":"****mon","parentSeat":4}]}}
+2023/09/18 15:22:42 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":114046.4},{"seatId":2,"bet":[186,0],"Gold":198070.5},{"seatId":4,"bet":[0,0],"Gold":999978.7}]}}
+2023/09/18 15:22:42 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":2}}
+2023/09/18 15:22:59 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703670843906723840","RemainSec":3}}
+2023/09/18 15:22:59 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999975.7}}
+2023/09/18 15:22:59 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****e09","parentSeat":0},{"seatId":2,"name":"****y94","parentSeat":2},{"seatId":4,"name":"****mon","parentSeat":4}]}}
+2023/09/18 15:22:59 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":114046.4},{"seatId":2,"bet":[186,0],"Gold":198070.5},{"seatId":4,"bet":[3,0],"Gold":999975.7}]}}
+2023/09/18 15:22:59 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[45,-1],"playerCards":[[13,15],[],[10,50],[],[37,47]],"point":[14,0,20,0,19]}}
+2023/09/18 15:23:02 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703670843906723840","RemainSec":20}}
+2023/09/18 15:23:02 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 15:23:04 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":0,"card":14,"bust":false,"point":16,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:23:07 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":0,"card":26,"bust":false,"point":17,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:23:10 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":0}}
+2023/09/18 15:23:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703670843906723840","RemainSec":20}}
+2023/09/18 15:23:10 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/09/18 15:23:13 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":2}}
+2023/09/18 15:23:13 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703670843906723840","RemainSec":20}}
+2023/09/18 15:23:13 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 15:23:33 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703670843906723840","RemainSec":20}}
+2023/09/18 15:23:36 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703670843906723840","RemainSec":4}}
+2023/09/18 15:23:36 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[45,25],"point":17,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:24:13 [ERROR] read tcp [::1]:61415->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 15:25:02 [INFO] 連線中斷
+2023/09/18 15:25:02 [INFO] Connect Success
+2023/09/18 15:25:04 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999981.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 15:25:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 15:25:08 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":3,"iconId":0,"name":"Test_simon","gold":999981.55,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":3}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 15:25:09 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703671484058177536","RemainSec":3}}
+2023/09/18 15:25:12 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":101,"name":"****ose","gold":181892.9,"isSitDown":true},{"seatId":1,"iconId":102,"name":"****len","gold":193631,"isSitDown":true},{"seatId":2,"iconId":7,"name":"****e04","gold":193092,"isSitDown":true},{"seatId":3,"iconId":0,"name":"****mon","gold":999981.55,"isSitDown":true}]}}
+2023/09/18 15:25:12 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703671484058177536","RemainSec":20}}
+2023/09/18 15:25:13 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****ose","parentSeat":0},{"seatId":1,"name":"****len","parentSeat":1},{"seatId":2,"name":"****e04","parentSeat":2},{"seatId":3,"name":"****mon","parentSeat":3}]}}
+2023/09/18 15:25:13 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":181892.9},{"seatId":1,"bet":[300,0],"Gold":193331},{"seatId":2,"bet":[0,0],"Gold":193092},{"seatId":3,"bet":[0,0],"Gold":999981.55}]}}
+2023/09/18 15:25:13 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****ose","parentSeat":0},{"seatId":1,"name":"****len","parentSeat":1},{"seatId":2,"name":"****e04","parentSeat":2},{"seatId":3,"name":"****mon","parentSeat":3}]}}
+2023/09/18 15:25:13 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":181892.9},{"seatId":1,"bet":[300,0],"Gold":193331},{"seatId":2,"bet":[123,0],"Gold":192969},{"seatId":3,"bet":[0,0],"Gold":999981.55}]}}
+2023/09/18 15:25:13 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":1}}
+2023/09/18 15:25:13 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":2}}
+2023/09/18 15:25:16 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****ose","parentSeat":0},{"seatId":1,"name":"****len","parentSeat":1},{"seatId":2,"name":"****e04","parentSeat":2},{"seatId":3,"name":"****mon","parentSeat":3}]}}
+2023/09/18 15:25:16 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":181592.9},{"seatId":1,"bet":[300,0],"Gold":193331},{"seatId":2,"bet":[123,0],"Gold":192969},{"seatId":3,"bet":[0,0],"Gold":999981.55}]}}
+2023/09/18 15:25:16 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/09/18 15:25:32 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703671484058177536","RemainSec":3}}
+2023/09/18 15:25:32 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999978.55}}
+2023/09/18 15:25:32 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****ose","parentSeat":0},{"seatId":1,"name":"****len","parentSeat":1},{"seatId":2,"name":"****e04","parentSeat":2},{"seatId":3,"name":"****mon","parentSeat":3}]}}
+2023/09/18 15:25:32 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":181592.9},{"seatId":1,"bet":[300,0],"Gold":193331},{"seatId":2,"bet":[123,0],"Gold":192969},{"seatId":3,"bet":[3,0],"Gold":999978.55}]}}
+2023/09/18 15:25:32 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[33,-1],"playerCards":[[18,39],[8,29],[37,28],[21,17],[]],"point":[17,13,13,14,0]}}
+2023/09/18 15:25:35 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703671484058177536","RemainSec":20}}
+2023/09/18 15:25:35 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 15:25:38 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":0,"card":47,"bust":false,"point":16,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:25:40 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":0,"card":21,"bust":true,"point":25,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:25:42 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703671484058177536","RemainSec":20}}
+2023/09/18 15:25:42 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 15:25:43 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":1,"card":1,"bust":false,"point":15,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:25:46 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":1,"card":40,"bust":false,"point":17,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:25:48 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":1}}
+2023/09/18 15:25:48 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703671484058177536","RemainSec":20}}
+2023/09/18 15:25:48 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/09/18 15:25:49 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":2,"card":41,"bust":false,"point":16,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:25:51 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":2,"card":16,"bust":false,"point":20,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:25:53 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":2}}
+2023/09/18 15:25:53 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703671484058177536","RemainSec":20}}
+2023/09/18 15:25:53 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 15:26:13 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703671484058177536","RemainSec":20}}
+2023/09/18 15:26:16 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703671484058177536","RemainSec":4}}
+2023/09/18 15:26:16 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[33,5,29],"point":18,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 15:26:43 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"2001-1703671484058177536","RemainSec":1}}
+2023/09/18 15:26:43 [INFO] Receive Message:{"Ret":"ActMatchGameResult","Data":{"gid":"2001-1703671484058177536","result":[{"seatId":2,"bet":[123,0],"win":[239.85,0],"Gold":193208.85},{"seatId":3,"bet":[3,0],"win":[0,0],"Gold":999978.55},{"seatId":0,"bet":[300,0],"win":[0,0],"Gold":181592.9},{"seatId":1,"bet":[300,0],"win":[0,0],"Gold":193331}]}}
+2023/09/18 15:26:59 [ERROR] read tcp [::1]:61503->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 15:36:38 [INFO] 連線中斷
+2023/09/18 16:12:09 [INFO] Connect Success
+2023/09/18 16:12:15 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:12:17 [ERROR] simon 不是json的格式:{"Injackpot":{"TableID":90010} Error message:unexpected end of JSON input
+2023/09/18 16:12:52 [ERROR] simon 不是json的格式:{Injackpot:{"TableID":90010} Error message:invalid character 'I' looking for beginning of object key string
+2023/09/18 16:14:16 [INFO] simon SendMessage={"Injackpot":{"TableID":90010}}
+2023/09/18 16:14:16 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/09/18 16:14:28 [INFO] 連線中斷
+2023/09/18 16:14:37 [INFO] Connect Success
+2023/09/18 16:14:41 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:14:45 [INFO] simon SendMessage={"Injackpot":{"TableID":90010}}
+2023/09/18 16:14:45 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/09/18 16:15:47 [INFO] 連線中斷
+2023/09/18 16:15:48 [INFO] Connect Success
+2023/09/18 16:15:52 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:15:59 [INFO] simon SendMessage={"InJackpot":{"tableId":90010}}
+2023/09/18 16:16:50 [ERROR] read tcp [::1]:62557->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:17:03 [INFO] 連線中斷
+2023/09/18 16:17:03 [INFO] Connect Success
+2023/09/18 16:17:06 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:17:09 [INFO] simon SendMessage={"InJackpot":{"tableId":90010}}
+2023/09/18 16:17:43 [ERROR] read tcp [::1]:62619->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:17:59 [INFO] 連線中斷
+2023/09/18 16:17:59 [INFO] Connect Success
+2023/09/18 16:18:01 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:18:05 [INFO] simon SendMessage={"InJackpot":{"tableId":90010}}
+2023/09/18 16:18:45 [ERROR] read tcp [::1]:62663->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:19:08 [INFO] 連線中斷
+2023/09/18 16:19:09 [INFO] Connect Success
+2023/09/18 16:19:11 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:19:14 [INFO] simon SendMessage={"InJackpot":{"tableId":90010}}
+2023/09/18 16:20:02 [ERROR] read tcp [::1]:62716->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:33:56 [INFO] 連線中斷
+2023/09/18 16:33:56 [INFO] Connect Success
+2023/09/18 16:33:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:34:01 [INFO] simon SendMessage={"InJackpot":{"tableId":90010}}
+2023/09/18 16:34:13 [ERROR] read tcp [::1]:63507->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:34:57 [INFO] 連線中斷
+2023/09/18 16:34:58 [INFO] Connect Success
+2023/09/18 16:35:00 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:35:02 [INFO] simon SendMessage={"InJackpot":{"tableId":90010}}
+2023/09/18 16:35:36 [ERROR] read tcp [::1]:63564->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:35:46 [INFO] 連線中斷
+2023/09/18 16:35:46 [INFO] Connect Success
+2023/09/18 16:35:48 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:35:50 [INFO] simon SendMessage={"InJackpot":{"tableId":900101}}
+2023/09/18 16:36:18 [ERROR] read tcp [::1]:63614->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:40:08 [INFO] 連線中斷
+2023/09/18 16:40:10 [INFO] Connect Success
+2023/09/18 16:40:12 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:40:16 [INFO] simon SendMessage={"InJackpot":{"tableId":900101}}
+2023/09/18 16:40:29 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 16:45:02 [ERROR] read tcp [::1]:63832->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:49:07 [INFO] 連線中斷
+2023/09/18 16:49:07 [INFO] Connect Success
+2023/09/18 16:49:10 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:49:13 [INFO] simon SendMessage={"InJackpot":{"tableId":900101}}
+2023/09/18 16:49:13 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 16:49:37 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 16:50:08 [ERROR] read tcp [::1]:64187->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:50:43 [INFO] 連線中斷
+2023/09/18 16:50:44 [INFO] Connect Success
+2023/09/18 16:50:46 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:50:49 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 16:51:22 [ERROR] read tcp [::1]:64257->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:52:28 [INFO] 連線中斷
+2023/09/18 16:52:29 [INFO] Connect Success
+2023/09/18 16:52:31 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:52:33 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 16:52:55 [ERROR] read tcp [::1]:64342->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 16:55:03 [INFO] 連線中斷
+2023/09/18 16:55:03 [INFO] Connect Success
+2023/09/18 16:55:06 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 16:55:11 [INFO] simon SendMessage={"InJackpot":{"tableId":900101}}
+2023/09/18 16:55:12 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 16:55:35 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:08:41 [INFO] Connect Success
+2023/09/18 17:08:47 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:08:50 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:08:52 [INFO] Receive Message:{"Code":200001,"Ret":"Bet","Message":"data error"}
+2023/09/18 17:09:15 [INFO] 連線中斷
+2023/09/18 17:09:15 [ERROR] read tcp [::1]:54386->[::1]:10001: use of closed network connection
+2023/09/18 17:09:16 [INFO] Connect Success
+2023/09/18 17:09:18 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:09:30 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:09:32 [INFO] Receive Message:{"Code":200001,"Ret":"Bet","Message":"data error"}
+2023/09/18 17:13:02 [INFO] Connect Success
+2023/09/18 17:13:10 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:13:17 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 17:13:37 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:14:11 [ERROR] read tcp [::1]:54600->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:14:20 [INFO] 連線中斷
+2023/09/18 17:14:20 [INFO] Connect Success
+2023/09/18 17:14:22 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:14:28 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 17:14:32 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:15:45 [ERROR] read tcp [::1]:54666->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:16:16 [INFO] 連線中斷
+2023/09/18 17:16:17 [INFO] Connect Success
+2023/09/18 17:16:20 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:16:21 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 17:16:23 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:18:18 [ERROR] read tcp [::1]:54744->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:18:39 [INFO] 連線中斷
+2023/09/18 17:18:39 [INFO] Connect Success
+2023/09/18 17:18:42 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:18:43 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 17:18:46 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:21:02 [ERROR] read tcp [::1]:57870->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:21:10 [INFO] 連線中斷
+2023/09/18 17:21:10 [INFO] Connect Success
+2023/09/18 17:21:12 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:21:14 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:21:33 [ERROR] read tcp [::1]:57975->[::1]:10001: use of closed network connection
+2023/09/18 17:21:33 [INFO] 連線中斷
+2023/09/18 17:21:34 [INFO] Connect Success
+2023/09/18 17:21:38 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:21:40 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 17:21:42 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:22:27 [ERROR] read tcp [::1]:57994->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:22:41 [INFO] 連線中斷
+2023/09/18 17:22:41 [INFO] Connect Success
+2023/09/18 17:22:44 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":900101,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:22:45 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"success"}
+2023/09/18 17:22:47 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/09/18 17:23:54 [INFO] Receive Message:{"Code":0,"Ret":"PlayJapot","Message":"success","Data":{"prize":0,"coinId":"","coinBetvalue":0,"droptime":0}}
+2023/09/18 17:24:29 [ERROR] read tcp [::1]:58050->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:24:42 [INFO] 連線中斷
+2023/09/18 17:24:47 [ERROR] 未選擇環境
+2023/09/18 17:24:50 [INFO] Connect Success
+2023/09/18 17:24:56 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":1999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:25:00 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 17:25:00 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":3,"iconId":0,"name":"Test_simon","gold":1999978.55,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":3}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 17:25:01 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703701649190555648","RemainSec":3}}
+2023/09/18 17:25:04 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":7,"name":"****ter","gold":190590,"isSitDown":true},{"seatId":3,"iconId":0,"name":"****mon","gold":1999978.55,"isSitDown":true},{"seatId":4,"iconId":106,"name":"****ena","gold":169469.3,"isSitDown":true}]}}
+2023/09/18 17:25:04 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703701649190555648","RemainSec":20}}
+2023/09/18 17:25:08 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****ter","parentSeat":0},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ena","parentSeat":4}]}}
+2023/09/18 17:25:08 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":190590},{"seatId":3,"bet":[0,0],"Gold":1999978.55},{"seatId":4,"bet":[300,0],"Gold":169169.3}]}}
+2023/09/18 17:25:08 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 17:25:08 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****ter","parentSeat":0},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ena","parentSeat":4}]}}
+2023/09/18 17:25:08 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":190290},{"seatId":3,"bet":[0,0],"Gold":1999978.55},{"seatId":4,"bet":[300,0],"Gold":169169.3}]}}
+2023/09/18 17:25:08 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/09/18 17:25:24 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703701649190555648","RemainSec":3}}
+2023/09/18 17:25:24 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":1999975.55}}
+2023/09/18 17:25:24 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****ter","parentSeat":0},{"seatId":3,"name":"****mon","parentSeat":3},{"seatId":4,"name":"****ena","parentSeat":4}]}}
+2023/09/18 17:25:24 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[300,0],"Gold":190290},{"seatId":3,"bet":[3,0],"Gold":1999975.55},{"seatId":4,"bet":[300,0],"Gold":169169.3}]}}
+2023/09/18 17:25:24 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[26,-1],"playerCards":[[3,28],[],[],[35,39],[7,20]],"point":[7,0,0,21,16]}}
+2023/09/18 17:25:24 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Insurance","Gid":"2001-1703701649190555648","RemainSec":10}}
+2023/09/18 17:25:34 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703701649190555648","RemainSec":20}}
+2023/09/18 17:25:34 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 17:25:37 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":0,"card":25,"bust":false,"point":17,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:25:39 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":0}}
+2023/09/18 17:25:39 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703701649190555648","RemainSec":20}}
+2023/09/18 17:25:39 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703701649190555648","RemainSec":20}}
+2023/09/18 17:25:39 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 17:25:41 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":31,"bust":true,"point":22,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:25:43 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703701649190555648","RemainSec":20}}
+2023/09/18 17:25:46 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703701649190555648","RemainSec":4}}
+2023/09/18 17:25:46 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[26,32],"point":18,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:25:53 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"2001-1703701649190555648","RemainSec":1}}
+2023/09/18 17:25:53 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":1999982.825}}
+2023/09/18 17:25:53 [INFO] Receive Message:{"Ret":"ActMatchGameResult","Data":{"gid":"2001-1703701649190555648","result":[{"seatId":0,"bet":[300,0],"win":[0,0],"Gold":190290},{"seatId":3,"bet":[3,0],"win":[7.275,0],"Gold":1999982.825},{"seatId":4,"bet":[300,0],"win":[0,0],"Gold":169169.3}]}}
+2023/09/18 17:28:49 [ERROR] read tcp [::1]:58161->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:29:13 [INFO] 連線中斷
+2023/09/18 17:29:13 [INFO] Connect Success
+2023/09/18 17:29:15 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2999978.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:29:18 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 17:29:18 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":2999978.55,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":1}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 17:29:19 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703702732088545280","RemainSec":3}}
+2023/09/18 17:29:22 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":4,"name":"****r49","gold":198045,"isSitDown":true},{"seatId":1,"iconId":0,"name":"****mon","gold":2999978.55,"isSitDown":true},{"seatId":2,"iconId":3,"name":"****a28","gold":127270.2,"isSitDown":true}]}}
+2023/09/18 17:29:22 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703702732088545280","RemainSec":20}}
+2023/09/18 17:29:25 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****r49","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****a28","parentSeat":2}]}}
+2023/09/18 17:29:25 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":198045},{"seatId":1,"bet":[0,0],"Gold":2999978.55},{"seatId":2,"bet":[18,0],"Gold":127252.2}]}}
+2023/09/18 17:29:25 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":2}}
+2023/09/18 17:29:26 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****r49","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****a28","parentSeat":2}]}}
+2023/09/18 17:29:26 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[138,0],"Gold":197907},{"seatId":1,"bet":[0,0],"Gold":2999978.55},{"seatId":2,"bet":[18,0],"Gold":127252.2}]}}
+2023/09/18 17:29:26 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/09/18 17:29:42 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703702732088545280","RemainSec":3}}
+2023/09/18 17:29:42 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2999975.55}}
+2023/09/18 17:29:42 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****r49","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****a28","parentSeat":2}]}}
+2023/09/18 17:29:42 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[138,0],"Gold":197907},{"seatId":1,"bet":[3,0],"Gold":2999975.55},{"seatId":2,"bet":[18,0],"Gold":127252.2}]}}
+2023/09/18 17:29:42 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[46,-1],"playerCards":[[29,43],[15,2],[39,44],[],[]],"point":[9,6,17,0,0]}}
+2023/09/18 17:29:45 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703702732088545280","RemainSec":20}}
+2023/09/18 17:29:45 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 17:29:47 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":0,"card":14,"bust":false,"point":11,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:29:48 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":0,"card":13,"bust":false,"point":12,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:29:50 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":0,"card":7,"bust":false,"point":20,"is21Point":false,"isFiveDragon":true,"isBlackJack":false}}
+2023/09/18 17:29:52 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703702732088545280","RemainSec":20}}
+2023/09/18 17:29:52 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 17:30:12 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703702732088545280","RemainSec":20}}
+2023/09/18 17:30:12 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/09/18 17:30:13 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":2,"card":43,"bust":false,"point":12,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:30:15 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":2,"card":48,"bust":true,"point":22,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:30:17 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703702732088545280","RemainSec":20}}
+2023/09/18 17:30:20 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703702732088545280","RemainSec":4}}
+2023/09/18 17:30:20 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[46,4,19],"point":20,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:30:46 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"2001-1703702732088545280","RemainSec":1}}
+2023/09/18 17:30:46 [INFO] Receive Message:{"Ret":"ActMatchGameResult","Data":{"gid":"2001-1703702732088545280","result":[{"seatId":0,"bet":[138,0],"win":[334.65,0],"Gold":198241.65},{"seatId":1,"bet":[3,0],"win":[0,0],"Gold":2999975.55},{"seatId":2,"bet":[18,0],"win":[0,0],"Gold":127252.2}]}}
+2023/09/18 17:32:27 [ERROR] read tcp [::1]:58352->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:32:35 [INFO] 連線中斷
+2023/09/18 17:32:35 [INFO] Connect Success
+2023/09/18 17:32:38 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2999975.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:32:43 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 17:32:43 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":2999975.55,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":1}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 17:32:44 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703703594739437568","RemainSec":3}}
+2023/09/18 17:32:47 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":102,"name":"****h91","gold":147657.1,"isSitDown":true},{"seatId":1,"iconId":0,"name":"****mon","gold":2999975.55,"isSitDown":true},{"seatId":2,"iconId":100,"name":"****a73","gold":112542.6,"isSitDown":true},{"seatId":4,"iconId":3,"name":"****l68","gold":193378.9,"isSitDown":true}]}}
+2023/09/18 17:32:47 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703703594739437568","RemainSec":20}}
+2023/09/18 17:32:50 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****h91","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****a73","parentSeat":2},{"seatId":4,"name":"****l68","parentSeat":4}]}}
+2023/09/18 17:32:50 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[30,0],"Gold":147627.1},{"seatId":1,"bet":[0,0],"Gold":2999975.55},{"seatId":2,"bet":[0,0],"Gold":112542.6},{"seatId":4,"bet":[0,0],"Gold":193378.9}]}}
+2023/09/18 17:32:50 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****h91","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****a73","parentSeat":2},{"seatId":4,"name":"****l68","parentSeat":4}]}}
+2023/09/18 17:32:50 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[30,0],"Gold":147627.1},{"seatId":1,"bet":[0,0],"Gold":2999975.55},{"seatId":2,"bet":[300,0],"Gold":112242.6},{"seatId":4,"bet":[0,0],"Gold":193378.9}]}}
+2023/09/18 17:32:50 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/09/18 17:32:50 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":2}}
+2023/09/18 17:32:51 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****h91","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****a73","parentSeat":2},{"seatId":4,"name":"****l68","parentSeat":4}]}}
+2023/09/18 17:32:51 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[30,0],"Gold":147627.1},{"seatId":1,"bet":[0,0],"Gold":2999975.55},{"seatId":2,"bet":[300,0],"Gold":112242.6},{"seatId":4,"bet":[300,0],"Gold":193078.9}]}}
+2023/09/18 17:32:51 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 17:33:07 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703703594739437568","RemainSec":3}}
+2023/09/18 17:33:07 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2999972.55}}
+2023/09/18 17:33:07 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****h91","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":2,"name":"****a73","parentSeat":2},{"seatId":4,"name":"****l68","parentSeat":4}]}}
+2023/09/18 17:33:07 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[30,0],"Gold":147627.1},{"seatId":1,"bet":[3,0],"Gold":2999972.55},{"seatId":2,"bet":[300,0],"Gold":112242.6},{"seatId":4,"bet":[300,0],"Gold":193078.9}]}}
+2023/09/18 17:33:07 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[41,-1],"playerCards":[[23,6],[18,50],[3,38],[],[26,32]],"point":[17,16,14,0,18]}}
+2023/09/18 17:33:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703703594739437568","RemainSec":20}}
+2023/09/18 17:33:10 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 17:33:13 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":0}}
+2023/09/18 17:33:13 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703703594739437568","RemainSec":20}}
+2023/09/18 17:33:13 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 17:33:33 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703703594739437568","RemainSec":20}}
+2023/09/18 17:33:33 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/09/18 17:33:36 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":2,"card":49,"bust":true,"point":24,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:33:38 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703703594739437568","RemainSec":20}}
+2023/09/18 17:33:38 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 17:33:39 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":21,"bust":false,"point":17,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:33:40 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":4}}
+2023/09/18 17:33:40 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703703594739437568","RemainSec":20}}
+2023/09/18 17:33:43 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703703594739437568","RemainSec":4}}
+2023/09/18 17:33:43 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[41,38,46],"point":21,"is21Point":true,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:33:58 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"2001-1703703594739437568","RemainSec":1}}
+2023/09/18 17:33:58 [INFO] Receive Message:{"Ret":"ActMatchGameResult","Data":{"gid":"2001-1703703594739437568","result":[{"seatId":0,"bet":[30,0],"win":[0,0],"Gold":147627.1},{"seatId":1,"bet":[3,0],"win":[0,0],"Gold":2999972.55},{"seatId":2,"bet":[300,0],"win":[0,0],"Gold":112242.6},{"seatId":4,"bet":[300,0],"win":[0,0],"Gold":193078.9}]}}
+2023/09/18 17:35:31 [ERROR] read tcp [::1]:58531->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:36:50 [INFO] 連線中斷
+2023/09/18 17:36:51 [INFO] Connect Success
+2023/09/18 17:36:53 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2999972.55,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:36:57 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 17:36:57 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":2,"iconId":0,"name":"Test_simon","gold":2999972.55,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":2}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 17:36:58 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703704656414248960","RemainSec":3}}
+2023/09/18 17:37:01 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":2,"name":"****ebe","gold":141175,"isSitDown":true},{"seatId":2,"iconId":0,"name":"****mon","gold":2999972.55,"isSitDown":true},{"seatId":3,"iconId":103,"name":"****eve","gold":189664,"isSitDown":true}]}}
+2023/09/18 17:37:01 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703704656414248960","RemainSec":20}}
+2023/09/18 17:37:02 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****ebe","parentSeat":1},{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":3,"name":"****eve","parentSeat":3}]}}
+2023/09/18 17:37:02 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[300,0],"Gold":140875},{"seatId":2,"bet":[0,0],"Gold":2999972.55},{"seatId":3,"bet":[0,0],"Gold":189664}]}}
+2023/09/18 17:37:02 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":1}}
+2023/09/18 17:37:04 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****ebe","parentSeat":1},{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":3,"name":"****eve","parentSeat":3}]}}
+2023/09/18 17:37:04 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[300,0],"Gold":140875},{"seatId":2,"bet":[0,0],"Gold":2999972.55},{"seatId":3,"bet":[300,0],"Gold":189364}]}}
+2023/09/18 17:37:04 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":3}}
+2023/09/18 17:37:21 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703704656414248960","RemainSec":3}}
+2023/09/18 17:37:21 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2999969.55}}
+2023/09/18 17:37:21 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":1,"name":"****ebe","parentSeat":1},{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":3,"name":"****eve","parentSeat":3}]}}
+2023/09/18 17:37:21 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":1,"bet":[300,0],"Gold":140875},{"seatId":2,"bet":[3,0],"Gold":2999969.55},{"seatId":3,"bet":[300,0],"Gold":189364}]}}
+2023/09/18 17:37:21 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[41,-1],"playerCards":[[],[26,51],[25,50],[48,36],[]],"point":[0,21,20,20,0]}}
+2023/09/18 17:37:24 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703704656414248960","RemainSec":20}}
+2023/09/18 17:37:24 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703704656414248960","RemainSec":20}}
+2023/09/18 17:37:24 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":2}}
+2023/09/18 17:37:44 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703704656414248960","RemainSec":20}}
+2023/09/18 17:37:44 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 17:37:46 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":3}}
+2023/09/18 17:37:46 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703704656414248960","RemainSec":20}}
+2023/09/18 17:37:49 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703704656414248960","RemainSec":4}}
+2023/09/18 17:37:49 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":true,"cards":[41,51,13,51],"point":24,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:38:04 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"2001-1703704656414248960","RemainSec":1}}
+2023/09/18 17:38:04 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2999975.4}}
+2023/09/18 17:38:04 [INFO] Receive Message:{"Ret":"ActMatchGameResult","Data":{"gid":"2001-1703704656414248960","result":[{"seatId":1,"bet":[300,0],"win":[727.5,0],"Gold":141602.5},{"seatId":2,"bet":[3,0],"win":[5.85,0],"Gold":2999975.4},{"seatId":3,"bet":[300,0],"win":[585,0],"Gold":189949}]}}
+2023/09/18 17:38:46 [ERROR] read tcp [::1]:55445->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/18 17:38:55 [INFO] 連線中斷
+2023/09/18 17:38:56 [INFO] Connect Success
+2023/09/18 17:38:58 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2999975.4,"IconID":0,"Name":"Test_simon","UserId":88342761,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/18 17:39:04 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/09/18 17:39:04 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"success","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":2999975.4,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":1}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/09/18 17:39:05 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1703705188944056320","RemainSec":3}}
+2023/09/18 17:39:08 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":102,"name":"****nus","gold":143062,"isSitDown":true},{"seatId":1,"iconId":0,"name":"****mon","gold":2999975.4,"isSitDown":true},{"seatId":3,"iconId":105,"name":"****lia","gold":178815,"isSitDown":true},{"seatId":4,"iconId":4,"name":"****r49","gold":178383.2,"isSitDown":true}]}}
+2023/09/18 17:39:08 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1703705188944056320","RemainSec":20}}
+2023/09/18 17:39:09 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****nus","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":3,"name":"****lia","parentSeat":3},{"seatId":4,"name":"****r49","parentSeat":4}]}}
+2023/09/18 17:39:09 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[0,0],"Gold":143062},{"seatId":1,"bet":[0,0],"Gold":2999975.4},{"seatId":3,"bet":[6,0],"Gold":178809},{"seatId":4,"bet":[0,0],"Gold":178383.2}]}}
+2023/09/18 17:39:09 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":3}}
+2023/09/18 17:39:12 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****nus","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":3,"name":"****lia","parentSeat":3},{"seatId":4,"name":"****r49","parentSeat":4}]}}
+2023/09/18 17:39:12 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[198,0],"Gold":142864},{"seatId":1,"bet":[0,0],"Gold":2999975.4},{"seatId":3,"bet":[6,0],"Gold":178809},{"seatId":4,"bet":[0,0],"Gold":178383.2}]}}
+2023/09/18 17:39:12 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****nus","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":3,"name":"****lia","parentSeat":3},{"seatId":4,"name":"****r49","parentSeat":4}]}}
+2023/09/18 17:39:12 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[198,0],"Gold":142864},{"seatId":1,"bet":[0,0],"Gold":2999975.4},{"seatId":3,"bet":[6,0],"Gold":178809},{"seatId":4,"bet":[225,0],"Gold":178158.2}]}}
+2023/09/18 17:39:12 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/09/18 17:39:12 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/09/18 17:39:28 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Deal","Gid":"2001-1703705188944056320","RemainSec":3}}
+2023/09/18 17:39:28 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2999972.4}}
+2023/09/18 17:39:28 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****nus","parentSeat":0},{"seatId":1,"name":"****mon","parentSeat":1},{"seatId":3,"name":"****lia","parentSeat":3},{"seatId":4,"name":"****r49","parentSeat":4}]}}
+2023/09/18 17:39:28 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[198,0],"Gold":142864},{"seatId":1,"bet":[3,0],"Gold":2999972.4},{"seatId":3,"bet":[6,0],"Gold":178809},{"seatId":4,"bet":[225,0],"Gold":178158.2}]}}
+2023/09/18 17:39:28 [INFO] Receive Message:{"Ret":"ActDealCard","Data":{"bankerCards":[31,-1],"playerCards":[[8,36],[2,27],[],[37,14],[28,44]],"point":[19,5,0,12,9]}}
+2023/09/18 17:39:31 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703705188944056320","RemainSec":20}}
+2023/09/18 17:39:31 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":0}}
+2023/09/18 17:39:32 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":0}}
+2023/09/18 17:39:32 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703705188944056320","RemainSec":20}}
+2023/09/18 17:39:32 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":1}}
+2023/09/18 17:39:52 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703705188944056320","RemainSec":20}}
+2023/09/18 17:39:52 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":3}}
+2023/09/18 17:39:53 [INFO] Receive Message:{"Code":200001,"Ret":"PlayOperate","Message":"data error"}
+2023/09/18 17:39:55 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":3,"card":15,"bust":false,"point":15,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:39:57 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":3,"card":8,"bust":true,"point":24,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:39:59 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703705188944056320","RemainSec":20}}
+2023/09/18 17:39:59 [INFO] Receive Message:{"Ret":"ActTokenPlayerSeat","Data":{"SeatId":4}}
+2023/09/18 17:40:02 [INFO] Receive Message:{"Ret":"ActHitCard","Data":{"seatId":4,"card":25,"bust":false,"point":19,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:40:04 [INFO] Receive Message:{"Ret":"ActStop","Data":{"SeatId":4}}
+2023/09/18 17:40:04 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Play","Gid":"2001-1703705188944056320","RemainSec":20}}
+2023/09/18 17:40:07 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Open","Gid":"2001-1703705188944056320","RemainSec":4}}
+2023/09/18 17:40:07 [INFO] Receive Message:{"Ret":"ActBankerCard","Data":{"bust":false,"cards":[31,46,3],"point":18,"is21Point":false,"isFiveDragon":false,"isBlackJack":false}}
+2023/09/18 17:40:56 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Result","Gid":"2001-1703705188944056320","RemainSec":1}}
+2023/09/18 17:40:56 [INFO] Receive Message:{"Ret":"ActMatchGameResult","Data":{"gid":"2001-1703705188944056320","result":[{"seatId":4,"bet":[225,0],"win":[438.75,0],"Gold":178596.95},{"seatId":0,"bet":[198,0],"win":[386.1,0],"Gold":143250.1},{"seatId":1,"bet":[3,0],"win":[0,0],"Gold":2999972.4},{"seatId":3,"bet":[6,0],"win":[0,0],"Gold":178809}]}}
+2023/09/18 17:59:55 [ERROR] read tcp [::1]:55568->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

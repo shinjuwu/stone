@@ -1,0 +1,28 @@
+2023/05/22 13:38:56 [INFO] 連線中斷
+2023/05/22 13:39:04 [INFO] Connect Success
+2023/05/22 13:39:14 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":9999973.7,"IconID":100,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/05/22 13:39:19 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Fsm":"Bet","BaseBet":1,"EnterGold":1,"Gold":9999973.7}}
+2023/05/22 13:39:35 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"success","Data":{"Action":1,"Fsm":"Guess","Gid":"3001-1660520761510596608","Win":30,"Gold":9999893.7,"GuessArea":[60,30,15,7,3,1],"PriceType":17,"RemainSec":70}}
+2023/05/22 13:39:35 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":9999893.7}}
+2023/05/22 13:40:05 [INFO] Receive Message:{"Ret":"ActGuessWarning","Data":{}}
+2023/05/22 13:40:06 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"success","Data":{"Action":5,"Fsm":"Guess","Gid":"3001-1660520761510596608","Win":60,"Gold":9999893.7,"GuessArea":[120,60,30,15,7,3,1],"Num":2,"IsBig":false,"RemainSec":65}}
+2023/05/22 13:40:18 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"success","Data":{"Action":6,"Fsm":"Guess","Gid":"3001-1660520761510596608","Win":120,"Gold":9999893.7,"GuessArea":[240,120,60,30,15,7,3,1],"Num":12,"IsBig":true,"RemainSec":65}}
+2023/05/22 13:40:26 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"success","Data":{"Action":6,"Fsm":"Bet","Gid":"3001-1660520761510596608","Win":0,"Gold":9999893.7,"Num":1,"IsBig":false}}
+2023/05/22 13:42:49 [ERROR] read tcp [::1]:55774->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/05/22 13:43:07 [INFO] 連線中斷
+2023/05/22 13:43:12 [INFO] Connect Success
+2023/05/22 13:43:15 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":9999893.7,"IconID":100,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"fruitslot","MatchGameTableId":30010,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/05/22 13:43:26 [INFO] Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"game is finished"}
+2023/05/22 13:43:30 [ERROR] read tcp [::1]:55950->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/05/22 13:43:47 [INFO] 連線中斷
+2023/05/22 13:44:28 [INFO] Connect Success
+2023/05/22 13:44:31 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":9999893.7,"IconID":100,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"fruitslot","MatchGameTableId":30010,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/05/22 13:44:35 [INFO] Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"game is finished"}
+2023/05/22 13:44:39 [INFO] Receive Message:{"Code":0,"Ret":"IntoRoom","Message":"success","Data":[{"GameCode":"fruitslot","RoomType":0,"TableId":30010,"Num":0,"Status":1,"Ante":1,"EnterGold":1,"ExitGold":100000000},{"GameCode":"fruitslot","RoomType":1,"TableId":30011,"Num":0,"Status":1,"Ante":5,"EnterGold":5,"ExitGold":100000000},{"GameCode":"fruitslot","RoomType":2,"TableId":30012,"Num":0,"Status":1,"Ante":10,"EnterGold":10,"ExitGold":100000000},{"GameCode":"fruitslot","RoomType":3,"TableId":30013,"Num":0,"Status":1,"Ante":50,"EnterGold":50,"ExitGold":100000000}]}
+2023/05/22 13:44:43 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Fsm":"Bet","BaseBet":1,"EnterGold":1,"Gold":9999893.7}}
+2023/05/22 13:44:48 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"success","Data":{"Action":1,"Fsm":"Guess","Gid":"3001-1660522076802387968","Win":30,"Gold":9999813.7,"GuessArea":[60,30,15,7,3,1],"PriceType":8,"RemainSec":70}}
+2023/05/22 13:44:48 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":9999813.7}}
+2023/05/22 13:44:55 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"success","Data":{"Action":5,"Fsm":"Guess","Gid":"3001-1660522076802387968","Win":60,"Gold":9999813.7,"GuessArea":[120,60,30,15,7,3,1],"Num":7,"IsBig":false,"RemainSec":65}}
+2023/05/22 13:44:58 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"success","Data":{"Action":5,"Fsm":"Guess","Gid":"3001-1660522076802387968","Win":120,"Gold":9999813.7,"GuessArea":[240,120,60,30,15,7,3,1],"Num":5,"IsBig":false,"RemainSec":65}}
+2023/05/22 13:45:30 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"success","Data":{"Action":5,"Fsm":"Bet","Gid":"3001-1660522076802387968","Win":0,"Gold":9999813.7,"Num":12,"IsBig":true}}
+2023/05/22 13:54:25 [ERROR] read tcp [::1]:55993->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

@@ -1,0 +1,17 @@
+2023/06/16 09:25:20 [INFO] 連線中斷
+2023/06/16 09:25:22 [INFO] Connect Success
+2023/06/16 09:25:24 [INFO] simon SendMessage={"Login":{"token":"3b97bc39-f1e9-4c3d-bb9f-da704488047e"}}
+2023/06/16 09:27:01 [ERROR] read tcp [::1]:59602->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/06/16 09:27:46 [INFO] 連線中斷
+2023/06/16 09:27:53 [INFO] simon SendMessage={Login:{Token: Name:simon}}
+2023/06/16 09:27:53 [ERROR] simon write tcp [::1]:59602->[::1]:10001: use of closed network connection
+2023/06/16 09:27:57 [INFO] simon SendMessage={"Login":{"token":"80a9a302-5aab-4a59-9257-45a6fa4a425b"}}
+2023/06/16 09:27:57 [ERROR] simon write tcp [::1]:59602->[::1]:10001: use of closed network connection
+2023/06/16 09:28:34 [INFO] Connect Success
+2023/06/16 09:28:39 [INFO] simon SendMessage={"Login":{"token":"d01683aa-a610-46c9-869c-709d147f01d5"}}
+2023/06/16 09:31:45 [ERROR] read tcp [::1]:59738->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/06/16 09:32:38 [INFO] 連線中斷
+2023/06/16 09:32:39 [INFO] Connect Success
+2023/06/16 09:32:42 [INFO] simon SendMessage={"Login":{"token":"8eec473f-25f4-4b36-ae37-89b9ee303b81"}}
+2023/06/16 09:32:49 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":8620.775,"IconID":0,"Name":"simon","UserId":1001,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"8f912018-785b-4987-96d9-548c50b69c3a","lang":"zh-cn","type":1,"order":5,"freq":30,"content":"嗨~~今天又是美好的一天","start_time":"2023-06-15T01:45:00Z","end_time":"2023-06-16T02:15:00Z"},{"id":"9bc68870-6a51-4ea3-9de2-03c1f23ff2ac","lang":"vi-vn","type":1,"order":1,"freq":20,"content":"GG惹","start_time":"2023-06-15T01:45:00Z","end_time":"2023-06-16T02:15:00Z"},{"id":"be572fbd-b1ba-47e5-a6a4-33ad8bf1e1c4","lang":"en-us","type":1,"order":5,"freq":10,"content":"hello ! it's a good day~~~","start_time":"2023-06-15T01:45:00Z","end_time":"2023-06-16T02:15:00Z"},{"id":"a3505192-3577-4747-81a4-31a2077cf4d1","lang":"zh-cn","type":1,"order":1,"freq":60,"content":"安安~繁中測試~~","start_time":"2023-06-15T01:45:00Z","end_time":"2023-06-16T02:15:00Z"},{"id":"5efd760c-972d-4bef-9996-066d919200bf","lang":"en-us","type":1,"order":5,"freq":15,"content":"wwwwwwwwwwwwwwwww","start_time":"2023-06-15T01:45:00Z","end_time":"2023-06-16T02:15:00Z"}],"is_relogin":false}}
+2023/06/16 10:05:01 [ERROR] read tcp [::1]:59929->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

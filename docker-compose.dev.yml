@@ -1,0 +1,150 @@
+# 開發環境專用 Docker Compose 配置
+
+services:
+  # PostgreSQL 數據庫 - 開發配置
+  postgres:
+    image: postgres:15-alpine
+    container_name: gamehub-postgres-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: gamehub_dev
+      POSTGRES_USER: gamehub_dev
+      POSTGRES_PASSWORD: dev123
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+      - ./docker/init-scripts:/docker-entrypoint-initdb.d
+      - ./docker/dev-data:/docker-entrypoint-initdb.d/dev-data
+    ports:
+      - "5433:5432"  # 避免與本地 PostgreSQL 衝突
+    networks:
+      - gamehub-dev-network
+
+  # Redis 緩存 - 開發配置
+  redis:
+    image: redis:7-alpine
+    container_name: gamehub-redis-dev
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_dev_data:/data
+    ports:
+      - "6380:6379"  # 避免與本地 Redis 衝突
+    networks:
+      - gamehub-dev-network
+
+  # GameHub 主服務 - 開發模式
+  gamehub-dev:
+    build:
+      context: .
+      dockerfile: GameHub/Dockerfile.dev
+      target: development
+    container_name: gamehub-server-dev
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      # 開發環境配置
+      ENV: development
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: gamehub_dev
+      DB_USER: gamehub_dev
+      DB_PASSWORD: dev123
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      SERVER_ID: 1
+      PLATFORM: DEV
+      LOG_LEVEL: 4  # Debug 級別
+    ports:
+      - "3563:3563"  # WebSocket
+      - "3564:3564"  # TCP
+      - "8080:8080"  # HTTP API
+    volumes:
+      # 掛載源代碼以支持熱重載
+      - ./GameHub:/app/src:cached
+      - ./collie:/app/collie:cached
+      - ./slotmachine/server:/app/slotmachine/server:cached
+      - ./docker/config/GameHub.dev.conf:/app/bin/conf/GameHub.conf:ro
+      - gamehub_dev_logs:/app/bin/log
+    networks:
+      - gamehub-dev-network
+    # 開發模式下禁用健康檢查以減少資源消耗
+    healthcheck:
+      disable: true
+
+  # 開發工具 - pgAdmin
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: gamehub-pgadmin-dev
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@gamehub.dev
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_dev_data:/var/lib/pgadmin
+    depends_on:
+      - postgres
+    networks:
+      - gamehub-dev-network
+
+  # 開發工具 - Redis Commander
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: gamehub-redis-commander-dev
+    restart: unless-stopped
+    environment:
+      REDIS_HOSTS: local:redis:6379
+    ports:
+      - "8081:8081"
+    depends_on:
+      - redis
+    networks:
+      - gamehub-dev-network
+
+  # 老虎機編輯器 - 開發版
+  slot-editor-dev:
+    build:
+      context: ./slotmachine
+      dockerfile: Dockerfile.dev
+    container_name: gamehub-slot-editor-dev
+    restart: unless-stopped
+    ports:
+      - "8082:8080"
+    volumes:
+      - ./slotmachine:/app:cached
+    networks:
+      - gamehub-dev-network
+
+  # API 文檔服務
+  api-docs:
+    image: swaggerapi/swagger-ui:latest
+    container_name: gamehub-api-docs-dev
+    restart: unless-stopped
+    environment:
+      SWAGGER_JSON: /swagger/api.json
+    ports:
+      - "8083:8080"
+    volumes:
+      - ./docs/api:/swagger:ro
+    networks:
+      - gamehub-dev-network
+
+volumes:
+  postgres_dev_data:
+    driver: local
+  redis_dev_data:
+    driver: local
+  gamehub_dev_logs:
+    driver: local
+  pgadmin_dev_data:
+    driver: local
+
+networks:
+  gamehub-dev-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.21.0.0/16

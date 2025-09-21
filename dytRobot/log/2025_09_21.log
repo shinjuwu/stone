@@ -1,0 +1,620 @@
+2025/09/21 01:16:18 [INFO] dayon0113加入「博丁」的「新手房」(20070)進行測試
+2025/09/21 01:16:18 [INFO] dayon0099加入「德州撲克」的「普通房」(20041)進行測試
+2025/09/21 01:16:18 [INFO] dayon0195加入「拉密」的「大師房」(20053)進行測試
+2025/09/21 01:16:18 [INFO] dayon0177加入「炸金花」的「高級房」(20062)進行測試
+2025/09/21 01:16:18 [INFO] dayon0115加入「博丁」的「普通房」(20071)進行測試
+2025/09/21 01:16:18 [INFO] dayon0107加入「德州撲克」的「中级场」(20045)進行測試
+2025/09/21 01:16:18 [INFO] dayon0117加入「博丁」的「高級房」(20072)進行測試
+2025/09/21 01:16:18 [INFO] dayon0119加入「博丁」的「大師房」(20073)進行測試
+2025/09/21 01:16:18 [INFO] dayon0181加入「21點」的「新手房」(20010)進行測試
+2025/09/21 01:16:18 [INFO] dayon0055加入「火箭」的「大師房」(100831)進行測試
+2025/09/21 01:16:18 [INFO] dayon0111加入「德州撲克」的「至尊场」(20047)進行測試
+2025/09/21 01:16:18 [INFO] dayon0123 RobotType=2, Desc=只押鈴鐺、山竹
+2025/09/21 01:16:18 [INFO] dayon0179加入「炸金花」的「大師房」(20063)進行測試
+2025/09/21 01:16:18 [INFO] dayon0121 RobotType=3, Desc=只押鑽石、雙7、皇冠
+2025/09/21 01:16:18 [INFO] dayon0211加入「番攤」的「大師房」(100231)進行測試
+2025/09/21 01:16:18 [INFO] dayon0003加入「百家樂」的「新手房」(100102)進行測試
+2025/09/21 01:16:18 [INFO] dayon0207加入「番攤」的「普通房」(100211)進行測試
+2025/09/21 01:16:18 [INFO] dayon0007加入「百家樂」的「新手房」(100104)進行測試
+2025/09/21 01:16:18 [INFO] dayon0005加入「百家樂」的「新手房」(100103)進行測試
+2025/09/21 01:16:18 [INFO] dayon0197加入「彈珠檯」的「新手房」(30030)進行測試
+2025/09/21 01:16:18 [INFO] dayon0149加入「魚蝦蟹」的「新手房」(100401)進行測試
+2025/09/21 01:16:18 [INFO] dayon0125 RobotType=5, Desc=只押大三元(雙７、鑽石、山竹)
+2025/09/21 01:16:18 [ERROR] dayon0133啟動失敗GameId=3002,TableId=30022
+2025/09/21 01:16:18 [INFO] dayon0201加入「彈珠檯」的「高級房」(30032)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0129啟動失敗GameId=3002,TableId=30020
+2025/09/21 01:16:18 [INFO] dayon0145加入「色碟」的「大師房」(100331)進行測試
+2025/09/21 01:16:18 [INFO] dayon0205加入「番攤」的「新手房」(100201)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0135啟動失敗GameId=5001,TableId=50010
+2025/09/21 01:16:18 [INFO] dayon0203加入「彈珠檯」的「大師房」(30033)進行測試
+2025/09/21 01:16:18 [INFO] dayon0143加入「色碟」的「高級房」(100321)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0137啟動失敗GameId=9001,TableId=900101
+2025/09/21 01:16:18 [INFO] dayon0009加入「百家樂」的「普通房」(100111)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0131啟動失敗GameId=3002,TableId=30021
+2025/09/21 01:16:18 [INFO] dayon0011加入「百家樂」的「普通房」(100112)進行測試
+2025/09/21 01:16:18 [INFO] dayon0139加入「色碟」的「新手房」(100301)進行測試
+2025/09/21 01:16:18 [INFO] dayon0085加入「十三水」的「高级场」(20096)進行測試
+2025/09/21 01:16:18 [INFO] dayon0013加入「百家樂」的「普通房」(100113)進行測試
+2025/09/21 01:16:18 [INFO] dayon0001加入「百家樂」的「新手房」(100101)進行測試
+2025/09/21 01:16:18 [INFO] dayon0017加入「百家樂」的「高級房」(100121)進行測試
+2025/09/21 01:16:18 [INFO] dayon0023加入「百家樂」的「高級房」(100124)進行測試
+2025/09/21 01:16:18 [INFO] dayon0057加入「三公」的「新手房」(20020)進行測試
+2025/09/21 01:16:18 [INFO] dayon0127 RobotType=2, Desc=只押鈴鐺、山竹
+2025/09/21 01:16:18 [INFO] dayon0209加入「番攤」的「高級房」(100221)進行測試
+2025/09/21 01:16:18 [INFO] dayon0147加入「水果777」的「新手房」(40010)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0213啟動失敗GameId=1010,TableId=101001
+2025/09/21 01:16:18 [INFO] dayon0141加入「色碟」的「普通房」(100311)進行測試
+2025/09/21 01:16:18 [INFO] dayon0199加入「彈珠檯」的「普通房」(30031)進行測試
+2025/09/21 01:16:18 [INFO] dayon0019加入「百家樂」的「高級房」(100122)進行測試
+2025/09/21 01:16:18 [INFO] dayon0021加入「百家樂」的「高級房」(100123)進行測試
+2025/09/21 01:16:18 [INFO] dayon0075加入「十三水」的「普通房」(20091)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0215啟動失敗GameId=1010,TableId=101011
+2025/09/21 01:16:18 [INFO] dayon0225加入「越南Catte」的「高級房」(20082)進行測試
+2025/09/21 01:16:18 [INFO] dayon0027加入「百家樂」的「大師房」(100132)進行測試
+2025/09/21 01:16:18 [INFO] dayon0061加入「三公」的「高級房」(20022)進行測試
+2025/09/21 01:16:18 [INFO] dayon0065加入「印度炸金花」的「新手房」(20110)進行測試
+2025/09/21 01:16:18 [INFO] dayon0025加入「百家樂」的「大師房」(100131)進行測試
+2025/09/21 01:16:18 [INFO] dayon0015加入「百家樂」的「普通房」(100114)進行測試
+2025/09/21 01:16:18 [INFO] dayon0227加入「越南Catte」的「大師房」(20083)進行測試
+2025/09/21 01:16:18 [INFO] dayon0231加入「土耳其麻將」的「普通房」(20101)進行測試
+2025/09/21 01:16:18 [INFO] dayon0035加入「百人骰寶」的「普通房」(100511)進行測試
+2025/09/21 01:16:18 [INFO] dayon0155加入「魚蝦蟹」的「大師房」(100431)進行測試
+2025/09/21 01:16:18 [INFO] dayon0153加入「魚蝦蟹」的「高級房」(100421)進行測試
+2025/09/21 01:16:18 [INFO] dayon0071加入「印度炸金花」的「大師房」(20113)進行測試
+2025/09/21 01:16:18 [INFO] dayon0101加入「德州撲克」的「高級房」(20042)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0217啟動失敗GameId=1010,TableId=101021
+2025/09/21 01:16:18 [INFO] dayon0031加入「百家樂」的「大師房」(100134)進行測試
+2025/09/21 01:16:18 [INFO] dayon0121加入「水果機」的「新手房」(30010)進行測試
+2025/09/21 01:16:18 [INFO] dayon0189加入「拉密」的「新手房」(20050)進行測試
+2025/09/21 01:16:18 [INFO] dayon0191加入「拉密」的「普通房」(20051)進行測試
+2025/09/21 01:16:18 [INFO] dayon0185加入「21點」的「高級房」(20012)進行測試
+2025/09/21 01:16:18 [INFO] dayon0029加入「百家樂」的「大師房」(100133)進行測試
+2025/09/21 01:16:18 [INFO] dayon0233加入「土耳其麻將」的「高級房」(20102)進行測試
+2025/09/21 01:16:18 [INFO] dayon0077加入「十三水」的「高級房」(20092)進行測試
+2025/09/21 01:16:18 [INFO] dayon0045加入「賽狗」的「高級房」(100721)進行測試
+2025/09/21 01:16:18 [INFO] dayon0049加入「火箭」的「新手房」(100801)進行測試
+2025/09/21 01:16:18 [INFO] dayon0105加入「德州撲克」的「初级场」(20044)進行測試
+2025/09/21 01:16:18 [INFO] dayon0063加入「三公」的「大師房」(20023)進行測試
+2025/09/21 01:16:18 [INFO] dayon0183加入「21點」的「普通房」(20011)進行測試
+2025/09/21 01:16:18 [INFO] dayon0097加入「德州撲克」的「新手房」(20040)進行測試
+2025/09/21 01:16:18 [INFO] dayon0161加入「鬥雞」的「高級房」(100621)進行測試
+2025/09/21 01:16:18 [INFO] dayon0039加入「百人骰寶」的「大師房」(100531)進行測試
+2025/09/21 01:16:18 [INFO] dayon0069加入「印度炸金花」的「高級房」(20112)進行測試
+2025/09/21 01:16:18 [INFO] dayon0123加入「水果機」的「普通房」(30011)進行測試
+2025/09/21 01:16:18 [INFO] dayon0053加入「火箭」的「高級房」(100821)進行測試
+2025/09/21 01:16:18 [INFO] dayon0169加入「安達巴哈」的「高級房」(100921)進行測試
+2025/09/21 01:16:18 [INFO] dayon0073加入「十三水」的「新手房」(20090)進行測試
+2025/09/21 01:16:18 [INFO] dayon0091加入「搶庄牛牛」的「普通房」(20031)進行測試
+2025/09/21 01:16:18 [INFO] dayon0173加入「炸金花」的「新手房」(20060)進行測試
+2025/09/21 01:16:18 [INFO] dayon0157加入「鬥雞」的「新手房」(100601)進行測試
+2025/09/21 01:16:18 [INFO] dayon0239加入「邁達斯之手」的「新手房」(40030)進行測試
+2025/09/21 01:16:18 [INFO] dayon0221加入「越南Catte」的「新手房」(20080)進行測試
+2025/09/21 01:16:18 [INFO] dayon0059加入「三公」的「普通房」(20021)進行測試
+2025/09/21 01:16:18 [INFO] dayon0081加入「十三水」的「初级场」(20094)進行測試
+2025/09/21 01:16:18 [INFO] dayon0193加入「拉密」的「高級房」(20052)進行測試
+2025/09/21 01:16:18 [INFO] dayon0051加入「火箭」的「普通房」(100811)進行測試
+2025/09/21 01:16:18 [INFO] dayon0229加入「土耳其麻將」的「新手房」(20100)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0219啟動失敗GameId=1010,TableId=101031
+2025/09/21 01:16:18 [INFO] dayon0103加入「德州撲克」的「大師房」(20043)進行測試
+2025/09/21 01:16:18 [INFO] dayon0163加入「鬥雞」的「大師房」(100631)進行測試
+2025/09/21 01:16:18 [INFO] dayon0127加入「水果機」的「大師房」(30013)進行測試
+2025/09/21 01:16:18 [INFO] dayon0047加入「賽狗」的「大師房」(100731)進行測試
+2025/09/21 01:16:18 [INFO] dayon0125加入「水果機」的「高級房」(30012)進行測試
+2025/09/21 01:16:18 [INFO] dayon0187加入「21點」的「大師房」(20013)進行測試
+2025/09/21 01:16:18 [INFO] dayon0151加入「魚蝦蟹」的「普通房」(100411)進行測試
+2025/09/21 01:16:18 [INFO] dayon0223加入「越南Catte」的「普通房」(20081)進行測試
+2025/09/21 01:16:18 [INFO] dayon0087加入「十三水」的「至尊场」(20097)進行測試
+2025/09/21 01:16:18 [INFO] dayon0089加入「搶庄牛牛」的「新手房」(20030)進行測試
+2025/09/21 01:16:18 [INFO] dayon0067加入「印度炸金花」的「普通房」(20111)進行測試
+2025/09/21 01:16:18 [INFO] dayon0037加入「百人骰寶」的「高級房」(100521)進行測試
+2025/09/21 01:16:18 [INFO] dayon0043加入「賽狗」的「普通房」(100711)進行測試
+2025/09/21 01:16:18 [INFO] dayon0093加入「搶庄牛牛」的「高級房」(20032)進行測試
+2025/09/21 01:16:18 [INFO] dayon0033加入「百人骰寶」的「新手房」(100501)進行測試
+2025/09/21 01:16:18 [INFO] dayon0083加入「十三水」的「中级场」(20095)進行測試
+2025/09/21 01:16:18 [INFO] dayon0079加入「十三水」的「大師房」(20093)進行測試
+2025/09/21 01:16:18 [INFO] dayon0235加入「土耳其麻將」的「大師房」(20103)進行測試
+2025/09/21 01:16:18 [INFO] dayon0175加入「炸金花」的「普通房」(20061)進行測試
+2025/09/21 01:16:18 [INFO] dayon0159加入「鬥雞」的「普通房」(100611)進行測試
+2025/09/21 01:16:18 [INFO] dayon0171加入「安達巴哈」的「大師房」(100931)進行測試
+2025/09/21 01:16:18 [INFO] dayon0237加入「巨齒鯊」的「新手房」(40020)進行測試
+2025/09/21 01:16:18 [INFO] dayon0095加入「搶庄牛牛」的「大師房」(20033)進行測試
+2025/09/21 01:16:18 [INFO] dayon0109加入「德州撲克」的「高级场」(20046)進行測試
+2025/09/21 01:16:18 [INFO] dayon0167加入「安達巴哈」的「普通房」(100911)進行測試
+2025/09/21 01:16:18 [INFO] dayon0041加入「賽狗」的「新手房」(100701)進行測試
+2025/09/21 01:16:18 [INFO] dayon0165加入「安達巴哈」的「新手房」(100901)進行測試
+2025/09/21 01:16:18 [ERROR] dayon0145 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0069 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0071 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0195 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0077 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0199 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0019 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0203 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0107 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0029 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0043 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0147 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0099 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0209 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0021 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0227 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0041 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0121 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0177 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0221 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0005 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0197 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0181 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0007 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0075 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0063 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0079 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0001 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0239 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0031 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0207 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0173 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0233 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0125 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0091 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0083 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0175 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0093 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0211 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0081 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0003 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0035 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0167 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0231 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0061 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0109 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0103 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0201 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0059 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0159 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0027 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0185 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0039 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0237 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0057 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0205 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0073 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0017 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0085 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0089 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0235 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0009 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0033 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0141 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0153 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0097 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0115 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0193 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0187 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0151 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0025 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0023 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0165 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0055 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0015 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0011 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0223 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0053 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0119 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0113 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0067 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0189 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0095 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0037 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0105 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0049 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0143 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0139 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0065 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0161 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0171 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0051 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0225 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0179 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0111 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0149 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0229 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0013 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0163 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0087 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0045 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0101 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0123 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0117 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0157 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0127 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0183 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0191 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0155 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0169 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:18 [ERROR] dayon0047 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0100加入「德州撲克」的「普通房」(20041)進行測試
+2025/09/21 01:16:21 [INFO] dayon0114加入「博丁」的「新手房」(20070)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0114 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0100 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0178加入「炸金花」的「高級房」(20062)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0178 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0196 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0108加入「德州撲克」的「中级场」(20045)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0116 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0116加入「博丁」的「普通房」(20071)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0108 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0120加入「博丁」的「大師房」(20073)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0056 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0196加入「拉密」的「大師房」(20053)進行測試
+2025/09/21 01:16:21 [INFO] dayon0118加入「博丁」的「高級房」(20072)進行測試
+2025/09/21 01:16:21 [INFO] dayon0182加入「21點」的「新手房」(20010)進行測試
+2025/09/21 01:16:21 [INFO] dayon0056加入「火箭」的「大師房」(100831)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0118 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0180加入「炸金花」的「大師房」(20063)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0180 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0112加入「德州撲克」的「至尊场」(20047)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0112 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0120 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0182 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0212加入「番攤」的「大師房」(100231)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0212 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0136啟動失敗GameId=5001,TableId=50010
+2025/09/21 01:16:21 [ERROR] dayon0138啟動失敗GameId=9001,TableId=900101
+2025/09/21 01:16:21 [ERROR] dayon0132啟動失敗GameId=3002,TableId=30021
+2025/09/21 01:16:21 [ERROR] dayon0214啟動失敗GameId=1010,TableId=101001
+2025/09/21 01:16:21 [ERROR] dayon0134啟動失敗GameId=3002,TableId=30022
+2025/09/21 01:16:21 [ERROR] dayon0130啟動失敗GameId=3002,TableId=30020
+2025/09/21 01:16:21 [ERROR] dayon0216啟動失敗GameId=1010,TableId=101011
+2025/09/21 01:16:21 [ERROR] dayon0202 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0006 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0146加入「色碟」的「大師房」(100331)進行測試
+2025/09/21 01:16:21 [INFO] dayon0140加入「色碟」的「新手房」(100301)進行測試
+2025/09/21 01:16:21 [INFO] dayon0226加入「越南Catte」的「高級房」(20082)進行測試
+2025/09/21 01:16:21 [INFO] dayon0142加入「色碟」的「普通房」(100311)進行測試
+2025/09/21 01:16:21 [INFO] dayon0150加入「魚蝦蟹」的「新手房」(100401)進行測試
+2025/09/21 01:16:21 [INFO] dayon0016加入「百家樂」的「普通房」(100114)進行測試
+2025/09/21 01:16:21 [INFO] dayon0144加入「色碟」的「高級房」(100321)進行測試
+2025/09/21 01:16:21 [INFO] dayon0232加入「土耳其麻將」的「普通房」(20101)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0016 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0012加入「百家樂」的「普通房」(100112)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0010 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0198 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0066加入「印度炸金花」的「新手房」(20110)進行測試
+2025/09/21 01:16:21 [INFO] dayon0018加入「百家樂」的「高級房」(100121)進行測試
+2025/09/21 01:16:21 [INFO] dayon0202加入「彈珠檯」的「高級房」(30032)進行測試
+2025/09/21 01:16:21 [INFO] dayon0198加入「彈珠檯」的「新手房」(30030)進行測試
+2025/09/21 01:16:21 [INFO] dayon0010加入「百家樂」的「普通房」(100111)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0012 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0206加入「番攤」的「新手房」(100201)進行測試
+2025/09/21 01:16:21 [INFO] dayon0026加入「百家樂」的「大師房」(100131)進行測試
+2025/09/21 01:16:21 [INFO] dayon0062加入「三公」的「高級房」(20022)進行測試
+2025/09/21 01:16:21 [INFO] dayon0022加入「百家樂」的「高級房」(100123)進行測試
+2025/09/21 01:16:21 [INFO] dayon0002加入「百家樂」的「新手房」(100101)進行測試
+2025/09/21 01:16:21 [INFO] dayon0204加入「彈珠檯」的「大師房」(30033)進行測試
+2025/09/21 01:16:21 [INFO] dayon0024加入「百家樂」的「高級房」(100124)進行測試
+2025/09/21 01:16:21 [INFO] dayon0020加入「百家樂」的「高級房」(100122)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0140 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0002 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0076加入「十三水」的「普通房」(20091)進行測試
+2025/09/21 01:16:21 [INFO] dayon0086加入「十三水」的「高级场」(20096)進行測試
+2025/09/21 01:16:21 [INFO] dayon0210加入「番攤」的「高級房」(100221)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0144 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0058 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0004加入「百家樂」的「新手房」(100102)進行測試
+2025/09/21 01:16:21 [INFO] dayon0028加入「百家樂」的「大師房」(100132)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0218啟動失敗GameId=1010,TableId=101021
+2025/09/21 01:16:21 [ERROR] dayon0186 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0192加入「拉密」的「普通房」(20051)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0190 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0122 RobotType=4, Desc=只押小三元(鈴鐺、葡萄、檸檬)
+2025/09/21 01:16:21 [INFO] dayon0186加入「21點」的「高級房」(20012)進行測試
+2025/09/21 01:16:21 [INFO] dayon0156加入「魚蝦蟹」的「大師房」(100431)進行測試
+2025/09/21 01:16:21 [INFO] dayon0154加入「魚蝦蟹」的「高級房」(100421)進行測試
+2025/09/21 01:16:21 [INFO] dayon0190加入「拉密」的「新手房」(20050)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0192 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0078加入「十三水」的「高級房」(20092)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0156 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0102加入「德州撲克」的「高級房」(20042)進行測試
+2025/09/21 01:16:21 [INFO] dayon0030加入「百家樂」的「大師房」(100133)進行測試
+2025/09/21 01:16:21 [INFO] dayon0234加入「土耳其麻將」的「高級房」(20102)進行測試
+2025/09/21 01:16:21 [INFO] dayon0072加入「印度炸金花」的「大師房」(20113)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0078 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0072 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0030 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0098加入「德州撲克」的「新手房」(20040)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0098 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0102 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0234 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0154 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0184加入「21點」的「普通房」(20011)進行測試
+2025/09/21 01:16:21 [INFO] dayon0162加入「鬥雞」的「高級房」(100621)進行測試
+2025/09/21 01:16:21 [INFO] dayon0048加入「賽狗」的「大師房」(100731)進行測試
+2025/09/21 01:16:21 [INFO] dayon0074加入「十三水」的「新手房」(20090)進行測試
+2025/09/21 01:16:21 [INFO] dayon0032加入「百家樂」的「大師房」(100134)進行測試
+2025/09/21 01:16:21 [INFO] dayon0128 RobotType=0, Desc=全押
+2025/09/21 01:16:21 [INFO] dayon0046加入「賽狗」的「高級房」(100721)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0040 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0106加入「德州撲克」的「初级场」(20044)進行測試
+2025/09/21 01:16:21 [INFO] dayon0170加入「安達巴哈」的「高級房」(100921)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0048 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0082加入「十三水」的「初级场」(20094)進行測試
+2025/09/21 01:16:21 [INFO] dayon0084加入「十三水」的「中级场」(20095)進行測試
+2025/09/21 01:16:21 [INFO] dayon0050加入「火箭」的「新手房」(100801)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0074 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0164 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0068 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0194加入「拉密」的「高級房」(20052)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0032 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0034加入「百人骰寶」的「新手房」(100501)進行測試
+2025/09/21 01:16:21 [INFO] dayon0240加入「邁達斯之手」的「新手房」(40030)進行測試
+2025/09/21 01:16:21 [INFO] dayon0090加入「搶庄牛牛」的「新手房」(20030)進行測試
+2025/09/21 01:16:21 [INFO] dayon0040加入「百人骰寶」的「大師房」(100531)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0220啟動失敗GameId=1010,TableId=101031
+2025/09/21 01:16:21 [ERROR] dayon0240 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0044加入「賽狗」的「普通房」(100711)進行測試
+2025/09/21 01:16:21 [INFO] dayon0222加入「越南Catte」的「新手房」(20080)進行測試
+2025/09/21 01:16:21 [INFO] dayon0166加入「安達巴哈」的「新手房」(100901)進行測試
+2025/09/21 01:16:21 [INFO] dayon0230加入「土耳其麻將」的「新手房」(20100)進行測試
+2025/09/21 01:16:21 [INFO] dayon0064加入「三公」的「大師房」(20023)進行測試
+2025/09/21 01:16:21 [INFO] dayon0068加入「印度炸金花」的「普通房」(20111)進行測試
+2025/09/21 01:16:21 [INFO] dayon0042加入「賽狗」的「新手房」(100701)進行測試
+2025/09/21 01:16:21 [INFO] dayon0092加入「搶庄牛牛」的「普通房」(20031)進行測試
+2025/09/21 01:16:21 [INFO] dayon0104加入「德州撲克」的「大師房」(20043)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0184 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0082 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0164加入「鬥雞」的「大師房」(100631)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0230 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0152加入「魚蝦蟹」的「普通房」(100411)進行測試
+2025/09/21 01:16:21 [INFO] dayon0224加入「越南Catte」的「普通房」(20081)進行測試
+2025/09/21 01:16:21 [INFO] dayon0094加入「搶庄牛牛」的「高級房」(20032)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0162 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0050 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0034 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0222 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0236加入「土耳其麻將」的「大師房」(20103)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0106 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0158加入「鬥雞」的「新手房」(100601)進行測試
+2025/09/21 01:16:21 [INFO] dayon0060加入「三公」的「普通房」(20021)進行測試
+2025/09/21 01:16:21 [INFO] dayon0174加入「炸金花」的「新手房」(20060)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0092 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0090 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0038加入「百人骰寶」的「高級房」(100521)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0084 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0224 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0038 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0176加入「炸金花」的「普通房」(20061)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0064 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0166 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0042 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0188加入「21點」的「大師房」(20013)進行測試
+2025/09/21 01:16:21 [INFO] dayon0160加入「鬥雞」的「普通房」(100611)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0174 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0126 RobotType=6, Desc=只押大四喜(蘋果)
+2025/09/21 01:16:21 [ERROR] dayon0122 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0094 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0128加入「水果機」的「大師房」(30013)進行測試
+2025/09/21 01:16:21 [INFO] dayon0014加入「百家樂」的「普通房」(100113)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0088 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0080加入「十三水」的「大師房」(20093)進行測試
+2025/09/21 01:16:21 [INFO] dayon0122加入「水果機」的「新手房」(30010)進行測試
+2025/09/21 01:16:21 [INFO] dayon0110加入「德州撲克」的「高级场」(20046)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0110 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0170 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0026 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0062 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0176 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0206 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0006加入「百家樂」的「新手房」(100103)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0014 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0152 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0194 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0052加入「火箭」的「普通房」(100811)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0204 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0022 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0236 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0076 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0160 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0104 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0168 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0172加入「安達巴哈」的「大師房」(100931)進行測試
+2025/09/21 01:16:21 [INFO] dayon0208加入「番攤」的「普通房」(100211)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0028 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0226 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0172 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0044 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0008加入「百家樂」的「新手房」(100104)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0210 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0096 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0200加入「彈珠檯」的「普通房」(30031)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0024 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0142 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0208 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0036加入「百人骰寶」的「普通房」(100511)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0086 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0146 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0020 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0188 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0060 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0228 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0036 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0008 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0148加入「水果777」的「新手房」(40010)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0066 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0070加入「印度炸金花」的「高級房」(20112)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0054 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0200 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0052 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0124 RobotType=5, Desc=只押大三元(雙７、鑽石、山竹)
+2025/09/21 01:16:21 [ERROR] dayon0004 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0228加入「越南Catte」的「大師房」(20083)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0238 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0150 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0054加入「火箭」的「高級房」(100821)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0080 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0168加入「安達巴哈」的「普通房」(100911)進行測試
+2025/09/21 01:16:21 [INFO] dayon0096加入「搶庄牛牛」的「大師房」(20033)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0018 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0058加入「三公」的「新手房」(20020)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0148 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0238加入「巨齒鯊」的「新手房」(40020)進行測試
+2025/09/21 01:16:21 [INFO] dayon0088加入「十三水」的「至尊场」(20097)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0232 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0046 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0070 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0158 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0128 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0126加入「水果機」的「高級房」(30012)進行測試
+2025/09/21 01:16:21 [ERROR] dayon0126 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [ERROR] dayon0124 dial tcp 127.0.0.1:10001: connect: connection refused
+2025/09/21 01:16:21 [INFO] dayon0124加入「水果機」的「普通房」(30011)進行測試
+2025/09/21 01:25:45 [ERROR] dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2025/09/21 01:25:45 [ERROR] Connect failed:dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2025/09/21 01:27:09 [INFO] Connect Success
+2025/09/21 01:27:28 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000000,"IconID":0,"Name":"Test_simon","UserId":83138358,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":false,"Language":{"1":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"1001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1006":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1007":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1008":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"1009":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"1010":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"2":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"2001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2006":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2007":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2008":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2009":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2010":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2011":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"3001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"3002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"3003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"5001":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"9001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0}},"wallet_type":0,"single_wallet_gold":0,"lobby_switch_info":""}}
+2025/09/21 01:27:35 [INFO] Receive Message:{"Code":0,"Ret":"IntoRoom","Message":"Success.","Data":[{"GameCode":"plinko","RoomType":0,"TableId":30030,"Num":0,"Status":1,"Ante":1,"EnterGold":1,"ExitGold":100000000},{"GameCode":"plinko","RoomType":1,"TableId":30031,"Num":0,"Status":1,"Ante":5,"EnterGold":5,"ExitGold":100000000},{"GameCode":"plinko","RoomType":2,"TableId":30032,"Num":0,"Status":1,"Ante":10,"EnterGold":10,"ExitGold":100000000},{"GameCode":"plinko","RoomType":3,"TableId":30033,"Num":0,"Status":1,"Ante":50,"EnterGold":50,"ExitGold":100000000}]}
+2025/09/21 01:27:35 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":1000000}}
+2025/09/21 01:27:40 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Init","BaseBet":1,"EnterGold":1,"Gold":1000000,"PayoutMode":0,"HoleCount":11,"PayoutRates":[18,6,2,0.8,0.5,0.3,0.5,0.8,2,6,18],"Chips":[1,3,5,10,30,50]}}
+2025/09/21 01:27:40 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":1000000}}
+2025/09/21 01:27:40 [INFO] Receive Message:{"Ret":"GID","Data":{"GID":"3003-1969453418296643584"}}
+2025/09/21 01:28:14 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":9,"BetID":2,"SID":1}}}
+2025/09/21 01:28:14 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999995}}
+2025/09/21 01:28:26 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":4,"BetID":4,"SID":2}}}
+2025/09/21 01:28:26 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999965}}
+2025/09/21 01:29:08 [ERROR] read tcp [::1]:60221->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/09/21 01:46:33 [INFO] dayon0101加入「21點」的「普通房」(20011)進行測試
+2025/09/21 01:46:33 [INFO] dayon0061加入「十三水」的「普通房」(20091)進行測試
+2025/09/21 01:46:33 [INFO] dayon0121加入「印度炸金花」的「大師房」(20113)進行測試
+2025/09/21 01:46:33 [INFO] dayon0089加入「火箭」的「大師房」(100831)進行測試
+2025/09/21 01:46:33 [INFO] dayon0119加入「印度炸金花」的「高級房」(20112)進行測試
+2025/09/21 01:46:33 [INFO] dayon0117加入「印度炸金花」的「普通房」(20111)進行測試
+2025/09/21 01:46:33 [INFO] dayon0055加入「博丁」的「高級房」(20072)進行測試
+2025/09/21 01:46:33 [INFO] dayon0085加入「火箭」的「普通房」(100811)進行測試
+2025/09/21 01:46:33 [INFO] dayon0057加入「博丁」的「大師房」(20073)進行測試
+2025/09/21 01:46:33 [ERROR] dayon0091啟動失敗GameId=1010,TableId=101001
+2025/09/21 01:46:33 [INFO] dayon0087加入「火箭」的「高級房」(100821)進行測試
+2025/09/21 01:51:58 [ERROR] dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2025/09/21 01:51:58 [ERROR] Connect failed:dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2025/09/21 01:52:48 [INFO] Connect Success
+2025/09/21 01:53:02 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999965,"IconID":0,"Name":"Test_simon","UserId":83138358,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":false,"Language":{"1":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"1001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1006":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1007":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1008":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"1009":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"1010":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"2":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"2001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2006":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2007":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2008":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2009":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2010":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2011":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"3001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"3002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"3003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"5001":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"9001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0}},"wallet_type":0,"single_wallet_gold":0,"lobby_switch_info":""}}
+2025/09/21 01:53:19 [INFO] Receive Message:{"Code":0,"Ret":"IntoRoom","Message":"Success.","Data":[{"GameCode":"plinko","RoomType":0,"TableId":30030,"Num":0,"Status":1,"Ante":1,"EnterGold":1,"ExitGold":100000000},{"GameCode":"plinko","RoomType":1,"TableId":30031,"Num":0,"Status":1,"Ante":5,"EnterGold":5,"ExitGold":100000000},{"GameCode":"plinko","RoomType":2,"TableId":30032,"Num":0,"Status":1,"Ante":10,"EnterGold":10,"ExitGold":100000000},{"GameCode":"plinko","RoomType":3,"TableId":30033,"Num":0,"Status":1,"Ante":50,"EnterGold":50,"ExitGold":100000000}]}
+2025/09/21 01:53:19 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999965}}
+2025/09/21 01:53:22 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Init","BaseBet":1,"EnterGold":1,"Gold":999965,"PayoutMode":0,"HoleCount":11,"PayoutRates":[18,6,2,0.8,0.5,0.3,0.5,0.8,2,6,18],"Chips":[1,3,5,10,30,50]}}
+2025/09/21 01:53:22 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999965}}
+2025/09/21 01:53:22 [INFO] Receive Message:{"Ret":"GID","Data":{"GID":"3003-1969459886680969216"}}
+2025/09/21 01:53:33 [INFO] Receive Message:{"Code":200001,"Ret":"PlayerAction","Message":"Data error."}
+2025/09/21 01:54:11 [INFO] Receive Message:{"Code":200001,"Ret":"PlayerAction","Message":"Data error."}
+2025/09/21 01:56:22 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 01:59:22 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 02:02:22 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 02:03:49 [INFO] Connect Success
+2025/09/21 02:03:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999965,"IconID":0,"Name":"Test_simon","UserId":83138358,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":false,"Language":{"1":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"1001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1006":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1007":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1008":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"1009":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"1010":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"2":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"2001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2006":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2007":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2008":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2009":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2010":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2011":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"3001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"3002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"3003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"5001":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"9001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0}},"wallet_type":0,"single_wallet_gold":0,"lobby_switch_info":""}}
+2025/09/21 02:04:02 [INFO] Receive Message:{"Code":0,"Ret":"IntoRoom","Message":"Success.","Data":[{"GameCode":"plinko","RoomType":0,"TableId":30030,"Num":0,"Status":1,"Ante":1,"EnterGold":1,"ExitGold":100000000},{"GameCode":"plinko","RoomType":1,"TableId":30031,"Num":0,"Status":1,"Ante":5,"EnterGold":5,"ExitGold":100000000},{"GameCode":"plinko","RoomType":2,"TableId":30032,"Num":0,"Status":1,"Ante":10,"EnterGold":10,"ExitGold":100000000},{"GameCode":"plinko","RoomType":3,"TableId":30033,"Num":0,"Status":1,"Ante":50,"EnterGold":50,"ExitGold":100000000}]}
+2025/09/21 02:04:02 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999965}}
+2025/09/21 02:04:03 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Init","BaseBet":1,"EnterGold":1,"Gold":999965,"PayoutMode":0,"HoleCount":11,"PayoutRates":[18,6,2,0.8,0.5,0.3,0.5,0.8,2,6,18],"Chips":[1,3,5,10,30,50]}}
+2025/09/21 02:04:03 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999965}}
+2025/09/21 02:04:03 [INFO] Receive Message:{"Ret":"GID","Data":{"GID":"3003-1969462577557671936"}}
+2025/09/21 02:04:11 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":3,"PayoutMode":1,"HoleCount":17,"PayoutRates":[110,41,10,5,3,1.5,1,0.5,0.3,0.5,1,1.5,3,5,10,41,110]}}
+2025/09/21 02:04:37 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":3,"PayoutMode":2,"HoleCount":17,"PayoutRates":[1000,130,26,9,4,2,0.3,0.2,0.1,0.2,0.3,2,4,9,26,130,1000]}}
+2025/09/21 02:04:43 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":3,"PayoutMode":2,"HoleCount":17,"PayoutRates":[1000,130,26,9,4,2,0.3,0.2,0.1,0.2,0.3,2,4,9,26,130,1000]}}
+2025/09/21 02:04:48 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":3,"PayoutMode":1,"HoleCount":17,"PayoutRates":[110,41,10,5,3,1.5,1,0.5,0.3,0.5,1,1.5,3,5,10,41,110]}}
+2025/09/21 02:04:53 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":3,"PayoutMode":0,"HoleCount":11,"PayoutRates":[18,6,2,0.8,0.5,0.3,0.5,0.8,2,6,18]}}
+2025/09/21 02:04:59 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":1,"HoleID":2,"BetID":0,"SID":1}}}
+2025/09/21 02:04:59 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999964}}
+2025/09/21 02:05:04 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":10,"SID":1}}
+2025/09/21 02:05:04 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999974}}
+2025/09/21 02:05:10 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":3,"PayoutMode":1,"HoleCount":17,"PayoutRates":[110,41,10,5,3,1.5,1,0.5,0.3,0.5,1,1.5,3,5,10,41,110]}}
+2025/09/21 02:05:16 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":4,"BetID":0,"SID":2}}}
+2025/09/21 02:05:16 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999973}}
+2025/09/21 02:05:19 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":3,"SID":2}}
+2025/09/21 02:05:19 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999976}}
+2025/09/21 02:05:26 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":10,"BetID":0,"SID":3}}}
+2025/09/21 02:05:26 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999975}}
+2025/09/21 02:05:27 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":9,"BetID":0,"SID":4}}}
+2025/09/21 02:05:27 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999974}}
+2025/09/21 02:05:28 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":6,"BetID":0,"SID":5}}}
+2025/09/21 02:05:28 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999973}}
+2025/09/21 02:05:29 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":8,"BetID":0,"SID":6}}}
+2025/09/21 02:05:29 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999972}}
+2025/09/21 02:05:30 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":8,"BetID":0,"SID":7}}}
+2025/09/21 02:05:30 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999971}}
+2025/09/21 02:05:31 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":11,"BetID":0,"SID":8}}}
+2025/09/21 02:05:31 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999970}}
+2025/09/21 02:05:32 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":0.3,"SID":7}}
+2025/09/21 02:05:32 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999970.3}}
+2025/09/21 02:05:33 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":1.5,"SID":8}}
+2025/09/21 02:05:33 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999971.8}}
+2025/09/21 02:05:34 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":1,"SID":3}}
+2025/09/21 02:05:34 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999972.8}}
+2025/09/21 02:05:35 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":0.5,"SID":4}}
+2025/09/21 02:05:35 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999973.3}}
+2025/09/21 02:05:36 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":1,"SID":5}}
+2025/09/21 02:05:36 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999974.3}}
+2025/09/21 02:05:37 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":0.3,"SID":6}}
+2025/09/21 02:05:37 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999974.6}}
+2025/09/21 02:05:38 [INFO] Receive Message:{"Code":200001,"Ret":"PlayerAction","Message":"Data error."}
+2025/09/21 02:06:04 [INFO] Receive Message:{"Ret":"GID","Data":{"GID":"3003-1969463082031779840"}}
+2025/09/21 02:07:03 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":1}}
+2025/09/21 02:10:03 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 02:13:03 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 02:16:04 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":1}}
+2025/09/21 10:55:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 10:58:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 11:00:35 [INFO] Connect Success
+2025/09/21 11:01:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 11:01:09 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999974.6,"IconID":0,"Name":"Test_simon","UserId":83138358,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinId":"","coinexpiretime":0,"pool":10000},"JackpotEnable":false,"Language":{"1":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"1001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1006":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1007":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"1008":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"1009":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"1010":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"2":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"2001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2006":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2007":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2008":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2009":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"2010":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":1},"2011":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"3001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"3002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"3003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4002":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4003":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4004":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"4005":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0},"5001":{"CN":1,"EN":1,"VI":1,"PT":0,"TR":0},"9001":{"CN":1,"EN":1,"VI":1,"PT":1,"TR":0}},"wallet_type":0,"single_wallet_gold":0,"lobby_switch_info":""}}
+2025/09/21 11:01:13 [INFO] Receive Message:{"Code":0,"Ret":"IntoRoom","Message":"Success.","Data":[{"GameCode":"plinko","RoomType":0,"TableId":30030,"Num":0,"Status":1,"Ante":1,"EnterGold":1,"ExitGold":100000000},{"GameCode":"plinko","RoomType":1,"TableId":30031,"Num":0,"Status":1,"Ante":5,"EnterGold":5,"ExitGold":100000000},{"GameCode":"plinko","RoomType":2,"TableId":30032,"Num":0,"Status":1,"Ante":10,"EnterGold":10,"ExitGold":100000000},{"GameCode":"plinko","RoomType":3,"TableId":30033,"Num":0,"Status":1,"Ante":50,"EnterGold":50,"ExitGold":100000000}]}
+2025/09/21 11:01:13 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999974.6}}
+2025/09/21 11:01:38 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"Success.","Data":{"Fsm":"Init","BaseBet":1,"EnterGold":1,"Gold":999974.6,"PayoutMode":0,"HoleCount":11,"PayoutRates":[18,6,2,0.8,0.5,0.3,0.5,0.8,2,6,18],"Chips":[1,3,5,10,30,50]}}
+2025/09/21 11:01:38 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999974.6}}
+2025/09/21 11:01:38 [INFO] Receive Message:{"Ret":"GID","Data":{"GID":"3003-1969597862689902592"}}
+2025/09/21 11:01:50 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":3,"PayoutMode":1,"HoleCount":17,"PayoutRates":[110,41,10,5,3,1.5,1,0.5,0.3,0.5,1,1.5,3,5,10,41,110]}}
+2025/09/21 11:02:39 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":8,"BetID":1,"SID":1}}}
+2025/09/21 11:02:39 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999971.6}}
+2025/09/21 11:02:45 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":0.89,"SID":1}}
+2025/09/21 11:02:45 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999972.49}}
+2025/09/21 11:02:51 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":7,"BetID":1,"SID":2}}}
+2025/09/21 11:02:51 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999969.49}}
+2025/09/21 11:02:53 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":1.5,"SID":2}}
+2025/09/21 11:02:53 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999970.99}}
+2025/09/21 11:02:55 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":7,"BetID":1,"SID":3}}}
+2025/09/21 11:02:55 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999967.99}}
+2025/09/21 11:02:56 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":1.5,"SID":3}}
+2025/09/21 11:02:56 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999969.49}}
+2025/09/21 11:02:59 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":9,"BetID":1,"SID":4}}}
+2025/09/21 11:02:59 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999966.49}}
+2025/09/21 11:03:00 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":1.5,"SID":4}}
+2025/09/21 11:03:00 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999967.99}}
+2025/09/21 11:03:03 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":9,"BetID":1,"SID":5}}}
+2025/09/21 11:03:03 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999964.99}}
+2025/09/21 11:03:04 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":1.5,"SID":5}}
+2025/09/21 11:03:04 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999966.49}}
+2025/09/21 11:03:07 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":8,"BetID":1,"SID":6}}}
+2025/09/21 11:03:07 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999963.49}}
+2025/09/21 11:03:12 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":0.89,"SID":6}}
+2025/09/21 11:03:12 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999964.38}}
+2025/09/21 11:03:15 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":6,"BetID":1,"SID":7}}}
+2025/09/21 11:03:15 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999961.38}}
+2025/09/21 11:03:18 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":3,"SID":7}}
+2025/09/21 11:03:18 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999964.38}}
+2025/09/21 11:03:20 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":9,"BetID":1,"SID":8}}}
+2025/09/21 11:03:20 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999961.38}}
+2025/09/21 11:03:22 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":1.5,"SID":8}}
+2025/09/21 11:03:22 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999962.88}}
+2025/09/21 11:03:26 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":8,"BetID":1,"SID":9}}}
+2025/09/21 11:03:26 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999959.88}}
+2025/09/21 11:03:29 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":2,"Win":0.89,"SID":9}}
+2025/09/21 11:03:29 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999960.77}}
+2025/09/21 11:03:32 [INFO] Receive Message:{"Code":0,"Ret":"PlayerAction","Message":"Success.","Data":{"Action":1,"BallInfo":{"BallID":0,"HoleID":7,"BetID":1,"SID":10}}}
+2025/09/21 11:03:32 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":999957.77}}
+2025/09/21 11:03:38 [INFO] Receive Message:{"Ret":"GID","Data":{"GID":"3003-1969598367205953536"}}
+2025/09/21 11:03:57 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2025/09/21 11:04:02 [INFO] simon SendMessage={"DebugBall":{"BallID":0,"HoleID":5,"Enable":false}}
+2025/09/21 11:04:02 [ERROR] simon write tcp [::1]:50261->[::1]:10001: wsasend: An established connection was aborted by the software in your host machine.
+2025/09/21 11:04:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 11:07:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 11:10:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 11:13:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 11:16:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 11:19:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2025/09/21 11:21:49 [ERROR] read tcp [::1]:62874->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

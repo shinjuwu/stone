@@ -1,0 +1,8 @@
+2023/05/23 15:04:27 [INFO] 連線中斷
+2023/05/23 15:04:45 [INFO] Connect Success
+2023/05/23 15:04:51 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":3000002.85,"IconID":0,"Name":"Test_simon","UserId":80399928,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/05/23 15:07:08 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/05/23 16:38:43 [INFO] 連線中斷
+2023/05/23 16:38:45 [INFO] Connect Success
+2023/05/23 16:38:48 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":9999813.7,"IconID":100,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/05/23 16:39:40 [ERROR] read tcp [::1]:52488->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.

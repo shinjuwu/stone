@@ -1,0 +1,216 @@
+{
+    // Go 語言設置
+    "go.gopath": "",
+    "go.goroot": "",
+    "go.toolsManagement.autoUpdate": true,
+    "go.useLanguageServer": true,
+    "go.formatTool": "goimports",
+    "go.lintTool": "golangci-lint",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.buildOnSave": "package",
+    "go.testOnSave": false,
+    "go.coverOnSave": true,
+    "go.coverageDecorator": {
+        "type": "gutter",
+        "coveredHighlightColor": "rgba(64,128,64,0.5)",
+        "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+        "coveredGutterStyle": "blockgreen",
+        "uncoveredGutterStyle": "blockred"
+    },
+    "go.testFlags": ["-v", "-race"],
+    "go.testTimeout": "30s",
+    "go.buildTags": "",
+    "go.testEnvVars": {},
+    "go.installDependenciesWhenBuilding": true,
+
+    // 編輯器設置
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false,
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.inlayHints.enabled": "on",
+
+    // 文件設置
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/tmp": true,
+        "**/*.exe": true,
+        "**/*.log": true,
+        "**/vendor": true,
+        "**/.vscode": false
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/vendor/**": true,
+        "**/tmp/**": true
+    },
+
+    // 搜索設置
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/vendor": true,
+        "**/tmp": true,
+        "**/*.log": true
+    },
+
+    // 終端設置
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+
+    // Docker 設置
+    "docker.showStartPage": false,
+    "docker.languageserver.diagnostics.deprecatedMaintainer": "ignore",
+    "docker.languageserver.diagnostics.instructionJSONInSingleQuotes": "ignore",
+
+    // Git 設置
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "none",
+
+    // 其他設置
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.startupEditor": "welcomePage",
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+
+    // JSON 和 YAML 設置
+    "json.schemas": [
+        {
+            "fileMatch": ["**/docker-compose*.yml", "**/docker-compose*.yaml"],
+            "url": "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"
+        },
+        {
+            "fileMatch": ["**/.devcontainer/devcontainer.json"],
+            "url": "https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/devcontainer.schema.json"
+        }
+    ],
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json": [
+            "docker-compose*.yml",
+            "docker-compose*.yaml"
+        ]
+    },
+
+    // 擴展設置
+    "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "tag",
+        "foreground": "red",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "blue"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "foreground": "black",
+            "iconColour": "yellow",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "foreground": "red",
+            "iconColour": "yellow",
+            "gutterIcon": true
+        }
+    },
+
+    // 代碼片段設置
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+
+    // IntelliSense 設置
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.parameterHints.enabled": true,
+    "editor.suggest.insertMode": "insert",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+
+    // 格式化設置
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		}
+    }
+}

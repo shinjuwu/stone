@@ -1,0 +1,66 @@
+2023/09/22 10:54:51 [INFO] 連線中斷
+2023/09/22 10:54:55 [INFO] Connect Success
+2023/09/22 10:55:20 [ERROR] read tcp [::1]:61766->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 10:56:21 [INFO] simon1 SendMessage={"Login":{"Token":"679c4ac10z1293n09ca1dz2bkmm"}}
+2023/09/22 10:56:21 [ERROR] simon1 write tcp [::1]:61766->[::1]:10001: wsasend: An existing connection was forcibly closed by the remote host.
+2023/09/22 10:57:21 [INFO] 連線中斷
+2023/09/22 10:57:22 [INFO] Connect Success
+2023/09/22 10:57:58 [ERROR] read tcp [::1]:61792->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 10:58:33 [INFO] 連線中斷
+2023/09/22 10:58:34 [ERROR] dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/09/22 10:58:34 [ERROR] Connect failed:dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/09/22 10:58:49 [INFO] simon1 SendMessage={Login:{Token: Name:simon1}}
+2023/09/22 10:58:49 [ERROR] simon1 write tcp [::1]:61792->[::1]:10001: use of closed network connection
+2023/09/22 10:58:54 [INFO] Connect Success
+2023/09/22 10:58:58 [INFO] simon1 SendMessage={"Login":{"Token":"679c4ac10z1293n09ca1dz2bkmm"}}
+2023/09/22 10:59:34 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":96919.67,"IconID":0,"Name":"TestAPLPK05","UserId":515942,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/22 11:00:36 [INFO] simon1 SendMessage={"GetLobbyInfo":{}}
+2023/09/22 11:00:36 [INFO] Receive Message:{"Code":0,"Ret":"GetLobbyInfo","Message":"success","Data":[]}
+2023/09/22 11:00:50 [INFO] simon1 SendMessage={"GetLobbyInfo":{}}
+2023/09/22 11:02:59 [ERROR] read tcp [::1]:61818->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:05:05 [INFO] 連線中斷
+2023/09/22 11:05:05 [INFO] Connect Success
+2023/09/22 11:05:47 [INFO] simon1 SendMessage={"Login":{"Token":"679c4ac10z1293n09ca1dz2bkmm"}}
+2023/09/22 11:05:49 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":193839.34,"IconID":0,"Name":"TestAPLPK05","UserId":515942,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/22 11:06:15 [INFO] simon1 SendMessage={"GetLobbyInfo":{}}
+2023/09/22 11:06:51 [INFO] simon1 SendMessage={"GetLobbyInfo":{}}
+2023/09/22 11:09:57 [ERROR] read tcp [::1]:61902->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:11:21 [INFO] 連線中斷
+2023/09/22 11:11:22 [INFO] Connect Success
+2023/09/22 11:11:28 [INFO] Receive Message:{"Code":200002,"Ret":"Login","Message":"paltform authenticate error"}
+2023/09/22 11:11:30 [INFO] simon1 SendMessage={"GetLobbyInfo":{}}
+2023/09/22 11:11:58 [ERROR] read tcp [::1]:61966->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:12:14 [INFO] 連線中斷
+2023/09/22 11:12:15 [INFO] Connect Success
+2023/09/22 11:12:23 [INFO] Receive Message:{"Code":200002,"Ret":"Login","Message":"paltform authenticate error"}
+2023/09/22 11:12:25 [INFO] simon1 SendMessage={"GetLobbyInfo":{}}
+2023/09/22 11:13:01 [ERROR] read tcp [::1]:61981->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:13:41 [INFO] 連線中斷
+2023/09/22 11:13:41 [INFO] Connect Success
+2023/09/22 11:13:47 [INFO] Receive Message:{"Code":200002,"Ret":"Login","Message":"paltform authenticate error"}
+2023/09/22 11:13:56 [INFO] 連線中斷
+2023/09/22 11:13:56 [ERROR] read tcp [::1]:62008->[::1]:10001: use of closed network connection
+2023/09/22 11:13:57 [INFO] Connect Success
+2023/09/22 11:14:33 [ERROR] read tcp [::1]:62012->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:14:43 [INFO] 連線中斷
+2023/09/22 11:14:44 [INFO] Connect Success
+2023/09/22 11:15:56 [ERROR] read tcp [::1]:62025->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:16:09 [INFO] 連線中斷
+2023/09/22 11:16:10 [INFO] Connect Success
+2023/09/22 11:16:52 [ERROR] read tcp [::1]:62043->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:17:08 [INFO] 連線中斷
+2023/09/22 11:17:09 [INFO] Connect Success
+2023/09/22 11:17:48 [INFO] simon1 SendMessage={"Login":{"Token":"679c4ac10z1293n09ca1dz2bkmm"}}
+2023/09/22 11:17:53 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":290759.01,"IconID":0,"Name":"TestAPLPK05","UserId":515942,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/22 11:18:11 [INFO] simon1 SendMessage={"GetLobbyInfo":{}}
+2023/09/22 11:21:11 [ERROR] read tcp [::1]:62081->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:21:25 [INFO] 連線中斷
+2023/09/22 11:21:25 [INFO] Connect Success
+2023/09/22 11:22:02 [INFO] simon1 SendMessage={"Login":{"Token":"679c4ac10z1293n09ca1dz2bkmm"}}
+2023/09/22 11:22:06 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":387678.68,"IconID":0,"Name":"TestAPLPK05","UserId":515942,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/09/22 11:22:29 [INFO] simon1 SendMessage={"GetLobbyInfo":{}}
+2023/09/22 11:23:34 [ERROR] read tcp [::1]:62212->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/09/22 11:35:09 [INFO] 連線中斷
+2023/09/22 11:35:11 [INFO] Connect Success
+2023/09/22 11:35:51 [INFO] simon1 SendMessage={"Login":{"Token":"679c4ac10z1293n09ca1dz2bkmm"}}
+2023/09/22 11:36:29 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":484598.35,"IconID":0,"Name":"TestAPLPK05","UserId":515942,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}

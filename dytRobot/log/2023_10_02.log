@@ -1,0 +1,128 @@
+2023/10/02 14:35:09 [INFO] 連線中斷
+2023/10/02 14:35:25 [INFO] Connect Success
+2023/10/02 14:35:28 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999996.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 14:35:31 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 14:35:44 [INFO] 連線中斷
+2023/10/02 14:35:44 [ERROR] read tcp [::1]:63952->[::1]:10001: use of closed network connection
+2023/10/02 14:36:02 [INFO] Connect Success
+2023/10/02 14:36:04 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999996.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 14:36:08 [INFO] Receive Message:{"Ret":"DebugMatchType","Data":{"matchtype":0}}
+2023/10/02 14:36:08 [INFO] Receive Message:{"Code":0,"Ret":"JoinGame","Message":"Success.","Data":{"Gid":"","BankerCards":[],"BankerCardPoint":0,"BetLimit":[[3,300]],"Chips":[3,15,30,75,150,300],"RemainSec":1,"BetInfo":{},"TableCards":{},"PlayerInfo":[{"seatId":2,"iconId":0,"name":"Test_simon","gold":999996.55,"IsBetFinish":false,"IsDouble":[false,false],"isSitDown":true,"point":[0,0],"is21Point":[false,false],"isFiveDragon":[false,false],"isBlackJack":[false,false],"bust":[false,false],"isSetInsurance":false,"isInsurance":false,"insuranceGold":0,"parentSeat":2}],"Fsm":"Init","TokenPlayerSeatInfo":{"seatId":-1,"splittime":0},"result":[]}}
+2023/10/02 14:36:09 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Match","Gid":"2001-1708732585871413248","RemainSec":3,"TimeStamp":1696228569845}}
+2023/10/02 14:36:12 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":100,"name":"****n53","gold":178193,"isSitDown":true},{"seatId":1,"iconId":102,"name":"****y15","gold":175998.5,"isSitDown":true},{"seatId":2,"iconId":0,"name":"****mon","gold":999996.55,"isSitDown":true},{"seatId":4,"iconId":7,"name":"****r00","gold":137158.4,"isSitDown":true}]}}
+2023/10/02 14:36:12 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Bet","Gid":"2001-1708732585871413248","RemainSec":20,"TimeStamp":1696228572858}}
+2023/10/02 14:36:14 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****n53","parentSeat":0},{"seatId":1,"name":"****y15","parentSeat":1},{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":4,"name":"****r00","parentSeat":4}]}}
+2023/10/02 14:36:14 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[183,0],"Gold":178010},{"seatId":1,"bet":[0,0],"Gold":175998.5},{"seatId":2,"bet":[0,0],"Gold":999996.55},{"seatId":4,"bet":[0,0],"Gold":137158.4}]}}
+2023/10/02 14:36:14 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":0}}
+2023/10/02 14:36:15 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****n53","parentSeat":0},{"seatId":1,"name":"****y15","parentSeat":1},{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":4,"name":"****r00","parentSeat":4}]}}
+2023/10/02 14:36:15 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[183,0],"Gold":178010},{"seatId":1,"bet":[180,0],"Gold":175818.5},{"seatId":2,"bet":[0,0],"Gold":999996.55},{"seatId":4,"bet":[0,0],"Gold":137158.4}]}}
+2023/10/02 14:36:15 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":1}}
+2023/10/02 14:36:16 [INFO] Receive Message:{"Ret":"ActSeatOwner","Data":{"seatOwner":[{"seatId":0,"name":"****n53","parentSeat":0},{"seatId":1,"name":"****y15","parentSeat":1},{"seatId":2,"name":"****mon","parentSeat":2},{"seatId":4,"name":"****r00","parentSeat":4}]}}
+2023/10/02 14:36:16 [INFO] Receive Message:{"Ret":"ActTableBetData","Data":{"tableBetData":[{"seatId":0,"bet":[183,0],"Gold":178010},{"seatId":1,"bet":[180,0],"Gold":175818.5},{"seatId":2,"bet":[0,0],"Gold":999996.55},{"seatId":4,"bet":[15,0],"Gold":137143.4}]}}
+2023/10/02 14:36:16 [INFO] Receive Message:{"Ret":"ActBetFinish","Data":{"seatId":4}}
+2023/10/02 14:36:17 [ERROR] read tcp [::1]:63976->[::1]:10001: use of closed network connection
+2023/10/02 14:36:17 [INFO] 連線中斷
+2023/10/02 14:39:55 [INFO] Connect Success
+2023/10/02 14:39:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999993.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"blackjack","MatchGameTableId":20010,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 14:40:04 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 14:40:17 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 14:41:21 [ERROR] read tcp [::1]:64083->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 14:58:10 [INFO] 連線中斷
+2023/10/02 14:58:17 [INFO] Connect Success
+2023/10/02 14:58:20 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999993.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 14:58:26 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":false,"coinexpiretime":0,"pool":10000}}
+2023/10/02 14:58:28 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 14:59:11 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 14:59:30 [ERROR] read tcp [::1]:64429->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 15:00:00 [INFO] 連線中斷
+2023/10/02 15:00:01 [INFO] Connect Success
+2023/10/02 15:00:03 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999993.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 15:00:09 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 15:00:21 [ERROR] read tcp [::1]:64493->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 15:02:25 [INFO] 連線中斷
+2023/10/02 15:02:28 [INFO] Connect Success
+2023/10/02 15:02:30 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999993.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 15:02:33 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":false,"coinexpiretime":0,"pool":10000}}
+2023/10/02 15:02:35 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 15:03:08 [ERROR] read tcp [::1]:64605->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 15:04:18 [INFO] 連線中斷
+2023/10/02 15:04:21 [INFO] Connect Success
+2023/10/02 15:04:23 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999993.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 15:04:25 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":false,"coinexpiretime":0,"pool":10000}}
+2023/10/02 15:04:27 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 15:04:49 [ERROR] read tcp [::1]:64648->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 15:05:22 [INFO] 連線中斷
+2023/10/02 15:05:23 [INFO] Connect Success
+2023/10/02 15:05:25 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999993.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 15:05:28 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 15:06:14 [INFO] 連線中斷
+2023/10/02 15:06:14 [ERROR] read tcp [::1]:64667->[::1]:10001: use of closed network connection
+2023/10/02 15:06:14 [INFO] Connect Success
+2023/10/02 15:06:17 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":999993.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 15:06:18 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":false,"coinexpiretime":0,"pool":10000}}
+2023/10/02 15:06:20 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":1}}}
+2023/10/02 15:06:33 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"Success.","Data":{"prize":1}}
+2023/10/02 15:08:19 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/10/02 15:08:19 [INFO] Receive Message:{"Code":0,"Ret":"PlayJapot","Message":"Success.","Data":{"prize":606,"prizetype":1,"coinId":"1708740678579654656","coinBetvalue":0,"droptime":1696230499293}}
+2023/10/02 15:08:30 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/10/02 15:08:30 [INFO] Receive Message:{"Code":0,"Ret":"PlayJapot","Message":"Success."}
+2023/10/02 15:11:17 [ERROR] read tcp [::1]:64687->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 15:11:46 [INFO] 連線中斷
+2023/10/02 15:11:51 [INFO] Connect Success
+2023/10/02 15:11:53 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000599.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000}}}
+2023/10/02 15:11:56 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":false,"coinexpiretime":0,"pool":10000}}
+2023/10/02 15:12:03 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":2}}}
+2023/10/02 15:12:10 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"Success.","Data":{"prize":2}}
+2023/10/02 15:12:32 [ERROR] simon 不是json的格式:{"PlayJapot":{} Error message:unexpected end of JSON input
+2023/10/02 15:12:41 [INFO] simon SendMessage={"PlayJapot":{}}
+2023/10/02 15:13:26 [INFO] Receive Message:{"Code":0,"Ret":"PlayJapot","Message":"Success.","Data":{"prize":122,"prizetype":2,"coinId":"1708741822857089024","coinBetvalue":0,"droptime":1696230772112}}
+2023/10/02 15:13:26 [ERROR] read tcp [::1]:64842->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 16:17:23 [INFO] 連線中斷
+2023/10/02 16:17:24 [INFO] Connect Success
+2023/10/02 16:17:27 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":2999990.85,"IconID":0,"Name":"Test_simon","UserId":80399928,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/02 16:17:30 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":false,"coinexpiretime":0,"pool":10000}}
+2023/10/02 16:17:48 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":2}}}
+2023/10/02 16:17:48 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"Success.","Data":{"prize":2}}
+2023/10/02 16:27:48 [ERROR] read tcp 192.168.180.114:50779->172.30.0.154:10001: use of closed network connection
+2023/10/02 16:27:48 [INFO] 連線中斷
+2023/10/02 16:27:57 [INFO] Connect Success
+2023/10/02 16:28:00 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":2999990.85,"IconID":0,"Name":"Test_simon","UserId":80399928,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/02 16:28:03 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":false,"coinexpiretime":0,"pool":10000}}
+2023/10/02 16:28:10 [INFO] simon SendMessage={"DebugInfo":{"data":{"prize":2}}}
+2023/10/02 16:28:10 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"Success.","Data":{"prize":2}}
+2023/10/02 16:29:09 [ERROR] read tcp 192.168.180.114:51008->172.30.0.154:10001: use of closed network connection
+2023/10/02 16:29:09 [INFO] 連線中斷
+2023/10/02 16:29:12 [INFO] Connect Success
+2023/10/02 16:29:14 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1005024.795,"IconID":103,"Name":"Test_37ea2511-fde9-4627-9a48-67e67961f41f","UserId":82114066,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":true,"coinexpiretime":1696299400,"pool":10000},"JackpotEnable":true}}
+2023/10/02 16:29:17 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":true,"coinexpiretime":1696299400,"pool":10000}}
+2023/10/02 16:29:23 [INFO] 37ea2511-fde9-4627-9a48-67e67961f41f SendMessage={"DebugInfo":{"data":{"prize":2}}}
+2023/10/02 16:29:23 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"Success.","Data":{"prize":2}}
+2023/10/02 16:30:42 [INFO] Receive Message:{"Ret":"ActMultiConnect","Data":{}}
+2023/10/02 16:30:42 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/10/02 16:34:24 [INFO] 連線中斷
+2023/10/02 16:34:25 [INFO] Connect Success
+2023/10/02 16:34:27 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1005024.795,"IconID":103,"Name":"Test_37ea2511-fde9-4627-9a48-67e67961f41f","UserId":82114066,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":true,"coinexpiretime":1696299400,"pool":10000},"JackpotEnable":true}}
+2023/10/02 16:34:30 [INFO] 連線中斷
+2023/10/02 16:34:30 [ERROR] read tcp 192.168.180.114:51181->172.30.0.154:10001: use of closed network connection
+2023/10/02 16:36:56 [INFO] Connect Success
+2023/10/02 16:37:04 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000721.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000},"JackpotEnable":false}}
+2023/10/02 16:37:33 [INFO] 連線中斷
+2023/10/02 16:37:33 [ERROR] read tcp [::1]:51250->[::1]:10001: use of closed network connection
+2023/10/02 16:37:34 [INFO] Connect Success
+2023/10/02 16:39:06 [ERROR] read tcp [::1]:51259->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 16:41:11 [INFO] 連線中斷
+2023/10/02 16:41:11 [INFO] Connect Success
+2023/10/02 16:41:16 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000721.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/02 16:44:34 [ERROR] read tcp [::1]:49181->[::1]:10001: use of closed network connection
+2023/10/02 16:44:34 [INFO] 連線中斷
+2023/10/02 16:44:35 [INFO] Connect Success
+2023/10/02 16:44:37 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000721.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/02 16:44:42 [ERROR] read tcp [::1]:49276->[::1]:10001: use of closed network connection
+2023/10/02 16:44:42 [INFO] 連線中斷
+2023/10/02 16:44:48 [INFO] Connect Success
+2023/10/02 16:44:54 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"Success.","Data":{"Gold":1000721.55,"IconID":0,"Name":"Test_simon","UserId":88149641,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false,"JackpotInfo":{"coin":false,"coinexpiretime":0,"pool":10000},"JackpotEnable":true}}
+2023/10/02 16:44:58 [INFO] Receive Message:{"Code":0,"Ret":"InJackpot","Message":"Success.","Data":{"coin":false,"coinexpiretime":0,"pool":10000}}
+2023/10/02 16:47:14 [ERROR] read tcp [::1]:49283->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/10/02 16:48:00 [INFO] 連線中斷
+2023/10/02 16:48:00 [ERROR] dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/10/02 16:48:00 [ERROR] Connect failed:dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.

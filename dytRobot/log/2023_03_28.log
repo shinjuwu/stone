@@ -1,0 +1,23 @@
+2023/03/28 13:53:53 [INFO] 連線中斷
+2023/03/28 13:53:54 [INFO] Connect Success
+2023/03/28 13:53:58 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":5000003.9,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/03/28 13:54:43 [INFO] simon SendMessage={"Disconnect":{}}
+2023/03/28 13:54:50 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/28 13:59:25 [INFO] 連線中斷
+2023/03/28 13:59:29 [INFO] Connect Success
+2023/03/28 13:59:33 [INFO] simon SendMessage={"Disconnect":{}}
+2023/03/28 13:59:33 [ERROR] websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/28 17:41:19 [INFO] 連線中斷
+2023/03/28 17:41:21 [INFO] Connect Success
+2023/03/28 17:41:26 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":3000002.85,"IconID":0,"Name":"Test_simon","UserId":80399928,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"cd4936e9-6cef-484c-9121-32bf4b312559","lang":"zh-cn","type":2,"order":2,"freq":60,"content":"====我是公告第二條====","start_time":"2023-03-07T05:45:00Z","end_time":"2023-03-31T06:15:00Z"},{"id":"b6491d08-a368-4d9e-ac19-8ef23e19bf6d","lang":"zh-cn","type":1,"order":3,"freq":60,"content":"====我是公告第3條====","start_time":"2023-03-07T05:45:00Z","end_time":"2023-03-31T06:15:00Z"},{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"a2307481-6de8-4954-bbe6-65fc8e657712","lang":"zh-cn","type":1,"order":1,"freq":60,"content":"====我是公告第一條=====","start_time":"2023-03-03T03:10:00Z","end_time":"2023-03-31T03:40:00Z"}]}}
+2023/03/28 17:41:32 [INFO] 連線中斷
+2023/03/28 17:41:32 [ERROR] read tcp 192.168.180.114:60167->172.30.0.154:10001: use of closed network connection
+2023/03/28 17:41:50 [INFO] Connect Success
+2023/03/28 17:42:09 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":5000003.9,"IconID":0,"Name":"Test_simon","UserId":82941254,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null,"is_relogin":false}}
+2023/03/28 17:42:12 [ERROR] read tcp [::1]:60184->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/03/28 17:43:49 [INFO] 連線中斷
+2023/03/28 17:43:58 [INFO] Connect Success
+2023/03/28 17:43:58 [ERROR] read tcp 192.168.180.114:60248->172.30.0.154:10001: use of closed network connection
+2023/03/28 17:43:58 [INFO] 連線中斷
+2023/03/28 17:44:05 [INFO] Connect Success
+2023/03/28 17:44:09 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":3000002.85,"IconID":0,"Name":"Test_simon","UserId":80399928,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"cd4936e9-6cef-484c-9121-32bf4b312559","lang":"zh-cn","type":2,"order":2,"freq":60,"content":"====我是公告第二條====","start_time":"2023-03-07T05:45:00Z","end_time":"2023-03-31T06:15:00Z"},{"id":"b6491d08-a368-4d9e-ac19-8ef23e19bf6d","lang":"zh-cn","type":1,"order":3,"freq":60,"content":"====我是公告第3條====","start_time":"2023-03-07T05:45:00Z","end_time":"2023-03-31T06:15:00Z"},{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"a2307481-6de8-4954-bbe6-65fc8e657712","lang":"zh-cn","type":1,"order":1,"freq":60,"content":"====我是公告第一條=====","start_time":"2023-03-03T03:10:00Z","end_time":"2023-03-31T03:40:00Z"}],"is_relogin":false}}

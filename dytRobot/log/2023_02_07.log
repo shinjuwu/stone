@@ -1,0 +1,451 @@
+2023/02/07 09:51:56 [INFO] 連線中斷
+2023/02/07 09:51:56 [INFO] Connect Success
+2023/02/07 09:52:00 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000046.45,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 09:52:06 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":3,"iconId":0,"name":"Test_simon","gold":2000046.45}],"Fsm":"Init"}}
+2023/02/07 09:52:07 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 09:52:07 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 09:52:07 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":3,"name":"****t10","gold":117071},{"seatId":3,"iconId":0,"name":"****mon","gold":2000046.45}]}}
+2023/02/07 09:52:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622775194550538240","RemainSec":60}}
+2023/02/07 09:52:12 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":28,"fishtype":2,"cts":1675734734,"route":"L6_R2","speed":64},{"index":43,"fishtype":1,"cts":1675734734,"route":"L1_R7","speed":64},{"index":83,"fishtype":4,"cts":1675734734,"route":"R1_L7","speed":64},{"index":132,"fishtype":4,"cts":1675734734,"route":"R7_L1","speed":64},{"index":147,"fishtype":1,"cts":1675734734,"route":"L7_R1","speed":64},{"index":285,"fishtype":6,"cts":1675734734,"route":"R2_L6","speed":58}],"formation":null}}
+2023/02/07 09:52:13 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":77,"fishtype":5,"cts":1675734735,"route":"L4_R4_3","speed":50},{"index":231,"fishtype":6,"cts":1675734735,"route":"R6_L2","speed":58},{"index":300,"fishtype":2,"cts":1675734735,"route":"L2_R6","speed":64},{"index":348,"fishtype":7,"cts":1675734735,"route":"R4_L4_3","speed":58}],"formation":null}}
+2023/02/07 09:52:14 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":29,"fishtype":2,"cts":1675734736,"route":"L6_R2","speed":64},{"index":44,"fishtype":1,"cts":1675734736,"route":"L1_R7","speed":64},{"index":84,"fishtype":4,"cts":1675734736,"route":"R1_L7","speed":64},{"index":116,"fishtype":8,"cts":1675734736,"route":"R3_L5","speed":71},{"index":133,"fishtype":4,"cts":1675734736,"route":"R7_L1","speed":64},{"index":148,"fishtype":1,"cts":1675734736,"route":"L7_R1","speed":64},{"index":169,"fishtype":3,"cts":1675734736,"route":"L3_R5","speed":64},{"index":217,"fishtype":7,"cts":1675734736,"route":"R4_L4_1","speed":58},{"index":252,"fishtype":8,"cts":1675734736,"route":"R5_L3","speed":71},{"index":267,"fishtype":5,"cts":1675734736,"route":"L4_R4_1","speed":50},{"index":286,"fishtype":6,"cts":1675734736,"route":"R2_L6","speed":58}],"formation":null}}
+2023/02/07 09:52:14 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 09:52:15 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":78,"fishtype":5,"cts":1675734737,"route":"L4_R4_3","speed":50},{"index":190,"fishtype":3,"cts":1675734737,"route":"L5_R3","speed":64},{"index":232,"fishtype":6,"cts":1675734737,"route":"R6_L2","speed":58},{"index":301,"fishtype":2,"cts":1675734737,"route":"L2_R6","speed":64},{"index":349,"fishtype":7,"cts":1675734737,"route":"R4_L4_3","speed":58}],"formation":null}}
+2023/02/07 09:52:16 [ERROR] read tcp [::1]:52256->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 09:52:22 [INFO] 連線中斷
+2023/02/07 09:52:26 [INFO] Connect Success
+2023/02/07 09:52:28 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000046.45,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 09:52:33 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":2000046.45}],"Fsm":"Init"}}
+2023/02/07 09:52:34 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 09:52:34 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 09:52:34 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":2000046.45},{"seatId":1,"iconId":104,"name":"****ot9","gold":111918}]}}
+2023/02/07 09:52:37 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622775305405992960","RemainSec":60}}
+2023/02/07 09:52:37 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 09:52:39 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":63,"fishtype":2,"cts":1675734761,"route":"L6_R2","speed":64},{"index":117,"fishtype":1,"cts":1675734761,"route":"L7_R1","speed":64},{"index":151,"fishtype":4,"cts":1675734761,"route":"R1_L7","speed":64},{"index":201,"fishtype":1,"cts":1675734761,"route":"L1_R7","speed":64},{"index":243,"fishtype":2,"cts":1675734761,"route":"L2_R6","speed":64},{"index":303,"fishtype":4,"cts":1675734761,"route":"R7_L1","speed":64},{"index":348,"fishtype":6,"cts":1675734761,"route":"R2_L6","speed":58}],"formation":null}}
+2023/02/07 09:52:40 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":104,"fishtype":5,"cts":1675734762,"route":"L4_R4_1","speed":50},{"index":145,"fishtype":7,"cts":1675734762,"route":"R4_L4_3","speed":58},{"index":288,"fishtype":6,"cts":1675734762,"route":"R6_L2","speed":58}],"formation":null}}
+2023/02/07 09:52:41 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":8,"fishtype":8,"cts":1675734763,"route":"R5_L3","speed":71},{"index":64,"fishtype":2,"cts":1675734763,"route":"L6_R2","speed":64},{"index":118,"fishtype":1,"cts":1675734763,"route":"L7_R1","speed":64},{"index":152,"fishtype":4,"cts":1675734763,"route":"R1_L7","speed":64},{"index":202,"fishtype":1,"cts":1675734763,"route":"L1_R7","speed":64},{"index":244,"fishtype":2,"cts":1675734763,"route":"L2_R6","speed":64},{"index":258,"fishtype":3,"cts":1675734763,"route":"L3_R5","speed":64},{"index":275,"fishtype":7,"cts":1675734763,"route":"R4_L4_1","speed":58},{"index":304,"fishtype":4,"cts":1675734763,"route":"R7_L1","speed":64},{"index":336,"fishtype":5,"cts":1675734763,"route":"L4_R4_3","speed":50},{"index":349,"fishtype":6,"cts":1675734763,"route":"R2_L6","speed":58}],"formation":null}}
+2023/02/07 09:52:42 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":33,"fishtype":8,"cts":1675734764,"route":"R3_L5","speed":71},{"index":105,"fishtype":5,"cts":1675734764,"route":"L4_R4_1","speed":50},{"index":146,"fishtype":7,"cts":1675734764,"route":"R4_L4_3","speed":58},{"index":186,"fishtype":3,"cts":1675734764,"route":"L5_R3","speed":64},{"index":289,"fishtype":6,"cts":1675734764,"route":"R6_L2","speed":58}],"formation":null}}
+2023/02/07 09:52:43 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":9,"fishtype":8,"cts":1675734765,"route":"R5_L3","speed":71},{"index":23,"fishtype":9,"cts":1675734765,"route":"L1_R1_1","speed":71},{"index":65,"fishtype":2,"cts":1675734765,"route":"L6_R2","speed":64},{"index":119,"fishtype":1,"cts":1675734765,"route":"L7_R1","speed":64},{"index":132,"fishtype":10,"cts":1675734765,"route":"R7_L7_1","speed":64},{"index":153,"fishtype":4,"cts":1675734765,"route":"R1_L7","speed":64},{"index":180,"fishtype":10,"cts":1675734765,"route":"R7_L7_2","speed":64},{"index":203,"fishtype":1,"cts":1675734765,"route":"L1_R7","speed":64},{"index":245,"fishtype":2,"cts":1675734765,"route":"L2_R6","speed":64},{"index":259,"fishtype":3,"cts":1675734765,"route":"L3_R5","speed":64},{"index":276,"fishtype":7,"cts":1675734765,"route":"R4_L4_1","speed":58},{"index":305,"fishtype":4,"cts":1675734765,"route":"R7_L1","speed":64},{"index":337,"fishtype":5,"cts":1675734765,"route":"L4_R4_3","speed":50},{"index":350,"fishtype":6,"cts":1675734765,"route":"R2_L6","speed":58}],"formation":null}}
+2023/02/07 09:52:44 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":34,"fishtype":8,"cts":1675734766,"route":"R3_L5","speed":71},{"index":54,"fishtype":9,"cts":1675734766,"route":"L1_R1_2","speed":71},{"index":106,"fishtype":5,"cts":1675734766,"route":"L4_R4_1","speed":50},{"index":147,"fishtype":7,"cts":1675734766,"route":"R4_L4_3","speed":58},{"index":187,"fishtype":3,"cts":1675734766,"route":"L5_R3","speed":64},{"index":216,"fishtype":11,"cts":1675734766,"route":"L2_R2_1","speed":71},{"index":290,"fishtype":6,"cts":1675734766,"route":"R6_L2","speed":58},{"index":318,"fishtype":12,"cts":1675734766,"route":"R6_L6_2","speed":71},{"index":342,"fishtype":13,"cts":1675734766,"route":"L3_R3_2","speed":75}],"formation":null}}
+2023/02/07 09:52:45 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":16,"cts":1675734767,"route":"R4_L4_1","speed":71},{"index":10,"fishtype":8,"cts":1675734767,"route":"R5_L3","speed":71},{"index":24,"fishtype":9,"cts":1675734767,"route":"L1_R1_1","speed":71},{"index":66,"fishtype":2,"cts":1675734767,"route":"L6_R2","speed":64},{"index":78,"fishtype":15,"cts":1675734767,"route":"L4_R4_2","speed":75},{"index":84,"fishtype":12,"cts":1675734767,"route":"R6_L6_1","speed":71},{"index":90,"fishtype":14,"cts":1675734767,"route":"R5_L5_1","speed":64},{"index":120,"fishtype":1,"cts":1675734767,"route":"L7_R1","speed":64},{"index":133,"fishtype":10,"cts":1675734767,"route":"R7_L7_1","speed":64},{"index":138,"fishtype":11,"cts":1675734767,"route":"L2_R2_2","speed":71},{"index":154,"fishtype":4,"cts":1675734767,"route":"R1_L7","speed":64},{"index":166,"fishtype":13,"cts":1675734767,"route":"L3_R3_1","speed":75},{"index":181,"fishtype":10,"cts":1675734767,"route":"R7_L7_2","speed":64},{"index":204,"fishtype":1,"cts":1675734767,"route":"L1_R7","speed":64},{"index":246,"fishtype":2,"cts":1675734767,"route":"L2_R6","speed":64},{"index":260,"fishtype":3,"cts":1675734767,"route":"L3_R5","speed":64},{"index":277,"fishtype":7,"cts":1675734767,"route":"R4_L4_1","speed":58},{"index":306,"fishtype":4,"cts":1675734767,"route":"R7_L1","speed":64},{"index":338,"fishtype":5,"cts":1675734767,"route":"L4_R4_3","speed":50},{"index":351,"fishtype":6,"cts":1675734767,"route":"R2_L6","speed":58}],"formation":null}}
+2023/02/07 09:52:46 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":35,"fishtype":8,"cts":1675734768,"route":"R3_L5","speed":71},{"index":48,"fishtype":16,"cts":1675734768,"route":"R4_L4_2","speed":71},{"index":55,"fishtype":9,"cts":1675734768,"route":"L1_R1_2","speed":71},{"index":174,"fishtype":15,"cts":1675734768,"route":"L4_R4_1","speed":75},{"index":188,"fishtype":3,"cts":1675734768,"route":"L5_R3","speed":64},{"index":217,"fishtype":11,"cts":1675734768,"route":"L2_R2_1","speed":71},{"index":222,"fishtype":18,"cts":1675734768,"route":"R3_L3_2","speed":75},{"index":234,"fishtype":19,"cts":1675734768,"route":"L6_R6_2","speed":75},{"index":281,"fishtype":17,"cts":1675734768,"route":"L5_R5_1","speed":71},{"index":291,"fishtype":6,"cts":1675734768,"route":"R6_L2","speed":58},{"index":319,"fishtype":12,"cts":1675734768,"route":"R6_L6_2","speed":71},{"index":324,"fishtype":14,"cts":1675734768,"route":"R5_L5_2","speed":64},{"index":363,"fishtype":17,"cts":1675734768,"route":"L5_R5_2","speed":71}],"formation":null}}
+2023/02/07 09:52:47 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":11,"fishtype":8,"cts":1675734769,"route":"R5_L3","speed":71},{"index":25,"fishtype":9,"cts":1675734769,"route":"L1_R1_1","speed":71},{"index":67,"fishtype":2,"cts":1675734769,"route":"L6_R2","speed":64},{"index":85,"fishtype":12,"cts":1675734769,"route":"R6_L6_1","speed":71},{"index":97,"fishtype":20,"cts":1675734769,"route":"R2_L2_1","speed":50},{"index":110,"fishtype":18,"cts":1675734769,"route":"R3_L3_1","speed":75},{"index":121,"fishtype":1,"cts":1675734769,"route":"L7_R1","speed":64},{"index":139,"fishtype":11,"cts":1675734769,"route":"L2_R2_2","speed":71},{"index":155,"fishtype":4,"cts":1675734769,"route":"R1_L7","speed":64},{"index":205,"fishtype":1,"cts":1675734769,"route":"L1_R7","speed":64},{"index":228,"fishtype":19,"cts":1675734769,"route":"L6_R6_1","speed":75},{"index":247,"fishtype":2,"cts":1675734769,"route":"L2_R6","speed":64},{"index":261,"fishtype":3,"cts":1675734769,"route":"L3_R5","speed":64},{"index":307,"fishtype":4,"cts":1675734769,"route":"R7_L1","speed":64},{"index":343,"fishtype":13,"cts":1675734769,"route":"L3_R3_2","speed":75},{"index":352,"fishtype":6,"cts":1675734769,"route":"R2_L6","speed":58}],"formation":null}}
+2023/02/07 09:52:47 [ERROR] read tcp [::1]:52292->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 09:52:50 [INFO] 連線中斷
+2023/02/07 09:52:54 [INFO] Connect Success
+2023/02/07 09:52:56 [INFO] 連線中斷
+2023/02/07 09:52:56 [ERROR] read tcp [::1]:52315->[::1]:10001: use of closed network connection
+2023/02/07 09:52:56 [INFO] Connect Success
+2023/02/07 09:52:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000046.45,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 09:54:18 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":3,"iconId":0,"name":"Test_simon","gold":2000046.45}],"Fsm":"Init"}}
+2023/02/07 09:54:20 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 09:54:20 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 09:54:20 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":5,"name":"****ot6","gold":151835},{"seatId":3,"iconId":0,"name":"****mon","gold":2000046.45}]}}
+2023/02/07 09:54:20 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 09:54:22 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622775749268213760","RemainSec":60}}
+2023/02/07 09:54:23 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675734865,"route":"R4_L4_3","speed":71}],"formation":null}}
+2023/02/07 09:54:26 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675734868,"route":"R4_L4_3","speed":71}],"formation":null}}
+2023/02/07 09:54:28 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675734869,"route":"R4_L4_3","speed":71}],"formation":null}}
+2023/02/07 09:54:30 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675734872,"route":"R4_L4_3","speed":71}],"formation":null}}
+2023/02/07 09:54:31 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675734873,"route":"R4_L4_3","speed":71}],"formation":null}}
+2023/02/07 09:54:37 [ERROR] read tcp [::1]:52323->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 09:55:23 [INFO] 連線中斷
+2023/02/07 09:55:26 [INFO] Connect Success
+2023/02/07 09:55:28 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000046.45,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 09:55:33 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":2000046.45}],"Fsm":"Init"}}
+2023/02/07 09:55:34 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 09:55:34 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 09:55:34 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":2000046.45},{"seatId":1,"iconId":107,"name":"****t30","gold":147315}]}}
+2023/02/07 09:55:34 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 09:55:37 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622776059780927488","RemainSec":60}}
+2023/02/07 09:55:38 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675734940,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:55:40 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675734942,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:55:40 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 09:55:40 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 09:55:43 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 09:55:43 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000046.35}}
+2023/02/07 09:55:43 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000046.55}}
+2023/02/07 09:55:43 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 09:55:43 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":0,"bulletgold":0.1,"wingold":0.2,"skillReward":null,"gold":2000046.55,"isTrick":false}}
+2023/02/07 09:55:43 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675734945,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:55:45 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675734947,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:55:46 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 09:55:46 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":2,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 09:55:49 [INFO] Receive Message:{"Code":200019,"Ret":"Hit","Message":"Bullet has been used","Data":[]}
+2023/02/07 09:55:49 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":0,"bulletgold":0,"wingold":0,"skillReward":null,"gold":0,"isTrick":false}}
+2023/02/07 09:55:49 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675734951,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:55:55 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 09:55:55 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":3,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 09:55:57 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 09:55:57 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000046.45}}
+2023/02/07 09:55:57 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000046.85}}
+2023/02/07 09:55:57 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 09:55:57 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":0,"bulletgold":0.1,"wingold":0.4,"skillReward":null,"gold":2000046.85,"isTrick":false}}
+2023/02/07 09:56:01 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 09:56:01 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":4,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 09:56:02 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":6,"fishtype":26,"cts":1675734964,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:56:03 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 09:56:03 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000046.75}}
+2023/02/07 09:56:03 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000047.55}}
+2023/02/07 09:56:03 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 09:56:03 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":0,"bulletgold":0.1,"wingold":0.8,"skillReward":null,"gold":2000047.55,"isTrick":false}}
+2023/02/07 09:56:04 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675734940,"route":"L1_R1_1","speed":71}]}}
+2023/02/07 09:56:05 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":7,"fishtype":26,"cts":1675734967,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:56:06 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675734942,"route":"L1_R1_1","speed":71}]}}
+2023/02/07 09:56:07 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":8,"fishtype":26,"cts":1675734969,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:56:08 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675734945,"route":"L1_R1_1","speed":71}]}}
+2023/02/07 09:56:08 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 09:56:08 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":5,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 09:56:09 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":9,"fishtype":26,"cts":1675734971,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:56:10 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 09:56:10 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000047.45}}
+2023/02/07 09:56:10 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000049.05}}
+2023/02/07 09:56:10 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 09:56:10 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":0,"bulletgold":0.1,"wingold":1.6,"skillReward":null,"gold":2000049.05,"isTrick":false}}
+2023/02/07 09:56:11 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675734947,"route":"L1_R1_1","speed":71}]}}
+2023/02/07 09:56:12 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":10,"fishtype":26,"cts":1675734974,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 09:56:13 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675734951,"route":"L1_R1_1","speed":71}]}}
+2023/02/07 09:56:15 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 09:56:15 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":6,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 09:56:17 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 09:56:17 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000048.95}}
+2023/02/07 09:56:17 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.15}}
+2023/02/07 09:56:17 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 09:56:17 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":0,"bulletgold":0.1,"wingold":3.2,"skillReward":null,"gold":2000052.15,"isTrick":false}}
+2023/02/07 09:56:22 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 09:56:22 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":7,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 09:58:00 [ERROR] read tcp [::1]:52458->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 11:19:43 [INFO] 連線中斷
+2023/02/07 11:19:45 [INFO] Connect Success
+2023/02/07 11:19:48 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000052.05,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 11:20:01 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":2,"iconId":0,"name":"Test_simon","gold":2000052.05}],"Fsm":"Init"}}
+2023/02/07 11:20:02 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 11:20:02 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 11:20:02 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":107,"name":"****ot6","gold":166250},{"seatId":2,"iconId":0,"name":"****mon","gold":2000052.05}]}}
+2023/02/07 11:20:03 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 11:20:05 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622797319168593920","RemainSec":60}}
+2023/02/07 11:20:06 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":1,"cts":1675740008,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:08 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":1,"cts":1675740010,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:10 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":1,"cts":1675740012,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:10 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 11:20:10 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 11:20:11 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":1}
+2023/02/07 11:20:11 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.95}}
+2023/02/07 11:20:11 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.15}}
+2023/02/07 11:20:11 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":1,"bulletgold":0.1,"wingold":0.2,"skillReward":null,"gold":2000052.15,"isTrick":false}}
+2023/02/07 11:20:12 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":1,"cts":1675740014,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:14 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":1,"cts":1675740016,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:26 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":6,"fishtype":1,"cts":1675740028,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:28 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":7,"fishtype":1,"cts":1675740030,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:29 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":1,"fishtype":1,"cts":1675740008,"isdead":true,"route":"R3_L3_1","speed":64}]}}
+2023/02/07 11:20:30 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":8,"fishtype":1,"cts":1675740032,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:31 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":2,"fishtype":1,"cts":1675740010,"route":"R3_L3_1","speed":64}]}}
+2023/02/07 11:20:32 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":9,"fishtype":1,"cts":1675740034,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:33 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":3,"fishtype":1,"cts":1675740012,"route":"R3_L3_1","speed":64}]}}
+2023/02/07 11:20:34 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":10,"fishtype":1,"cts":1675740036,"route":"R3_L3_1","speed":64}],"formation":null}}
+2023/02/07 11:20:35 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":4,"fishtype":1,"cts":1675740014,"route":"R3_L3_1","speed":64}]}}
+2023/02/07 11:20:36 [ERROR] read tcp [::1]:54642->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 11:21:08 [INFO] 連線中斷
+2023/02/07 11:21:12 [INFO] Connect Success
+2023/02/07 11:21:14 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000052.15,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 11:21:19 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":2000052.15}],"Fsm":"Init"}}
+2023/02/07 11:21:20 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 11:21:20 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 11:21:20 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":2000052.15},{"seatId":1,"iconId":102,"name":"****t15","gold":126183}]}}
+2023/02/07 11:21:21 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 11:21:23 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622797646957645824","RemainSec":60}}
+2023/02/07 11:21:27 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":1,"cts":1675740086,"route":"L6_R6_2","speed":64}],"formation":null}}
+2023/02/07 11:21:31 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":1,"cts":1675740091,"route":"L6_R6_2","speed":64}],"formation":null}}
+2023/02/07 11:21:33 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":1,"cts":1675740095,"route":"L6_R6_2","speed":64}],"formation":null}}
+2023/02/07 11:21:35 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":1,"cts":1675740097,"route":"L6_R6_2","speed":64}],"formation":null}}
+2023/02/07 11:21:37 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":1,"cts":1675740099,"route":"L6_R6_2","speed":64}],"formation":null}}
+2023/02/07 11:21:40 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 11:21:40 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 11:21:41 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":1}
+2023/02/07 11:21:41 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.05}}
+2023/02/07 11:21:41 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.25}}
+2023/02/07 11:21:41 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":1,"bulletgold":0.1,"wingold":0.2,"skillReward":null,"gold":2000052.25,"isTrick":false}}
+2023/02/07 11:21:56 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":6,"fishtype":1,"cts":1675740116,"route":"L6_R6_2","speed":64}],"formation":null}}
+2023/02/07 11:22:01 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":7,"fishtype":1,"cts":1675740121,"route":"L6_R6_2","speed":64}],"formation":null}}
+2023/02/07 11:22:16 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":8,"fishtype":1,"cts":1675740133,"route":"L6_R6_2","speed":64}],"formation":null}}
+2023/02/07 11:23:11 [ERROR] read tcp [::1]:54723->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 11:24:53 [INFO] 連線中斷
+2023/02/07 11:24:56 [ERROR] dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/02/07 11:24:56 [ERROR] Connect failed:dial tcp [::1]:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/02/07 11:24:57 [INFO] Connect Success
+2023/02/07 11:24:59 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000052.25,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":null}}
+2023/02/07 11:25:02 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":2000052.25}],"Fsm":"Init"}}
+2023/02/07 11:25:04 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 11:25:04 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 11:25:04 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":2000052.25},{"seatId":2,"iconId":0,"name":"****t13","gold":100753}]}}
+2023/02/07 11:25:04 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 11:25:07 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622798583109521408","RemainSec":60}}
+2023/02/07 11:25:12 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":1,"cts":1675740310,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:25:14 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":1,"cts":1675740316,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:25:16 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":1,"cts":1675740318,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:25:17 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 11:25:17 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 11:25:18 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":1,"cts":1675740320,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:25:18 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":1}
+2023/02/07 11:25:18 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.15}}
+2023/02/07 11:25:18 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.35}}
+2023/02/07 11:25:18 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":1,"bulletgold":0.1,"wingold":0.2,"skillReward":null,"gold":2000052.35,"isTrick":false}}
+2023/02/07 11:25:20 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":1,"cts":1675740322,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:25:32 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":6,"fishtype":1,"cts":1675740334,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:25:41 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":7,"fishtype":1,"cts":1675740338,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:25:55 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":8,"fishtype":1,"cts":1675740350,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:26:28 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":9,"fishtype":1,"cts":1675740365,"route":"L5_R3","speed":64}],"formation":null}}
+2023/02/07 11:27:31 [ERROR] read tcp [::1]:54935->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 14:51:01 [INFO] 連線中斷
+2023/02/07 14:51:01 [INFO] Connect Success
+2023/02/07 14:51:03 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000052.35,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 14:51:09 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":2000052.35}],"Fsm":"Init"}}
+2023/02/07 14:51:10 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 14:51:10 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 14:51:10 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":2000052.35},{"seatId":1,"iconId":106,"name":"****ot3","gold":173863}]}}
+2023/02/07 14:51:11 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 14:51:13 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622850453526024192","RemainSec":60}}
+2023/02/07 14:51:14 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":1,"cts":1675752676,"route":"L7_R2","speed":64}],"formation":null}}
+2023/02/07 14:51:16 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":1,"cts":1675752678,"route":"L7_R2","speed":64}],"formation":null}}
+2023/02/07 14:51:17 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 14:51:17 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 14:51:18 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":1,"cts":1675752680,"route":"L7_R2","speed":64}],"formation":null}}
+2023/02/07 14:51:20 [ERROR] read tcp [::1]:59469->[::1]:10001: use of closed network connection
+2023/02/07 14:51:20 [INFO] 連線中斷
+2023/02/07 14:51:49 [INFO] Connect Success
+2023/02/07 14:51:51 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000052.35,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 14:51:59 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":2000052.35}],"Fsm":"Init"}}
+2023/02/07 14:52:00 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 14:52:00 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 14:52:00 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":0,"name":"****mon","gold":2000052.35},{"seatId":3,"iconId":4,"name":"****t15","gold":141008}]}}
+2023/02/07 14:52:00 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 14:52:03 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622850661391536128","RemainSec":60}}
+2023/02/07 14:52:04 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675752726,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:06 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675752728,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:07 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 14:52:07 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 14:52:08 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675752730,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:29 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 14:52:29 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.25}}
+2023/02/07 14:52:29 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":1,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000052.25,"isTrick":false}}
+2023/02/07 14:52:29 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 14:52:30 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675752752,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:32 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675752754,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:44 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":6,"fishtype":26,"cts":1675752766,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:46 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":7,"fishtype":26,"cts":1675752768,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:48 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":8,"fishtype":26,"cts":1675752770,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:48 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675752726,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:52:50 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":9,"fishtype":26,"cts":1675752772,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:50 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675752728,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:52:52 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":10,"fishtype":26,"cts":1675752774,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:52:52 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675752730,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:52:54 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675752752,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:52:56 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675752754,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:53:04 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":11,"fishtype":26,"cts":1675752786,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:53:06 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":12,"fishtype":26,"cts":1675752788,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:53:08 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":13,"fishtype":26,"cts":1675752790,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:53:08 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":6,"fishtype":26,"cts":1675752766,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:53:10 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":14,"fishtype":26,"cts":1675752792,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:53:10 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":7,"fishtype":26,"cts":1675752768,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:53:12 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":15,"fishtype":26,"cts":1675752794,"route":"L5_R6","speed":71}],"formation":null}}
+2023/02/07 14:53:12 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":8,"fishtype":26,"cts":1675752770,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:53:14 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":9,"fishtype":26,"cts":1675752772,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:53:16 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":10,"fishtype":26,"cts":1675752774,"route":"L5_R6","speed":71}]}}
+2023/02/07 14:53:28 [ERROR] read tcp [::1]:59498->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 15:17:59 [INFO] 連線中斷
+2023/02/07 15:17:59 [INFO] Connect Success
+2023/02/07 15:18:02 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000052.25,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 15:18:07 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":2,"iconId":0,"name":"Test_simon","gold":2000052.25}],"Fsm":"Init"}}
+2023/02/07 15:18:08 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 15:18:08 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 15:18:08 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":100,"name":"****ot1","gold":171304},{"seatId":2,"iconId":0,"name":"****mon","gold":2000052.25}]}}
+2023/02/07 15:18:08 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 15:18:11 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622857236512509952","RemainSec":60}}
+2023/02/07 15:18:12 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675754294,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:18:14 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675754296,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:18:14 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:18:14 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:18:25 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 15:18:25 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.15}}
+2023/02/07 15:18:25 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000052.15,"isTrick":false}}
+2023/02/07 15:18:25 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 15:18:25 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675754307,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:18:27 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675754309,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:18:29 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675754311,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:18:30 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:18:30 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":2,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:18:39 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 15:18:39 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.05}}
+2023/02/07 15:18:39 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000052.05,"isTrick":false}}
+2023/02/07 15:18:39 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 15:18:46 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:18:46 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":3,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:18:59 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 15:18:59 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.95}}
+2023/02/07 15:18:59 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000051.95,"isTrick":false}}
+2023/02/07 15:18:59 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 15:19:01 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":6,"fishtype":26,"cts":1675754343,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:19:01 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:19:01 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":4,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:19:02 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675754294,"route":"L3_R1","speed":71}]}}
+2023/02/07 15:19:15 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 15:19:15 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.85}}
+2023/02/07 15:19:15 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000052.05}}
+2023/02/07 15:19:15 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":0,"bulletgold":0.1,"wingold":0.2,"skillReward":null,"gold":2000052.05,"isTrick":false}}
+2023/02/07 15:19:15 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 15:19:15 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":7,"fishtype":26,"cts":1675754357,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:19:16 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675754296,"route":"L3_R1","speed":71}]}}
+2023/02/07 15:19:17 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":8,"fishtype":26,"cts":1675754359,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:19:18 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675754307,"route":"L3_R1","speed":71}]}}
+2023/02/07 15:19:19 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":9,"fishtype":26,"cts":1675754361,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:19:20 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675754309,"route":"L3_R1","speed":71}]}}
+2023/02/07 15:19:20 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:19:20 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":5,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:19:21 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":10,"fishtype":26,"cts":1675754363,"route":"L3_R1","speed":71}],"formation":null}}
+2023/02/07 15:20:23 [ERROR] read tcp [::1]:52643->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 15:21:13 [INFO] 連線中斷
+2023/02/07 15:21:13 [INFO] Connect Success
+2023/02/07 15:21:16 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000051.95,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 15:21:21 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":2000051.95}],"Fsm":"Init"}}
+2023/02/07 15:21:22 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 15:21:22 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 15:21:22 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":5,"name":"****t16","gold":155495},{"seatId":1,"iconId":0,"name":"****mon","gold":2000051.95}]}}
+2023/02/07 15:21:22 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 15:21:25 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622858050626916352","RemainSec":60}}
+2023/02/07 15:21:26 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675754488,"route":"R4_L4_1","speed":71}],"formation":null}}
+2023/02/07 15:21:28 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675754490,"route":"R4_L4_1","speed":71}],"formation":null}}
+2023/02/07 15:21:30 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675754492,"route":"R4_L4_1","speed":71}],"formation":null}}
+2023/02/07 15:21:30 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:21:30 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:21:43 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 15:21:43 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.85}}
+2023/02/07 15:21:43 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":1,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000051.85,"isTrick":false}}
+2023/02/07 15:21:43 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 15:21:43 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675754505,"route":"R4_L4_1","speed":71}],"formation":null}}
+2023/02/07 15:21:45 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:21:45 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"bulletId":2,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:21:45 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675754507,"route":"R4_L4_1","speed":71}],"formation":null}}
+2023/02/07 15:22:07 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 15:22:07 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.75}}
+2023/02/07 15:22:07 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.95}}
+2023/02/07 15:22:07 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":1,"diefish":0,"bulletgold":0.1,"wingold":0.2,"skillReward":null,"gold":2000051.95,"isTrick":false}}
+2023/02/07 15:22:07 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 15:22:09 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:22:09 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"bulletId":3,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:22:10 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 15:22:10 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.85}}
+2023/02/07 15:22:10 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":1,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000051.85,"isTrick":false}}
+2023/02/07 15:22:10 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 15:22:14 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:22:14 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"bulletId":4,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:22:15 [INFO] Receive Message:{"Code":200019,"Ret":"Hit","Message":"Bullet has been used","Data":[]}
+2023/02/07 15:22:15 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":1,"diefish":0,"bulletgold":0,"wingold":0,"skillReward":null,"gold":0,"isTrick":false}}
+2023/02/07 15:22:18 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":6,"fishtype":26,"cts":1675754540,"route":"R4_L4_1","speed":71}],"formation":null}}
+2023/02/07 15:22:19 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675754488,"route":"R4_L4_1","speed":71}]}}
+2023/02/07 15:22:20 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":7,"fishtype":26,"cts":1675754542,"route":"R4_L4_1","speed":71}],"formation":null}}
+2023/02/07 15:22:21 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:22:21 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"bulletId":5,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:22:21 [INFO] Receive Message:{"Ret":"ActDispFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675754490,"route":"R4_L4_1","speed":71}]}}
+2023/02/07 15:22:28 [ERROR] read tcp [::1]:52738->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 15:57:35 [INFO] 連線中斷
+2023/02/07 15:57:35 [INFO] Connect Success
+2023/02/07 15:57:38 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000051.75,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 15:57:47 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":2000051.75}],"Fsm":"Init"}}
+2023/02/07 15:57:48 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 15:57:48 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 15:57:48 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":5,"name":"****t18","gold":193726},{"seatId":1,"iconId":0,"name":"****mon","gold":2000051.75}]}}
+2023/02/07 15:57:50 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 15:57:51 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622867222688960512","RemainSec":60}}
+2023/02/07 15:57:52 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675756674,"route":"R1_L1_3","speed":71}],"formation":null}}
+2023/02/07 15:57:54 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675756676,"route":"R1_L1_3","speed":71}],"formation":null}}
+2023/02/07 15:57:56 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 15:57:56 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 15:57:56 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675756678,"route":"R1_L1_3","speed":71}],"formation":null}}
+2023/02/07 15:58:50 [ERROR] read tcp [::1]:53391->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 16:00:28 [INFO] 連線中斷
+2023/02/07 16:00:28 [INFO] Connect Success
+2023/02/07 16:00:31 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000051.65,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 16:00:33 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":2,"iconId":0,"name":"Test_simon","gold":2000051.65}],"Fsm":"Init"}}
+2023/02/07 16:00:34 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 16:00:34 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 16:00:34 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":107,"name":"****ot4","gold":108364},{"seatId":2,"iconId":0,"name":"****mon","gold":2000051.65}]}}
+2023/02/07 16:00:35 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 16:00:37 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622867915516678144","RemainSec":60}}
+2023/02/07 16:00:38 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675756840,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 16:00:39 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 16:00:39 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 16:00:40 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675756842,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 16:01:19 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 16:01:19 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.55}}
+2023/02/07 16:01:19 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000051.55,"isTrick":false}}
+2023/02/07 16:01:19 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 16:01:20 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675756882,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 16:01:22 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 16:01:22 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":2,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 16:01:22 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675756884,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 16:01:41 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 16:01:41 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.45}}
+2023/02/07 16:01:41 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000051.45,"isTrick":false}}
+2023/02/07 16:01:41 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 16:01:43 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675756905,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 16:01:47 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 16:01:47 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":3,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 16:02:18 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 16:02:18 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.35}}
+2023/02/07 16:02:18 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.55}}
+2023/02/07 16:02:18 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":0,"bulletgold":0.1,"wingold":0.2,"skillReward":null,"gold":2000051.55,"isTrick":false}}
+2023/02/07 16:02:18 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 16:02:21 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 16:02:21 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":4,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 16:03:01 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 16:03:01 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.45}}
+2023/02/07 16:03:01 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":2,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000051.45,"isTrick":false}}
+2023/02/07 16:03:01 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 16:03:04 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 16:03:04 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":2,"bulletId":5,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 16:03:05 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":6,"fishtype":26,"cts":1675756987,"route":"L1_R1_1","speed":71}],"formation":null}}
+2023/02/07 16:04:38 [ERROR] read tcp [::1]:53483->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 16:04:50 [INFO] 連線中斷
+2023/02/07 16:04:50 [INFO] Connect Success
+2023/02/07 16:04:53 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000051.35,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 16:04:56 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":0,"iconId":0,"name":"Test_simon","gold":2000051.35}],"Fsm":"Init"}}
+2023/02/07 16:04:57 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 16:04:57 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 16:04:57 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":0,"iconId":0,"name":"****mon","gold":2000051.35},{"seatId":2,"iconId":6,"name":"****t13","gold":141007}]}}
+2023/02/07 16:04:57 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 16:05:00 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622869019381993472","RemainSec":60}}
+2023/02/07 16:05:01 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675757103,"route":"L4_R7","speed":71}],"formation":null}}
+2023/02/07 16:05:01 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 16:05:01 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 16:05:14 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 16:05:14 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.25}}
+2023/02/07 16:05:14 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":0,"diefish":0,"bulletgold":0.1,"wingold":0,"skillReward":null,"gold":2000051.25,"isTrick":false}}
+2023/02/07 16:05:14 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":0,"fishtype":0,"dead":false}}
+2023/02/07 16:05:14 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675757116,"route":"L4_R7","speed":71}],"formation":null}}
+2023/02/07 16:05:16 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675757118,"route":"L4_R7","speed":71}],"formation":null}}
+2023/02/07 16:05:18 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":4,"fishtype":26,"cts":1675757120,"route":"L4_R7","speed":71}],"formation":null}}
+2023/02/07 16:05:19 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 16:05:19 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":0,"bulletId":2,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 16:05:20 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":5,"fishtype":26,"cts":1675757122,"route":"L4_R7","speed":71}],"formation":null}}
+2023/02/07 16:06:00 [ERROR] read tcp [::1]:56233->[::1]:10001: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/02/07 18:04:33 [INFO] 連線中斷
+2023/02/07 18:04:39 [INFO] Connect Success
+2023/02/07 18:04:41 [INFO] Receive Message:{"Code":0,"Ret":"Login","Message":"success","Data":{"Gold":2000051.15,"IconID":0,"Name":"Test_simon","UserId":83513177,"MatchGameCode":"","MatchGameTableId":0,"Version":"1.0.0","Marquee":[{"id":"2d7df3e5-3052-4ed6-b882-3d259d3c0e04","lang":"en-us","type":1,"order":999,"freq":30,"content":"Welcome to DG. Various playing methods plus super high odds.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"c85ac23d-6156-4860-9e73-470d87ea754a","lang":"vi-vn","type":1,"order":999,"freq":30,"content":"Chào mừng bạn đến với DG , các loại game bài kinh điển đa dạng, tỷ lệ đền cực cao.","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"63d5b734-64da-44a9-aa29-541dcc5e0832","lang":"th-th","type":1,"order":999,"freq":30,"content":"ยินดีต้อนรับสู่ DG เกมหมากรุกและไพ่คลาสสิกที่หลากหลายโบนัทสูงรางวัลมากมาย","start_time":"2023-01-15T16:59:00Z","end_time":"2023-03-31T15:59:00Z"},{"id":"0b7a6f50-624e-4a39-96dd-c74525b31726","lang":"zh-cn","type":1,"order":999,"freq":30,"content":"欢迎来到DG，多样经典棋牌玩法，超高倍率嗨翻天","start_time":"2023-01-15T16:00:00Z","end_time":"2023-03-31T15:59:00Z"}]}}
+2023/02/07 18:04:45 [INFO] Receive Message:{"Code":0,"Ret":"IntoGame","Message":"success","Data":{"Gid":"","BetLimit":[[0.1,1]],"Chips":[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],"RemainSec":0,"PlayerInfo":[{"seatId":1,"iconId":0,"name":"Test_simon","gold":2000051.15}],"Fsm":"Init"}}
+2023/02/07 18:04:46 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Loading","Gid":"","RemainSec":3}}
+2023/02/07 18:04:46 [INFO] Receive Message:{"Ret":"ActSceneNotify","Data":{"scene":1,"stage":1}}
+2023/02/07 18:04:46 [INFO] Receive Message:{"Ret":"ActTableStatus","Data":{"tablePlayerInfo":[{"seatId":1,"iconId":0,"name":"****mon","gold":2000051.15},{"seatId":3,"iconId":107,"name":"****ot2","gold":118384}]}}
+2023/02/07 18:04:47 [INFO] Receive Message:{"Code":0,"Ret":"DebugInfo","Message":"success","Data":""}
+2023/02/07 18:04:49 [INFO] Receive Message:{"Ret":"ActGamePeriod","Data":{"Fsm":"Shu","Gid":"3002-1622899174934581248","RemainSec":60}}
+2023/02/07 18:04:50 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":1,"fishtype":26,"cts":1675764292,"route":"R2_L5","speed":71}],"formation":null}}
+2023/02/07 18:04:52 [INFO] Receive Message:{"Code":0,"Ret":"Shoot","Message":"success"}
+2023/02/07 18:04:52 [INFO] Receive Message:{"Ret":"ActSyncShoot","Data":{"seatId":1,"bulletId":1,"bulletKind":1,"angle":0,"lockfish":0,"agentcall":false}}
+2023/02/07 18:04:52 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":2,"fishtype":26,"cts":1675764294,"route":"R2_L5","speed":71}],"formation":null}}
+2023/02/07 18:04:53 [INFO] Receive Message:{"Code":0,"Ret":"Hit","Message":"success","Data":0}
+2023/02/07 18:04:53 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.05}}
+2023/02/07 18:04:53 [INFO] Receive Message:{"Ret":"ActGold","Data":{"Gold":2000051.25}}
+2023/02/07 18:04:53 [INFO] Receive Message:{"Ret":"ActSyncHit","Data":{"seatId":1,"diefish":0,"bulletgold":0.1,"wingold":0.2,"skillReward":null,"gold":2000051.25,"isTrick":false}}
+2023/02/07 18:04:53 [INFO] Receive Message:{"Ret":"ActSyncMultiDieFish","Data":{"fishindex":1,"fishtype":26,"dead":false}}
+2023/02/07 18:04:54 [INFO] Receive Message:{"Ret":"ActCreateFish","Data":{"fishinfo":[{"index":3,"fishtype":26,"cts":1675764296,"route":"R2_L5","speed":71}],"formation":null}}
+2023/02/07 18:04:55 [INFO] 連線中斷
+2023/02/07 18:04:55 [ERROR] read tcp [::1]:59898->[::1]:10001: use of closed network connection

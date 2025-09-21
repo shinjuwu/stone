@@ -1,0 +1,345 @@
+2023/03/23 17:11:05 [INFO] 開始執行壓力測試:DEV
+2023/03/23 17:11:05 [INFO] dayon0091加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:05 [INFO] dayon0041加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:05 [INFO] dayon0061加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:05 [INFO] dayon0081加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:05 [INFO] dayon0011加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:05 [INFO] dayon0051加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:05 [INFO] dayon0001加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:05 [INFO] dayon0071加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:05 [INFO] dayon0031 RobotType=4, Desc=只押小三元(鈴鐺、葡萄、檸檬)
+2023/03/23 17:11:05 [INFO] dayon0021加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:05 [INFO] dayon0031加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:07 [ERROR] dayon0051 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0011 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0021 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0091 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0031 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0061 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0041 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0001 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0081 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:07 [ERROR] dayon0071 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:08 [INFO] dayon0042加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:08 [INFO] dayon0022加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:08 [INFO] dayon0062加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:08 [INFO] dayon0082加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:08 [INFO] dayon0032 RobotType=4, Desc=只押小三元(鈴鐺、葡萄、檸檬)
+2023/03/23 17:11:08 [INFO] dayon0092加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:08 [INFO] dayon0012加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:08 [INFO] dayon0052加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:08 [INFO] dayon0032加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:08 [INFO] dayon0002加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:08 [INFO] dayon0072加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:10 [ERROR] dayon0072 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0012 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0032 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0022 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0042 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0002 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0052 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0092 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0082 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:10 [ERROR] dayon0062 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:11 [INFO] dayon0013加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:11 [INFO] dayon0003加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:11 [INFO] dayon0033 RobotType=4, Desc=只押小三元(鈴鐺、葡萄、檸檬)
+2023/03/23 17:11:11 [INFO] dayon0043加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:11 [INFO] dayon0073加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:11 [INFO] dayon0033加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:11 [INFO] dayon0053加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:11 [INFO] dayon0083加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:11 [INFO] dayon0093加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:11 [INFO] dayon0063加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:11 [INFO] dayon0023加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:13 [ERROR] dayon0003 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0063 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0073 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0023 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0043 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0033 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0093 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0053 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0013 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:13 [ERROR] dayon0083 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:14 [INFO] dayon0084加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:14 [INFO] dayon0054加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:14 [INFO] dayon0024加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:14 [INFO] dayon0074加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:14 [INFO] dayon0044加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:14 [INFO] dayon0094加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:14 [INFO] dayon0064加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:14 [INFO] dayon0034 RobotType=1, Desc=只壓蘋果、檸檬、鈴鐺
+2023/03/23 17:11:14 [INFO] dayon0014加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:14 [INFO] dayon0004加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:14 [INFO] dayon0034加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:16 [ERROR] dayon0054 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0014 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0044 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0034 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0094 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0084 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0064 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0074 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0004 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:16 [ERROR] dayon0024 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:17 [INFO] dayon0025加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:17 [INFO] dayon0055加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:17 [INFO] dayon0005加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:17 [INFO] dayon0035 RobotType=5, Desc=只押大三元(雙７、鑽石、山竹)
+2023/03/23 17:11:17 [INFO] dayon0085加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:17 [INFO] dayon0015加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:17 [INFO] dayon0095加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:17 [INFO] dayon0065加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:17 [INFO] dayon0045加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:17 [INFO] dayon0075加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:17 [INFO] dayon0035加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:19 [ERROR] dayon0025 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0095 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0055 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0015 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0005 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0085 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0065 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0045 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0035 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:19 [ERROR] dayon0075 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:20 [INFO] dayon0026加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:20 [INFO] dayon0076加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:20 [INFO] dayon0036 RobotType=1, Desc=只壓蘋果、檸檬、鈴鐺
+2023/03/23 17:11:20 [INFO] dayon0096加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:20 [INFO] dayon0046加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:20 [INFO] dayon0086加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:20 [INFO] dayon0056加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:20 [INFO] dayon0016加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:20 [INFO] dayon0006加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:20 [INFO] dayon0066加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:20 [INFO] dayon0036加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:22 [ERROR] dayon0016 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0006 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0056 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0096 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0026 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0046 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0076 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0086 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0066 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:22 [ERROR] dayon0036 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:23 [INFO] dayon0077加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:23 [INFO] dayon0037 RobotType=2, Desc=只押鈴鐺、山竹
+2023/03/23 17:11:23 [INFO] dayon0007加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:23 [INFO] dayon0097加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:23 [INFO] dayon0027加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:23 [INFO] dayon0057加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:23 [INFO] dayon0037加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:23 [INFO] dayon0087加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:23 [INFO] dayon0017加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:23 [INFO] dayon0067加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:23 [INFO] dayon0047加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:25 [ERROR] dayon0057 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0077 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0087 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0097 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0047 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0017 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0027 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0037 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0007 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:25 [ERROR] dayon0067 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:26 [INFO] dayon0098加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:26 [INFO] dayon0038 RobotType=2, Desc=只押鈴鐺、山竹
+2023/03/23 17:11:26 [INFO] dayon0058加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:26 [INFO] dayon0028加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:26 [INFO] dayon0078加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:26 [INFO] dayon0038加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:26 [INFO] dayon0088加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:26 [INFO] dayon0048加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:26 [INFO] dayon0018加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:26 [INFO] dayon0068加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:26 [INFO] dayon0008加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:28 [ERROR] dayon0038 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0088 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0048 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0008 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0018 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0078 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0028 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0098 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0058 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:28 [ERROR] dayon0068 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:29 [INFO] dayon0089加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:29 [INFO] dayon0009加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:29 [INFO] dayon0019加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:29 [INFO] dayon0069加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:29 [INFO] dayon0099加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:29 [INFO] dayon0059加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:29 [INFO] dayon0049加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:29 [INFO] dayon0039 RobotType=5, Desc=只押大三元(雙７、鑽石、山竹)
+2023/03/23 17:11:29 [INFO] dayon0079加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:29 [INFO] dayon0029加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:29 [INFO] dayon0039加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:31 [ERROR] dayon0029 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0099 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0049 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0019 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0009 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0059 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0039 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0089 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0069 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:31 [ERROR] dayon0079 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:32 [INFO] dayon0070加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:11:32 [INFO] dayon0100加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:11:32 [INFO] dayon0050加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:11:32 [INFO] dayon0010加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:11:32 [INFO] dayon0020加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:11:32 [INFO] dayon0090加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:11:32 [INFO] dayon0040 RobotType=6, Desc=只押大四喜(蘋果)
+2023/03/23 17:11:32 [INFO] dayon0080加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:11:32 [INFO] dayon0040加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:11:32 [INFO] dayon0060加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:11:32 [INFO] dayon0030加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:11:34 [ERROR] dayon0050 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0020 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0070 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0030 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0010 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0040 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0090 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0060 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0080 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:11:34 [ERROR] dayon0100 dial tcp 172.30.0.154:10001: connectex: No connection could be made because the target machine actively refused it.
+2023/03/23 17:20:26 [INFO] 開始執行壓力測試:DEV
+2023/03/23 17:20:26 [INFO] dayon0016加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:20:26 [INFO] dayon0013加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:20:26 [INFO] dayon0004加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:20:26 [INFO] dayon0019 RobotType=4, Desc=只押小三元(鈴鐺、葡萄、檸檬)
+2023/03/23 17:20:26 [INFO] dayon0007加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:20:26 [INFO] dayon0010加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:20:26 [INFO] dayon0019加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:20:26 [INFO] dayon0028加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:20:26 [INFO] dayon0022加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:20:26 [INFO] dayon0001加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:20:26 [INFO] dayon0025加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:20:29 [INFO] dayon0029加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:20:29 [INFO] dayon0017加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:20:29 [INFO] dayon0026加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:20:29 [INFO] dayon0014加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:20:29 [INFO] dayon0005加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:20:29 [INFO] dayon0002加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:20:29 [INFO] dayon0011加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:20:29 [INFO] dayon0023加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:20:29 [INFO] dayon0008加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:20:29 [INFO] dayon0020 RobotType=1, Desc=只壓蘋果、檸檬、鈴鐺
+2023/03/23 17:20:29 [INFO] dayon0020加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:20:32 [INFO] dayon0021 RobotType=1, Desc=只壓蘋果、檸檬、鈴鐺
+2023/03/23 17:20:32 [INFO] dayon0003加入「搶庄牛牛」的「新手房」(20030)進行測試
+2023/03/23 17:20:32 [INFO] dayon0030加入「百人骰寶」的「新手房」(100501)進行測試
+2023/03/23 17:20:32 [INFO] dayon0009加入「色碟」的「新手房」(100301)進行測試
+2023/03/23 17:20:32 [INFO] dayon0015加入「21點」的「新手房」(20010)進行測試
+2023/03/23 17:20:32 [INFO] dayon0024加入「百家樂」的「新手房」(100101)進行測試
+2023/03/23 17:20:32 [INFO] dayon0006加入「德州撲克」的「新手房」(20040)進行測試
+2023/03/23 17:20:32 [INFO] dayon0027加入「番攤」的「新手房」(100201)進行測試
+2023/03/23 17:20:32 [INFO] dayon0012加入「魚蝦蟹」的「新手房」(100401)進行測試
+2023/03/23 17:20:32 [INFO] dayon0018加入「三公」的「新手房」(20020)進行測試
+2023/03/23 17:20:32 [INFO] dayon0021加入「水果機」的「新手房」(30010)進行測試
+2023/03/23 17:32:06 [ERROR] dayon0007 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0016 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0010 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0028 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0013 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0022 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0024 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0001 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0019 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0025 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0021 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [INFO] dayon0007 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0016 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0010 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0028 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0022 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0013 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0001 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0019 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0025 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0021 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0024 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [ERROR] dayon0027 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0026 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0030 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0012 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0009 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0018 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0008 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0003 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0011 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [INFO] dayon0027 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0026 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0012 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0009 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0018 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0003 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0008 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0030 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0011 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [ERROR] dayon0014 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0005 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0023 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0020 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0029 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0006 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0015 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [ERROR] dayon0002 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [INFO] dayon0014 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0005 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0023 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0020 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0029 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0015 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0002 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [INFO] dayon0006 重連第1次，等候5秒執行
+2023/03/23 17:32:06 [ERROR] dayon0004 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:06 [INFO] dayon0004 重連第1次，等候5秒執行
+2023/03/23 17:32:07 [ERROR] dayon0017 websocket: close 1006 (abnormal closure): unexpected EOF
+2023/03/23 17:32:07 [INFO] dayon0017 重連第1次，等候5秒執行
+2023/03/23 17:32:11 [INFO] dayon0010 SendMessage={Bet:{BetInfo:[{"AreaID":0,"Bet":50}]}}
+2023/03/23 17:32:11 [ERROR] dayon0010 write tcp 192.168.180.114:61628->172.30.0.154:10001: use of closed network connection
+2023/03/23 17:32:11 [INFO] dayon0012 SendMessage={Bet:{BetInfo:[{"AreaID":2,"Bet":2}]}}
+2023/03/23 17:32:11 [ERROR] dayon0012 write tcp 192.168.180.114:61667->172.30.0.154:10001: use of closed network connection
+2023/03/23 17:32:11 [INFO] dayon0011 SendMessage={Bet:{BetInfo:[{"AreaID":15,"Bet":20}]}}
+2023/03/23 17:32:11 [ERROR] dayon0011 write tcp 192.168.180.114:61644->172.30.0.154:10001: use of closed network connection
+2023/03/23 17:32:12 [INFO] dayon0024 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0010 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0027 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0028 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0005 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0022 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0004 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0012 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0019 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0013 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0020 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0002 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0006 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0014 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0003 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0016 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0030 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0025 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0001 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0029 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0007 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0018 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0026 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0015 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0023 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0021 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0011 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0009 重新連線成功
+2023/03/23 17:32:12 [INFO] dayon0008 重新連線成功
+2023/03/23 17:32:13 [INFO] dayon0017 重新連線成功
+2023/03/23 17:32:13 [ERROR] dayon0021 Receive Message:{"Code":200001,"Ret":"PlayerAction","Message":"data error"}
+2023/03/23 17:32:15 [ERROR] dayon0019 Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"game is finished"}
+2023/03/23 17:32:15 [ERROR] dayon0020 Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"game is finished"}
+2023/03/23 17:32:16 [ERROR] dayon0021 Receive Message:{"Code":200015,"Ret":"IntoGame","Message":"game is finished"}
