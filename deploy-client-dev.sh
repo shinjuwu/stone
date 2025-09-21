@@ -91,6 +91,34 @@ check_dependencies() {
     print_info "依賴檢查完成 ✓"
 }
 
+# 建議替代的 Redis 端口
+suggest_alternative_redis_port() {
+    local alternative_ports=(6382 6383 6384 6385 6386)
+    local available_port=""
+    
+    print_step "尋找可用的 Redis 端口..."
+    
+    for port in "${alternative_ports[@]}"; do
+        if ! ss -tuln 2>/dev/null | grep -q ":$port " && ! netstat -tuln 2>/dev/null | grep -q ":$port "; then
+            available_port=$port
+            break
+        fi
+    done
+    
+    if [ -n "$available_port" ]; then
+        print_info "找到可用端口: $available_port"
+        print_step "更新 Redis 配置到端口 $available_port..."
+        
+        # 更新 docker-compose 文件中的端口
+        sed -i "s/\"6381:6379\"/\"$available_port:6379\"/" docker-compose.client-dev.yml
+        
+        print_success "Redis 端口已更新為: $available_port"
+    else
+        print_error "無法找到可用的 Redis 端口"
+        exit 1
+    fi
+}
+
 # 檢查端口占用
 check_ports() {
     print_step "檢查端口占用..."
@@ -125,34 +153,6 @@ check_ports() {
         fi
     else
         print_info "端口檢查完成 ✓"
-    fi
-}
-
-# 建議替代的 Redis 端口
-suggest_alternative_redis_port() {
-    local alternative_ports=(6382 6383 6384 6385 6386)
-    local available_port=""
-    
-    print_step "尋找可用的 Redis 端口..."
-    
-    for port in "${alternative_ports[@]}"; do
-        if ! ss -tuln 2>/dev/null | grep -q ":$port " && ! netstat -tuln 2>/dev/null | grep -q ":$port "; then
-            available_port=$port
-            break
-        fi
-    done
-    
-    if [ -n "$available_port" ]; then
-        print_info "找到可用端口: $available_port"
-        print_step "更新 Redis 配置到端口 $available_port..."
-        
-        # 更新 docker-compose 文件中的端口
-        sed -i "s/\"6381:6379\"/\"$available_port:6379\"/" docker-compose.client-dev.yml
-        
-        print_success "Redis 端口已更新為: $available_port"
-    else
-        print_error "無法找到可用的 Redis 端口"
-        exit 1
     fi
 }
 
@@ -252,29 +252,6 @@ show_connection_info() {
     print_success "部署完成！客戶端現在可以連接到服務器進行開發測試。"
 }
 
-# 顯示幫助信息
-show_help() {
-    echo "GameHub 客戶端開發服務器部署腳本"
-    echo ""
-    echo "用法: $0 [選項]"
-    echo ""
-    echo "選項:"
-    echo "  start          啟動服務（默認）"
-    echo "  stop           停止服務"
-    echo "  restart        重啟服務"
-    echo "  logs           查看日誌"
-    echo "  status         查看服務狀態"
-    echo "  clean          清理服務和數據"
-    echo "  rebuild        重新構建並啟動"
-    echo "  help           顯示此幫助信息"
-    echo ""
-    echo "示例:"
-    echo "  $0              # 啟動服務"
-    echo "  $0 start        # 啟動服務"
-    echo "  $0 stop         # 停止服務"
-    echo "  $0 logs         # 查看日誌"
-}
-
 # 停止服務
 stop_services() {
     print_step "停止客戶端開發服務器..."
@@ -298,31 +275,6 @@ show_status() {
     echo "WebSocket: ws://$local_ip:3563"
     echo "TCP: $local_ip:3564"
     echo "HTTP API: http://$local_ip:8080"
-}
-
-# 清理服務
-clean_services() {
-    print_warn "這將刪除所有容器和數據，無法恢復！"
-    read -p "確定要清理所有數據嗎？(y/N): " -n 1 -r
-    echo
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
-        print_step "清理服務和數據..."
-        docker-compose -f docker-compose.client-dev.yml down -v --remove-orphans
-        docker system prune -f
-        print_success "清理完成"
-    else
-        print_info "清理已取消"
-    fi
-}
-
-# 重新構建
-rebuild_services() {
-    print_step "重新構建並啟動服務..."
-    docker-compose -f docker-compose.client-dev.yml down
-    docker-compose -f docker-compose.client-dev.yml build --no-cache
-    start_services
-    wait_for_services
-    show_connection_info
 }
 
 # 主函數
@@ -357,18 +309,8 @@ main() {
         "status")
             show_status
             ;;
-        "clean")
-            clean_services
-            ;;
-        "rebuild")
-            rebuild_services
-            ;;
-        "help"|"-h"|"--help")
-            show_help
-            ;;
         *)
-            print_error "未知命令: $command"
-            show_help
+            echo "使用方法: $0 {start|stop|restart|logs|status}"
             exit 1
             ;;
     esac
