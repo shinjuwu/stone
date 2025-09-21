@@ -29,15 +29,15 @@ services:
     image: redis:7-alpine
     container_name: gamehub-redis-client-dev
     restart: unless-stopped
-    command: redis-server --appendonly yes --protected-mode no
+    command: redis-server --appendonly yes --protected-mode no --port 6379
     volumes:
       - redis_client_dev_data:/data
     ports:
-      - "6379:6379"  # 直接映射標準端口
+      - "6381:6379"  # 映射到 6381 端口避免衝突
     networks:
       - gamehub-client-dev-network
     healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
+      test: ["CMD", "redis-cli", "-p", "6379", "ping"]
       interval: 10s
       timeout: 5s
       retries: 5

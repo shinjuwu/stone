@@ -6,6 +6,12 @@
 # 🚀 啟動服務器
 ./deploy-client-dev.sh
 
+# 🔧 檢查端口衝突
+./configure-ports.sh check
+
+# 🔧 自動解決端口衝突
+./configure-ports.sh auto
+
 # 🧪 測試連接
 ./test-client-connection.sh
 
@@ -61,10 +67,30 @@ nc -zv YOUR_IP 3564
 
 | 問題 | 解決方案 |
 |------|----------|
-| 端口被占用 | `netstat -tulpn \| grep PORT` |
+| 端口被占用 | `./configure-ports.sh auto` |
 | 容器未啟動 | `./deploy-client-dev.sh rebuild` |
 | 連接被拒絕 | 檢查防火牆: `sudo ufw allow PORT` |
 | 服務異常 | `./deploy-client-dev.sh logs` |
+| Redis 端口衝突 | `./configure-ports.sh check` |
+
+## 端口配置
+
+```bash
+# 檢查當前端口配置
+./configure-ports.sh show
+
+# 檢查端口衝突
+./configure-ports.sh check
+
+# 自動解決衝突
+./configure-ports.sh auto
+
+# 手動配置端口
+./configure-ports.sh manual
+
+# 重置為默認端口
+./configure-ports.sh reset
+```
 
 ## 支持的遊戲
 

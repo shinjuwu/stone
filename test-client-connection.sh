@@ -40,6 +40,15 @@ get_local_ip() {
     echo "$ip"
 }
 
+# 獲取 Redis 映射端口
+get_redis_port() {
+    local redis_port=$(docker port gamehub-redis-client-dev 6379/tcp 2>/dev/null | cut -d: -f2)
+    if [ -z "$redis_port" ]; then
+        redis_port="6381"  # 默認端口
+    fi
+    echo "$redis_port"
+}
+
 # 測試端口連通性
 test_port() {
     local host=$1

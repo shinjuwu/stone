@@ -95,11 +95,11 @@ check_dependencies() {
 check_ports() {
     print_step "檢查端口占用..."
     
-    local ports=(3563 3564 8080 5432 6379)
+    local ports=(3563 3564 8080 5432 6381)  # 改為檢查 6381
     local occupied_ports=()
     
     for port in "${ports[@]}"; do
-        if netstat -tuln 2>/dev/null | grep -q ":$port " || ss -tuln 2>/dev/null | grep -q ":$port "; then
+        if ss -tuln 2>/dev/null | grep -q ":$port " || netstat -tuln 2>/dev/null | grep -q ":$port "; then
             occupied_ports+=($port)
         fi
     done
@@ -107,6 +107,16 @@ check_ports() {
     if [ ${#occupied_ports[@]} -gt 0 ]; then
         print_warn "以下端口已被占用: ${occupied_ports[*]}"
         print_warn "這可能會導致服務啟動失敗"
+        
+        # 如果是 Redis 端口被占用，提供解決方案
+        for port in "${occupied_ports[@]}"; do
+            if [ "$port" = "6381" ]; then
+                print_info "Redis 端口 6381 被占用，嘗試使用其他端口..."
+                suggest_alternative_redis_port
+                return 0
+            fi
+        done
+        
         read -p "是否繼續部署？(y/N): " -n 1 -r
         echo
         if [[ ! $REPLY =~ ^[Yy]$ ]]; then
@@ -115,6 +125,34 @@ check_ports() {
         fi
     else
         print_info "端口檢查完成 ✓"
+    fi
+}
+
+# 建議替代的 Redis 端口
+suggest_alternative_redis_port() {
+    local alternative_ports=(6382 6383 6384 6385 6386)
+    local available_port=""
+    
+    print_step "尋找可用的 Redis 端口..."
+    
+    for port in "${alternative_ports[@]}"; do
+        if ! ss -tuln 2>/dev/null | grep -q ":$port " && ! netstat -tuln 2>/dev/null | grep -q ":$port "; then
+            available_port=$port
+            break
+        fi
+    done
+    
+    if [ -n "$available_port" ]; then
+        print_info "找到可用端口: $available_port"
+        print_step "更新 Redis 配置到端口 $available_port..."
+        
+        # 更新 docker-compose 文件中的端口
+        sed -i "s/\"6381:6379\"/\"$available_port:6379\"/" docker-compose.client-dev.yml
+        
+        print_success "Redis 端口已更新為: $available_port"
+    else
+        print_error "無法找到可用的 Redis 端口"
+        exit 1
     fi
 }
 
@@ -180,6 +218,7 @@ wait_for_services() {
 # 顯示連接信息
 show_connection_info() {
     local local_ip=$(get_local_ip)
+    local redis_port=$(docker port gamehub-redis-client-dev 6379/tcp 2>/dev/null | cut -d: -f2)
     
     echo ""
     echo "=========================================="
@@ -193,6 +232,9 @@ show_connection_info() {
     echo ""
     echo "🔧 管理界面："
     echo "   服務器狀態: http://$local_ip:8080/health"
+    if [ -n "$redis_port" ]; then
+        echo "   Redis 端口: $redis_port (避免衝突自動選擇)"
+    fi
     echo ""
     echo "📊 服務狀態："
     docker-compose -f docker-compose.client-dev.yml ps
